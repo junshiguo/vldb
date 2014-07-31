@@ -1,0 +1,64 @@
+BIRTE   D0F900T1800R1
+Bringing the Value of Big Data to Users		D0F900T1800R2
+IMDM    D0F900T1800R3
+ADMS    D0F900T1800R4
+PhD workshop  D0F900T1800R5
+Welcome Reception  D0F1900T2100R0
+Industrial Keynote: Hasso Plattner; Academic Keynote: Volker Markl  D1F830T1000R0
+Papers 20.2: Graph Data II  D1F1030T1215R1
+Papers 2: OLAP D1F1030T1215R2
+Industrial 1   D1F1030T1215R3
+Papers 14: NoSQL and Map-Reduce D1F1030T1215R4
+Papers 11: Social and Recommender Systems D1F1030T1215R5
+Tutorial 1: Causality and explanation in databases D1F1030T1215R6
+Demo 1  D1F1030T1215R7
+Papers 24: Provenance and Scientific Data D1F1345T1515R1
+Papers 5.1: Query Processing I D1F1345T1515R2
+Local Industry 1: Big Data Platforms  D1F1345T1515R3
+Papers 15: Cloud and Data Services  D1F1345T1515R4
+Papers 10.1: Web and Knowledge I  D1F1345T1515R5
+Tutorial 2: Systems for Big Graphs D1F1345T1515R6
+Demo 2  D1F1345T1515R7
+Papers 7.2: Memory Systems D1F1545T1715R1
+Papers 6: Query Optimization D1F1545T1715R2
+Big Data Panel  D1F1545T1715R3
+Papers 13: Storage Management D1F1545T1715R4
+Papers 21.2: Database Usability II D1F1545T1715R5
+Demo 3 D1F1545T1715R7
+Buses to West Lake Show  D1F1715T1730R0
+Industrial Keynote: Shivakumar Venkataraman; Academic Keynote: Divyakant Agrawal D2F830T1000R0
+Papers 18: Paths and Reachability D2F1030T1215R1
+Papers 16: Text, XML, and String Data  D2F1030T1215R2
+Industrial 2  D2F1030T1215R3
+Papers 3: Privacy and Security   D2F1030T1215R4
+Papers 22: Data Quality  D2F1030T1215R5
+Tutorial 3: Knowledge Bases in the Age of Big Data Analytics  D2F1030T1215R6
+Demo 4  D2F1030T1215R7
+Papers 20.1: Graph Data I  D2F1345T1515R1
+Papers 23: Benchmarking  D2F1345T1515R2
+Industrial 3 D2F1345T1515R3
+Papers 12: Parallel and Distributed Systems D2F1345T1515R4
+Papers 10.2: Web and Knowledge II  D2F1345T1515R5
+Award Ceremony D3F830T1000R0
+Papers 20.4: Graph Data IV D3F1015T1200R1
+Papers 4: Indexing D3F1015T1200R2
+Industrial 4  D3F1015T1200R3
+Papers 1: Data Mining  D3F1015T1200R4
+Papers 9: Data Integration  D3F1015T1200R5
+Tutorial 4: Enterprise search in the big data era  D3F1015T1200R6
+Papers 7.1: Architecture Systems  D3F1330T1445R1
+Papers 8: Dissemination D3F1330T1445R2
+Local Industrial 2: Analytics  D3F1330T1445R3
+Papers 17: Multi-dimensional Access  D3F1330T1445R4
+Papers 21.1: Database Usability I  D3F1330T1445R5
+Papers 20.3: Graph Data III  D3F1515T1645R1
+Papers 5.2: Query Processing II  D3F1515T1645R2
+Industrial 5  D3F1515T1645R3
+Papers 25: Transaction Processing  D3F1515T1645R4
+Papers 19: Temporal and Stream Data D3F1515T1645R5
+Tutorial 5: Uncertain Entity Resolution D3F1515T1645R6
+BPOE  D4F900T1800R1
+PDA@IOT D4F900T1800R2
+BeRSys   D4F900T1800R3
+SSW	D4F900T1800R4
+TPCTC D4F900T1800R5

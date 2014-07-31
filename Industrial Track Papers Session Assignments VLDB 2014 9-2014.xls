@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>C. Mohan</LastAuthor>
+  <LastPrinted>2014-07-11T21:30:09Z</LastPrinted>
+  <LastSaved>2014-07-11T22:18:29Z</LastSaved>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10005</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Papers">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Index="2" ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="474.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="126"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s22"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Title</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Primary Contact Author</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Industrial Session</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Ind 1 = Joins, Ind 2 = Analytics, Ind 3 = Transactions, Ind 4 = Big Data 1, Ind 5 = Bin Data 2</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1035</Data></Cell>
+    <Cell><Data ss:Type="String">Real-Time Twitter Recommendation: Online Motif Detection in Large Dynamic Graphs</Data></Cell>
+    <Cell><Data ss:Type="String">Lin, Jimmy</Data></Cell>
+    <Cell><Data ss:Type="String">Analytics</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1042</Data></Cell>
+    <Cell><Data ss:Type="String">Interval Disaggregate: A New Operator for Business Planning </Data></Cell>
+    <Cell><Data ss:Type="String">Park, Kunsoo</Data></Cell>
+    <Cell><Data ss:Type="String">Analytics</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1167</Data></Cell>
+    <Cell><Data ss:Type="String">Error-bounded Sampling for Analytics on Big Sparse Data</Data></Cell>
+    <Cell><Data ss:Type="String">Yan, Ying</Data></Cell>
+    <Cell><Data ss:Type="String">Analytics</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1177</Data></Cell>
+    <Cell><Data ss:Type="String">Chimera: Large-Scale Classification using Machine Learning, Rules, and Crowdsourcing</Data></Cell>
+    <Cell><Data ss:Type="String">Doan, AnHai</Data></Cell>
+    <Cell><Data ss:Type="String">Analytics</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1003</Data></Cell>
+    <Cell><Data ss:Type="String">MRTuner: A Toolkit to Enable Holistic Optimization for MapReduce Jobs</Data></Cell>
+    <Cell><Data ss:Type="String">Shi, Juwei</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data 1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1050</Data></Cell>
+    <Cell><Data ss:Type="String">Large-Scale Graph Analytics in Aster 6:  Bringing Context to Big Data Discovery </Data></Cell>
+    <Cell><Data ss:Type="String">Simmen, David</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data 1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1076</Data></Cell>
+    <Cell><Data ss:Type="String">Summingbird: A Framework for Integrating Batch and Online MapReduce Computations</Data></Cell>
+    <Cell><Data ss:Type="String">Lin, Jimmy</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data 1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1141</Data></Cell>
+    <Cell><Data ss:Type="String">DGFIndex for Smart Grid: Enhancing Hive with a Cost-Effective Multidimensional Range Index</Data></Cell>
+    <Cell><Data ss:Type="String">Liu, Yue</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data 1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1010</Data></Cell>
+    <Cell><Data ss:Type="String">Changing Engines in Midstream: A Java Stream Computational Model for Big Data Processing</Data></Cell>
+    <Cell><Data ss:Type="String">Su, Xueyuan</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data 2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1052</Data></Cell>
+    <Cell><Data ss:Type="String">Fast Foreign-Key Detection in Microsoft SQL Server PowerPivot for Excel</Data></Cell>
+    <Cell><Data ss:Type="String">Narasayya, Vivek</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data 2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1063</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data Small Footprint: The Design of A Low-Power Classifier for Detecting Transportation Modes</Data></Cell>
+    <Cell><Data ss:Type="String">Yu, Meng-Chieh</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data 2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1169</Data></Cell>
+    <Cell><Data ss:Type="String">Indexing HDFS Data in PDW: Splitting the data from the index</Data></Cell>
+    <Cell><Data ss:Type="String">Teletia, Nikhil</Data></Cell>
+    <Cell><Data ss:Type="String">Big Data 2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1011</Data></Cell>
+    <Cell><Data ss:Type="String">Joins on Encoded and Partitioned Data</Data></Cell>
+    <Cell><Data ss:Type="String">Lee, Jae-Gil</Data></Cell>
+    <Cell><Data ss:Type="String">Joins</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1084</Data></Cell>
+    <Cell><Data ss:Type="String">Of Snowstorms and Bushy Trees</Data></Cell>
+    <Cell><Data ss:Type="String">Ahmed, Rafi</Data></Cell>
+    <Cell><Data ss:Type="String">Joins</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1085</Data></Cell>
+    <Cell><Data ss:Type="String">Execution Primitives for Scalable Joins and Aggregations in Map Reduce</Data></Cell>
+    <Cell><Data ss:Type="String">Puttaswamy, Krishna</Data></Cell>
+    <Cell><Data ss:Type="String">Joins</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1137</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced Join Strategies for Large-Scale Distributed Computation</Data></Cell>
+    <Cell><Data ss:Type="String">Bruno, Nico</Data></Cell>
+    <Cell><Data ss:Type="String">Joins</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1004</Data></Cell>
+    <Cell><Data ss:Type="String">Reducing Database Locking Contention Through Multi-version Concurrency</Data></Cell>
+    <Cell><Data ss:Type="String">Sadoghi, Mohammad</Data></Cell>
+    <Cell><Data ss:Type="String">Transactions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1012</Data></Cell>
+    <Cell><Data ss:Type="String">TPC-DI: The First Industry Benchmark for Data Integration</Data></Cell>
+    <Cell><Data ss:Type="String">Poess, Meikel</Data></Cell>
+    <Cell><Data ss:Type="String">Transactions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1047</Data></Cell>
+    <Cell><Data ss:Type="String">Fuxi: Fault Tolerant Resource Management and Job Scheduling System at Internet Scale</Data></Cell>
+    <Cell><Data ss:Type="String">Yang, Renyu</Data></Cell>
+    <Cell><Data ss:Type="String">Transactions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1097</Data></Cell>
+    <Cell><Data ss:Type="String">CAP limits in telecom subscriber database design</Data></Cell>
+    <Cell><Data ss:Type="String">Arauz, Javier</Data></Cell>
+    <Cell><Data ss:Type="String">Transactions</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <PageMargins x:Left="0.27" x:Right="0.23"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Industrial Session</Sort>
+   <Sort>ID</Sort>
+  </Sorting>
+ </Worksheet>
+</Workbook>

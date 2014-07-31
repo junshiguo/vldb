@@ -1,0 +1,44 @@
+The Case for Personal Data-Driven Decision Making
+NOMAD: Non-locking, stOchastic Multi-machine algorithm for Asynchronous and Decentralized matrix completion
+Data- and Workload-Aware Query Answering Under Differential Privacy
+Optimal Security-Aware Query Processing
+Calibrating Data to Sensitivity in Private Data Analysis, A Platform for  Differentially-Private Analysis of Weighted Datasets
+Adaptive Query Processing on RAW Data
+Storing and Querying Tree-Structured Records in Dremel
+Code generation for efficient query processing in managed runtimes
+Bounded Conjunctive Queries
+Optimizing Join Enumeration in Transformation-based Query Optimizers
+Concurrent Analytical Query Processing with GPUs
+Ibex - An Intelligent Storage Engine with Support for Advanced SQL Off-loading
+DimmWitted: A Study of Main-Memory Statistical Analytics
+An Efficient Publish/Subscribe Index for E-Commerce Databases
+On Concise Set of Relative Candidate Keys
+Semantic Culturomics (Vision Paper)
+Matching Titles with Cross Title Web-Search Enrichment and Community Detection
+Aggregate Estimation Over Dynamic Hidden Web Databases
+GeoScope: Online detection of GeoCorrelated Information Trends In Social Networks
+Mesa: Geo-Replicated, Near Real-Time, Scalable Data Warehousing
+Trekking Through Siberia: Managing Cold Data in a Memory-Optimized Database
+Design and Evaluation of Storage Organizations For Read-Optimized Main-Memory Databases
+ClusterJoin: A Similarity Joins Framework using Map-Reduce
+Folk-IS: Opportunistic Data Services in  Least Developed Countries
+SK-LSH : An Efficient Index Structure for Approximate Nearest Neighbor Search
+Differentially Private Event Sequences over Infinite Streams
+Computing Personalized PageRank Quickly by Exploiting Graph Structures
+Reachability Querying: An Independent Permutation Labeling Approach
+Hop Doubling Label Indexing for Point-to-Point Distance Querying on Scale-Free Networks
+Distributed Graph Simulation: Impossibility and Possiblity
+Efficient Management of Spatial RDF Data
+An Experimental Comparison of Pregel-like Graph Processing Systems
+Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems [Vision Paper]
+A System for Management and Analysis of Preference Data
+Repairing Vertex Labels under Neighborhood Constraints
+Progressive Approach to Relational Entity Resolution
+Crowdsourcing Algorithms for Entity Resolution
+QuEval: Beyond high-dimensional indexing ?la carte
+SQL-on-Hadoop: Full Circle Back to Shared-Nothing Database Architectures
+Benchmarking Scalability and Elasticity of Distributed Database Systems [Experiments and Analysis Paper]
+$\Upsilon$-DB: Managing scientific hypotheses as uncertain data
+Similarity Search for Scientific Workflows
+ConfluxDB: Multi-Master Replication for Partitioned Snapshot Isolation Databases
+Accordion: Elastic Scalability for Database Systems Supporting Distributed Transactions

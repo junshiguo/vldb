@@ -1,0 +1,523 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>VLDB2014 - Keynotes</title>
+  <link rel="stylesheet" href="vldb2014.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="lib/MenuStyle.css" rel="stylesheet" type="text/css" />
+
+<link type="text/css" href="lib/jquery.icalendar.css" rel="stylesheet"> 
+        <script type="text/javascript" src="lib/jquery.icalendar.js"></script>
+        <script type="text/javascript" src="lib/cal_script.js"></script>
+		
+ 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="iphon_tetris_icon.png"/>
+    <link rel="apple-touch-startup-image" href="startup.png" />
+   
+</head>
+
+<style type="text/css" media="screen">
+
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+        table.day{
+			font-family: Sans-Serif;
+			border-width: 0px;
+			border-spacing: 1px;
+			border-color: black;
+			width: 800pt;            
+		}
+		table.day td {
+			line-height: 110%;
+			border-width: 1px 1px 1px 1px;
+			padding: 2px 0px 2px 0px;
+			border-style: dotted;
+			border-color: gray gray gray gray;
+			background-color: white;
+			text-align: center;
+			vertical-align: middle;
+		}
+		table.day td.header{
+			font-size: 130%;
+			font-weight: bold;
+			padding: 8px;
+			background-color: #383838;
+			color: white;           
+		}
+		table.day td.keynote{
+			background-color: #f4cae4;
+			color: black;           
+		}
+		table.day td.time{
+			width: 6%;          
+		}
+		table.day td.nosession{
+			background-color:   #F0F0F0 ;
+			color:  #989898; 
+			width: 5%;           
+		}
+		table.day td.lunch{
+			background-color: #C0C0C0;
+			color: black;           
+		}
+		table.day td.pods{
+			background-color: #cdebc6;
+		}
+		table.day td.vldb{
+			background-color: #c6d9f1;          
+		}
+		table.day td.tutorial{
+			background-color: #d9d9d9;
+		}
+		table.day td.workshop{
+			background-color: #8dd3c7;          
+		}
+		table.day td.reception{
+			background-color: #ffccaa; <!-- #fb8072; -->         
+		}
+		table.day td.industrial{
+			background-color: #ffffb3;           
+		}       
+		table.day td.demo{
+			background-color: #e6f5c9;                  
+		}
+		table.day td.business{
+			background-color: #ffc000;                  
+		}  
+		table.day td.welcome{
+			background-color: #fdcdac;                  
+		}
+		table.day td.inv{
+			background-color: #fde9d9;                  
+		}
+		li.program_item{
+			margin-bottom: 5px;
+			line-height: 1.3em;
+		}
+		h3.session{
+			margin-bottom: 0px;
+			padding-top:10px;
+			padding-bottom:1px;
+			padding-left: 10px;
+			line-height: 1em;
+		}
+		p.chair{
+			color: #006697;
+			padding-left: 10px;			
+			margin-top:-1px;
+		}
+
+</style>
+<SCRIPT>
+$("#accordion > li").click(function(){
+
+	if(false == $(this).next().is(':visible')) {
+		$('#accordion > ul').slideUp(300);
+	}
+	$(this).next().slideToggle(300);
+});
+
+$('#accordion > ul:eq(0)').show();
+
+</SCRIPT>
+
+
+<body>
+<ul id="accordion">
+	<li style="background-color:#00AA55">At a Glance</li>
+	<ul>
+		<li>
+
+<div style="margin-left: 5px;">
+<a name="monday"> </a>
+<table class="day" width="800">
+   <tr>
+      <td class="header" colspan="10">
+      <p align="center"><strong>Monday AT A GLANCE, SEP 1, 2014</strong></p>
+      </td>
+    </tr>
+	 <tr>
+      <td width="30"><strong>Time </strong></td>
+     <td width="70"><strong>Crystal</strong></td>
+	 <td width="100"><strong>Diamond 1</strong></td>	
+	 <td width="100"><strong>Diamond 2</strong></td>
+	 <td width="100"><strong>Diamond 3</strong></td>
+	 <td width="100"><strong>Diamond 4</strong></td>
+	 <td width="100"><strong>Diamond 5</strong></td>
+	 <td width="100"><strong>Bauhinia 1</strong></td>
+	 <td width="100"><strong>Pearl</strong></td>
+    </tr>
+  <tr>
+  <td class="time" width="30">
+    <p align="center">9:00-18:00</p>
+    </td>
+  	 <td class="nosession"></td>
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D0F900T1800R1">BIRTE </a></strong></td>	
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D0F900T1800R2">Bringing the Value of Big Data to Users</a></strong></td>
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D0F900T1800R3">IMDM</a></strong></td>
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D0F900T1800R4">ADMS</a></strong></td>
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D0F900T1800R5">PhD workshop</a></strong></td>
+	 <td class="nosession"><strong></strong></td>
+	 <td class="nosession"><strong></strong></td>
+ </tr>
+
+  
+ <tr>
+    <td width="30">
+    <p align="center">19:00-21:00</p>
+    </td>
+    <td colspan="9" width="62"><strong><a href="lib/FullProgram.html#D0F1900T2100R0">Welcome Reception</a></strong> <br/></td> 
+  </tr>
+
+</table>
+
+<p/>
+
+<a name="tuesday"> </a>
+<table class="day" width="800">
+   <tr>
+      <td class="header" colspan="10">
+      <p align="center"><strong>Tuesday AT A GLANCE, SEP 2, 2014</strong></p>
+      </td>
+    </tr>
+<tr>
+      <td width="30"><strong>Time </strong></td>
+     <td width="70"><strong>Crystal</strong></td>
+	 <td width="100"><strong>Diamond 1</strong></td>	
+	 <td width="100"><strong>Diamond 2</strong></td>
+	 <td width="100"><strong>Diamond 3</strong></td>
+	 <td width="100"><strong>Diamond 4</strong></td>
+	 <td width="100"><strong>Diamond 5</strong></td>
+	 <td width="100"><strong>Bauhinia 1</strong></td>
+	 <td width="100"><strong>Pearl</strong></td>
+    </tr>
+
+  <tr>
+  <td width="30">
+    <p align="center">8:30-10:00</p>
+    </td>
+	<td class="keynote"  colspan="9"><a href="lib/FullProgram.html#D1F830T1000R0">Industrial Keynote: Hasso Plattner; Academic Keynote: Volker Markl</a></td>
+ </tr>
+
+  <tr>
+  <td width="30">
+    <p align="center">10:00-10:30</p>
+    </td>
+	 <td class="lunch" colspan="9">Coffee Break </td>
+ </tr>
+
+
+   <tr>
+  <td width="30">
+    <p align="center">10:30-12:15</p>
+    </td>
+	 <td class="nosession"></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1030T1215R1">Papers 20.2: Graph Data II</a></strong></td>	
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1030T1215R2">Papers 2: OLAP</a></strong></td>
+	 <td class="industrial"><strong><a href="lib/FullProgram.html#D1F1030T1215R3">Industrial 1</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1030T1215R4">Papers 14: NoSQL and Map-Reduce</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1030T1215R5">Papers 11: Social and Recommender Systems</a></strong></td>
+	 <td class="tutorial"><strong><a href="lib/FullProgram.html#D1F1030T1215R6">Tutorial 1: Causality and explanation in databases</a></strong></td>
+	 <td class="demo"><strong><a href="lib/FullProgram.html#D1F1030T1215R7">Demo 1</a></strong></td>
+ </tr>
+
+  <tr>
+  <td width="30">
+    <p align="center">12:15-1.45</p>
+    </td>
+	 <td class="lunch" colspan="9"><strong>Lunch</strong> </td>
+ </tr>
+
+  <tr>
+    <td width="30">
+    <p align="center">1:45-3:15</p>
+    </td>
+     <td class="nosession"></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1345T1515R1">Papers 24: Provenance and Scientific Data</a></strong></td>	
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1345T1515R2">Papers 5.1: Query Processing I</a></strong></td>
+	 <td class="industrial"><strong><a href="lib/FullProgram.html#D1F1345T1515R3">Local Industry 1: Big Data Platforms</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1345T1515R4">Papers 15: Cloud and Data Services</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1345T1515R5">Papers 10.1: Web and Knowledge I</a></strong></td>
+	 <td class="tutorial"><strong><a href="lib/FullProgram.html#D1F1345T1515R6">Tutorial 2: Systems for Big Graphs</a></strong></td>
+	 <td class="demo"><strong><a href="lib/FullProgram.html#D1F1345T1515R7">Demo 2</a></strong></td>
+  </tr>
+
+    <tr>
+  <td width="30">
+    <p align="center">3:15-3:45</p>
+    </td>
+	 <td class="lunch" colspan="9"><strong>Coffee Break</strong> </td>
+ </tr>
+
+  <tr>
+    <td width="30">
+    <p align="center">3:45-5:15</p>
+    </td>
+     <td class="nosession"></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1545T1715R1">Papers 7.2: Memory Systems</a></strong></td>	
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1545T1715R2">Papers 6: Query Optimization</a></strong></td>
+	 <td class="pods"><strong><a href="lib/FullProgram.html#D1F1545T1715R3">Big Data</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1545T1715R4">Papers 13: Storage Management</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D1F1545T1715R5">Papers 21.2: Database Usability II</a></strong></td>
+	 <td class="tutorial"><strong><a href="lib/FullProgram.html#D1F1345T1515R6">Tutorial 2 contd.</a></strong></td>
+	 <td class="demo"><strong><a href="lib/FullProgram.html#D1F1545T1715R7">Demo 3</a></strong></td>
+  </tr>
+
+	
+
+  
+ <tr>
+    <td width="30">
+    <p align="center">5:15 on</p>
+    </td>
+    <td colspan="9" width="62"><strong>Buses to West Lake Show	</strong> <br/></td> 
+  </tr>
+
+</table>
+
+
+<p/>
+
+<a name="wednesday"> </a>
+<table class="day" width="800">
+   <tr>
+      <td class="header" colspan="10">
+      <p align="center"><strong>Wednesday AT A GLANCE, SEP 3, 2014</strong></p>
+      </td>
+    </tr>
+<tr>
+      <td width="30"><strong>Time </strong></td>
+     <td width="70"><strong>Crystal</strong></td>
+	 <td width="100"><strong>Diamond 1</strong></td>	
+	 <td width="100"><strong>Diamond 2</strong></td>
+	 <td width="100"><strong>Diamond 3</strong></td>
+	 <td width="100"><strong>Diamond 4</strong></td>
+	 <td width="100"><strong>Diamond 5</strong></td>
+	 <td width="100"><strong>Bauhinia 1</strong></td>
+	 <td width="100"><strong>Pearl</strong></td>
+    </tr>
+
+
+ <tr>
+  <td width="30">
+    <p align="center">8:30-10:00</p>
+    </td>
+	<td class="keynote" colspan="10"><a href="lib/FullProgram.html#D2F830T1000R0">Industrial Keynote: Shivakumar Venkataraman; Academic Keynote: Divyakant Agrawal </a></td>
+ </tr>
+
+  <tr>
+  <td width="30">
+    <p align="center">10:00-10:30</p>
+    </td>
+	 <td class="lunch" colspan="9">Coffee Break </td>
+ </tr>
+
+
+   <tr>
+  <td width="30">
+    <p align="center">10:30-12:15</p>
+    </td>
+	 <td class="nosession"></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D2F1030T1215R1">Papers 18: Paths and Reachability</a></strong></td>	
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D2F1030T1215R2">Papers 16: Text, XML, and String Data</a></strong></td>
+	 <td class="industrial"><strong><a href="lib/FullProgram.html#D2F1030T1215R3">Industrial 2</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D2F1030T1215R4">Papers 3: Privacy and Security</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D2F1030T1215R5">Papers 22: Data Quality</a></strong></td>
+	 <td class="tutorial"><strong><a href="lib/FullProgram.html#D2F1030T1215R6">Tutorial 3: Knowledge Bases in the Age of Big Data Analytics</a></strong></td>
+	 <td class="demo"><strong><a href="lib/FullProgram.html#D2F1030T1215R7">Demo 4</a></strong></td>
+ </tr>
+
+  <tr>
+  <td width="30">
+    <p align="center">12:15-1.45</p>
+    </td>
+	 <td class="lunch" colspan="9"><strong>Lunch</strong> </td>
+ </tr>
+
+  <tr>
+    <td width="30">
+    <p align="center">1:45-3:15</p>
+    </td>
+     <td class="nosession"></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D2F1345T1515R1">Papers 20.1: Graph Data I</a></strong></td>	
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D2F1345T1515R2">Papers 23: Benchmarking</a></strong></td>
+	 <td class="industrial"><strong><a href="lib/FullProgram.html#D2F1345T1515R3">Industrial 3</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D2F1345T1515R4">Papers 12: Parallel and Distributed Systems</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D2F1345T1515R5">Papers 10.2: Web and Knowledge II</a></strong></td>
+	 <td class="tutorial"><strong><a href="lib/FullProgram.html#D2F1030T1215R6">Tutorial 3 contd.</a></strong></td>
+	 <td class="demo"><strong><a href="lib/FullProgram.html#D1F1345T1515R7">Demo 2</a></strong></td>
+  </tr>
+
+    <tr>
+  <td width="30">
+    <p align="center">3:15-6:15</p>
+    </td>
+	 <td colspan="9"><strong>Plenary Poster Session in the East Gallery	</strong> </td>
+ </tr>
+  
+ <tr>
+    <td width="30">
+    <p align="center">6:30-10:00</p>
+    </td>
+    <td class="lunch" colspan="9" width="62"><strong>Banquet</strong> <br/></td> 
+  </tr>
+
+</table>
+
+<p/>
+
+
+<a name="thursday"> </a>
+<table class="day" width="800">
+   <tr>
+      <td class="header" colspan="10">
+      <p align="center"><strong>Thursday AT A GLANCE, SEP 4, 2014</strong></p>
+      </td>
+    </tr>
+ <tr>
+      <td width="30"><strong>Time </strong></td>
+     <td width="70"><strong>Crystal</strong></td>
+	 <td width="100"><strong>Diamond 1</strong></td>	
+	 <td width="100"><strong>Diamond 2</strong></td>
+	 <td width="100"><strong>Diamond 3</strong></td>
+	 <td width="100"><strong>Diamond 4</strong></td>
+	 <td width="100"><strong>Diamond 5</strong></td>
+	 <td width="100"><strong>Bauhinia 1</strong></td>
+	 <td width="100"><strong>Pearl</strong></td>
+    </tr>
+
+
+ <tr>
+  <td width="30">
+    <p align="center">8:30-10:00</p>
+    </td>
+	 <td colspan="9" class="keynote" >Award Ceremony</td>
+ </tr>
+
+  <tr>
+  <td width="30">
+    <p align="center">10:00-10:15</p>
+    </td>
+	 <td class="lunch" colspan="9">Coffee Break </td>
+ </tr>
+
+
+   <tr>
+  <td width="30">
+    <p align="center">10:15-12:00</p>
+    </td>
+	 <td class="nosession"></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1015T1200R1">Papers 20.4: Graph Data IV</a></strong></td>	
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1015T1200R2">Papers 4: Indexing</a></strong></td>
+	 <td class="industrial"><strong><a href="lib/FullProgram.html#D3F1015T1200R3">Industrial 4</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1015T1200R4">Paper 1: Data Mining</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1015T1200R5">Papers 9: Data Integration</a></strong></td>
+	 <td class="tutorial"><strong><a href="lib/FullProgram.html#6">Tutorial 4: Enterprise search in the big data era</a></strong></td>
+	 <td class="demo"><strong><a href="lib/FullProgram.html#D1F1545T1715R7">Demo 3</a></strong></td>
+ </tr>
+
+  <tr>
+  <td width="30">
+    <p align="center">12:00-1.30</p>
+    </td>
+	 <td class="lunch" colspan="9"><strong>Lunch</strong> </td>
+ </tr>
+
+  <tr>
+    <td width="30">
+    <p align="center">1:30-2:45</p>
+    </td>
+     <td class="nosession"></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1330T1445R1">Papers 7.1: Architecture Systems</a></strong></td>	
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1330T1445R2">Papers 8: Dissemination </a></strong></td>
+	 <td class="industrial"><strong><a href="lib/FullProgram.html#D3F1330T1445R3">Local Industry 2: Analytics</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1330T1445R4">Papers 17: Multi-dimensional Access</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1330T1445R5">Papers 21.1: Database Usability I</a></strong></td>
+	 <td class="tutorial"><strong><a href="lib/FullProgram.html#D3F1015T1200R6">Tutorial 4 contd.</a></strong></td>
+	 <td class="demo"><strong><a href="lib/FullProgram.html#D1F1030T1215R7">Demo 1</a></strong></td>
+  </tr>
+
+    <tr>
+  <td width="30">
+    <p align="center">2:45-3:15</p>
+    </td>
+	 <td class="lunch" colspan="9"><strong>Coffee Break</strong> </td>
+ </tr>
+  
+  <tr>
+    <td width="30">
+    <p align="center">3:15-4:45</p>
+    </td>
+     <td class="nosession"></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1515T1645R1">Papers 20.3: Graph Data III</a></strong></td>	
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1515T1645R2">Papers 5.2: Query Processing II</a></strong></td>
+	 <td class="industrial"><strong><a href="lib/FullProgram.html#3">Industrial 5</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1515T1645R4">Papers 25: Transaction Processing</a></strong></td>
+	 <td class="vldb"><strong><a href="lib/FullProgram.html#D3F1515T1645R5">Papers 19: Temporal and Stream Data</a></strong></td>
+	 <td class="tutorial"><strong><a href="lib/FullProgram.html#D3F1515T1645R6">Tutorial 5: Uncertain Entity Resolution</a></strong></td>
+	 <td class="demo"><strong><a href="lib/FullProgram.html#D2F1030T1215R7">Demo 4</a></strong></td>
+  </tr>
+</table>
+
+<p/>
+
+<a name="friday"> </a>
+<table class="day" width="800">
+   <tr>
+      <td class="header" colspan="10">
+      <p align="center"><strong>Friday AT A GLANCE, SEP 5, 2014</strong></p>
+      </td>
+    </tr>
+	 <tr>
+      <td width="30"><strong>Time </strong></td>
+     <td width="70"><strong>Crystal</strong></td>
+	 <td width="100"><strong>Diamond 1</strong></td>	
+	 <td width="100"><strong>Diamond 2</strong></td>
+	 <td width="100"><strong>Diamond 3</strong></td>
+	 <td width="100"><strong>Diamond 4</strong></td>
+	 <td width="100"><strong>Diamond 5</strong></td>
+	 <td width="100"><strong>Bauhinia 1</strong></td>
+	 <td width="100"><strong>Pearl</strong></td>
+    </tr>
+  <tr>
+  <td width="30">
+    <p align="center">9:00-18:00</p>
+    </td>
+  	 <td class="nosession"></td>
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D4F900T1800R1">BPOE</a></strong></td>	
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D4F900T1800R2">PDA@IOT</a></strong></td>
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D4F900T1800R3">BeRSys</a></strong></td>
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D4F900T1800R4">SSW</a></strong></td>
+	 <td class="workshop"><strong><a href="lib/FullProgram.html#D4F900T1800R5">TPCTC</a></strong></td>
+	 <td class="nosession"><strong></strong></td>
+	 <td class="nosession"><strong></strong></td>
+ </tr>
+
+</table>
+</div>
+
+		</li>
+	</ul>
+</ul>
+
+</body>
+<SCRIPT>
+$("#accordion > li").click(function(){
+
+	if(false == $(this).next().is(':visible')) {
+		$('#accordion > ul').slideUp(300);
+	}
+	$(this).next().slideToggle(300);
+});
+
+$('#accordion > ul:eq(0)').show();
+
+</SCRIPT>
+</html>

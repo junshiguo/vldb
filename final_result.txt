@@ -1,0 +1,316 @@
+Efficient and Effective KNN Sequence Search with Approximate n-grams
+http://www.vldb.org/pvldb/vol7/p1-wang.pdf
+More is Simpler: Effectively and Efficiently Assessing Node-Pair Similarities Based on Hyperlinks
+http://www.vldb.org/pvldb/vol7/p13-yu.pdf
+An Approach towards the Study of Symmetric Queries
+http://www.vldb.org/pvldb/vol7/p25-gyssens.pdf
+CPU Sharing Techniques for Performance Isolation in Multitenant Relational Database-as-a-Service
+http://www.vldb.org/pvldb/vol7/p37-das.pdf
+Authenticating Top-k Queries in Location-based Services with Confidentiality
+http://www.vldb.org/pvldb/vol7/p49-chen.pdf
+Toward a Distance Oracle for Billion-Node Graphs
+http://www.vldb.org/pvldb/vol7/p61-xiao.pdf
+Finding Shortest Paths on Terrains by Killing Two Birds with One Stone
+http://www.vldb.org/pvldb/vol7/p73-kaul.pdf
+Multi-Core, Main-Memory Joins: Sort vs. Hash Revisited
+http://www.vldb.org/pvldb/vol7/p85-balkesen.pdf
+The Uncracked Pieces in Database Cracking
+http://www.vldb.org/pvldb/vol7/p97-schuhknecht.pdf
+Diversity based Relevance Feedback for Time Series Search
+http://www.vldb.org/pvldb/vol7/p109-eravci.pdf
+Storage Management in the NVRAM Era
+http://www.vldb.org/pvldb/vol7/p121-pelley.pdf
+Online Ordering of Overlapping Data Sources
+http://www.vldb.org/pvldb/vol7/p133-salloum.pdf
+Multi-Query Optimization in MapReduce Framework
+http://www.vldb.org/pvldb/vol7/p145-wang.pdf
+Attraction and Avoidance Detection from Movements
+http://www.vldb.org/pvldb/vol7/p157-li.pdf
+A Partition-Based Approach to Structure Similarity Search
+http://www.vldb.org/pvldb/vol7/p169-zhao.pdf
+Highly Available Transactions: Virtues and Limitations
+http://www.vldb.org/pvldb/vol7/p181-bailis.pdf
+From "Think Like a Vertex" to "Think Like a Graph"
+http://www.vldb.org/pvldb/vol7/p193-tian.pdf
+Probabilistic Nearest Neighbor Queries on Uncertain Moving Object Trajectories
+http://www.vldb.org/pvldb/vol7/p205-niedermayer.pdf
+Delta: Scalable Data Dissemination under Capacity Constraints
+http://www.vldb.org/pvldb/vol7/p217-karanasos.pdf
+GeoScope: Online Detection of Geo-Correlated Information Trends in Social Networks
+http://www.vldb.org/pvldb/vol7/p229-budak.pdf
+Optimization for iterative queries on MapReduce
+http://www.vldb.org/pvldb/vol7/p241-onizuka.pdf
+Willingness Optimization for Social Group Activity
+http://www.vldb.org/pvldb/vol7/p253-shuai.pdf
+High Performance Stream Query Processing With Correlation-Aware Partitioning
+http://www.vldb.org/pvldb/vol7/p265-cao.pdf
+OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases
+http://www.vldb.org/pvldb/vol7/p277-difallah.pdf
+Gestural Query Specification
+http://www.vldb.org/pvldb/vol7/p289-nandi.pdf
+Scalable Discovery of Unique Column Combinations
+http://www.vldb.org/pvldb/vol7/p301-heise.pdf
+Earth Mover's Distance based Similarity Search at Scale
+http://www.vldb.org/pvldb/vol7/p313-tang.pdf
+SeeDB: Visualizing Database Queries Efficiently
+http://www.vldb.org/pvldb/vol7/p325-parameswaran.pdf
+MaaT: Effective and scalable coordination of distributed transactions in the cloud
+http://www.vldb.org/pvldb/vol7/p329-mahmoud.pdf
+A Data- and Workload-Aware Query Answering Algorithm for Range Queries Under Differential Privacy
+http://www.vldb.org/pvldb/vol7/p341-li.pdf
+Certain Query Answering in Partially Consistent Databases
+http://www.vldb.org/pvldb/vol7/p353-greco.pdf
+Exemplar Queries: Give me an Example of What You Need
+http://www.vldb.org/pvldb/vol7/p365-mottin.pdf
+An efficient reconciliation algorithm for social networks
+http://www.vldb.org/pvldb/vol7/p377-korula.pdf
+Computing k-Regret Minimizing Sets
+http://www.vldb.org/pvldb/vol7/p389-chester.pdf
+Reverse Top-k Search using Random Walk with Restart
+http://www.vldb.org/pvldb/vol7/p401-yu.pdf
+Write-limited sorts and joins for persistent memory
+http://www.vldb.org/pvldb/vol7/p413-viglas.pdf
+Folk-IS: Opportunistic Data Services in Least Developed Countries
+http://www.vldb.org/pvldb/vol7/p425-anciaux.pdf
+Shared Workload Optimization
+http://www.vldb.org/pvldb/vol7/p429-giannikis.pdf
+Scalable and Adaptive Online Joins
+http://www.vldb.org/pvldb/vol7/p441-elseidy.pdf
+Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems
+http://www.vldb.org/pvldb/vol7/p453-morton.pdf
+A Provenance Framework for Data-Dependent Process Analysis
+http://www.vldb.org/pvldb/vol7/p457-deutch.pdf
+Tracking Entities in the Dynamic World: A Fast Algorithm for Matching Temporal Records
+http://www.vldb.org/pvldb/vol7/p469-chiang.pdf
+Edelweiss: Automatic Storage Reclamation for Distributed Programming
+http://www.vldb.org/pvldb/vol7/p481-conway.pdf
+Rank Join Queries in NoSQL Databases
+http://www.vldb.org/pvldb/vol7/p493-ntarmos.pdf
+Biperpedia: An Ontology for Search Applications
+http://www.vldb.org/pvldb/vol7/p505-gupta.pdf
+GRAMI: Frequent Subgraph and Pattern Mining in a Single Large Graph
+http://www.vldb.org/pvldb/vol7/p517-elseidy.pdf
+Lightweight Indexing of Observational Data in Log-Structured Storage
+http://www.vldb.org/pvldb/vol7/p529-wang.pdf
+epiC: an Extensible and Scalable System for Processing Big Data
+http://www.vldb.org/pvldb/vol7/p541-jiang.pdf
+Hybrid Parallelization Strategies for Large-Scale Machine Learning in SystemML
+http://www.vldb.org/pvldb/vol7/p553-boehm.pdf
+Schemaless and Structureless Graph Querying
+http://www.vldb.org/pvldb/vol7/p565-yang.pdf
+Optimizing Graph Algorithms on Pregel-like Systems
+http://www.vldb.org/pvldb/vol7/p577-salihoglu.pdf
+Toward Computational Fact-Checking
+http://www.vldb.org/pvldb/vol7/p589-wu.pdf
+A Principled Approach to Bridging the Gap between Graph Data and their Schemas
+http://www.vldb.org/pvldb/vol7/p601-arenas.pdf
+An Efficient Publish/Subscribe Index for ECommerce Databases
+http://www.vldb.org/pvldb/vol7/p613-zhang.pdf
+String Similarity Joins: An Experimental Evaluation
+http://www.vldb.org/pvldb/vol7/p625-jiang.pdf
+Calibrating Data to Sensitivity in Private Data Analysis
+http://www.vldb.org/pvldb/vol7/p637-proserpio.pdf
+Effective Multi-Modal Retrieval based on Stacked Auto-Encoders
+http://www.vldb.org/pvldb/vol7/p649-wang.pdf
+PRESS: A Novel Framework of Trajectory Compression in Road Networks
+http://www.vldb.org/pvldb/vol7/p661-song.pdf
+Finding the Cost-Optimal Path with Time Constraint over Time-Dependent Graphs
+http://www.vldb.org/pvldb/vol7/p673-yang.pdf
+Optimal Crowd-Powered Rating and Filtering Algorithms
+http://www.vldb.org/pvldb/vol7/p685-parameswaran.pdf
+Incremental Record Linkage
+http://www.vldb.org/pvldb/vol7/p697-gruenheid.pdf
+Low-Latency Handshake Join
+http://www.vldb.org/pvldb/vol7/p709-roy.pdf
+Path Problems in Temporal Graphs
+http://www.vldb.org/pvldb/vol7/p721-wu.pdf
+Retrieving Regions of Interest for User Exploration
+http://www.vldb.org/pvldb/vol7/p733-cao.pdf
+SK-LSH: An Efficient Index Structure for Approximate Nearest Neighbor Search
+http://www.vldb.org/pvldb/vol7/p745-liu.pdf
+On Arbitrage-free Pricing for General Data Queries
+http://www.vldb.org/pvldb/vol7/p757-lin.pdf
+Splitter: Mining Fine-Grained Sequential Patterns in Semantic Trajectories
+http://www.vldb.org/pvldb/vol7/p769-zhang.pdf
+Towards Building Wind Tunnels for Data Center Design
+http://www.vldb.org/pvldb/vol7/p781-floratou.pdf
+Reverse k-Ranks Query
+http://www.vldb.org/pvldb/vol7/p785-zhang.pdf
+M4: A Visualization-Oriented Time Series Data Aggregation
+http://www.vldb.org/pvldb/vol7/p797-jugel.pdf
+Continuous Matrix Approximation on Distributed Data
+http://www.vldb.org/pvldb/vol7/p809-ghashami.pdf
+An Evaluation of the Advantages and Disadvantages of Deterministic Database Systems
+http://www.vldb.org/pvldb/vol7/p821-ren.pdf
+Efficient In-memory Data Management: An Analysis
+http://www.vldb.org/pvldb/vol7/p833-zhang.pdf
+Workload Matters: Why RDF Databases Need a New Design
+http://www.vldb.org/pvldb/vol7/p837-aluc.pdf
+Storage Management in AsterixDB
+http://www.vldb.org/pvldb/vol7/p841-alsubaiee.pdf
+Building Efficient Query Engines in a High-Level Language
+http://www.vldb.org/pvldb/vol7/p853-klonatos.pdf
+Scalable Logging through Emerging Non-Volatile Memory
+http://www.vldb.org/pvldb/vol7/p865-wang.pdf
+When Data Management Systems Meet Approximate Hardware: Challenges and Opportunities
+http://www.vldb.org/pvldb/vol7/p877-he.pdf
+From Data Fusion to Knowledge Fusion
+http://www.vldb.org/pvldb/vol7/p881-dong.pdf
+On k-Path Covers and their Applications
+http://www.vldb.org/pvldb/vol7/p893-funke.pdf
+The Case for Data Visualization Management Systems
+http://www.vldb.org/pvldb/vol7/p903-wu.pdf
+WideTable: An Accelerator for Analytical Data Processing
+http://www.vldb.org/pvldb/vol7/p907-li.pdf
+A Framework for Protecting Worker Location Privacy in Spatial Crowdsourcing
+http://www.vldb.org/pvldb/vol7/p919-to.pdf
+When Speed Has a Price: Fast Information Extraction Using Approximate Algorithms
+http://www.vldb.org/pvldb/vol6/p1462-simoes.pdf
+Design and Evaluation of Storage Organizations for Read-Optimized Main Memory Databases
+http://www.vldb.org/pvldb/vol6/p1474-chasseur.pdf
+Aggregating Semantic Annotators
+http://www.vldb.org/pvldb/vol6/p1486-benedikt.pdf
+Discovering Denial Constraints
+http://www.vldb.org/pvldb/vol6/p1498-papotti.pdf
+Diversified Top-k Graph Pattern Matching
+http://www.vldb.org/pvldb/vol6/p1510-fan.pdf
+Bitlist: New Full-text Index for Low Space Cost and Efficient Keyword Search
+http://www.vldb.org/pvldb/vol6/p1522-rao.pdf
+RCSI: Scalable similarity search in thousand(s) of genomes
+http://www.vldb.org/pvldb/vol6/p1534-wandelt.pdf
+Approximate MaxRS in Spatial Databases
+http://www.vldb.org/pvldb/vol6/p1546-tao.pdf
+Multi-Tuple Deletion Propagation: Approximations and Complexity
+http://www.vldb.org/pvldb/vol6/p1558-kimelfeld.pdf
+Supporting Distributed Feed-Following Apps over Edge Devices
+http://www.vldb.org/pvldb/vol6/p1570-chandramouli.pdf
+Rank Discovery From Web Databases
+http://www.vldb.org/pvldb/vol6/p1582-thirumuruganathan.pdf
+SPARSI: Partitioning Sensitive Data amongst Multiple Adversaries
+http://www.vldb.org/pvldb/vol6/p1594-rekatsinas.pdf
+Scalable Column Concept Determination for Web Tables Using Large Knowledge Bases
+http://www.vldb.org/pvldb/vol6/p1606-li.pdf
+Top-K Structural Diversity Search in Large Networks
+http://www.vldb.org/pvldb/vol6/p1618-cheng.pdf
+Synthetising Changes in XML Documents as PULs
+http://www.vldb.org/pvldb/vol6/p1630-solimando.pdf
+Probabilistic Query Rewriting for Efficient and Effective Keyword Search on Graph Data
+http://www.vldb.org/pvldb/vol6/p1642-zhang.pdf
+QuEval: Beyond high-dimensional indexing a la carte
+http://www.vldb.org/pvldb/vol6/p1654-schaeler.pdf
+Discovering Longest-lasting Correlation in Sequence Databases
+http://www.vldb.org/pvldb/vol6/p1666-u.pdf
+PREDIcT: Towards Predicting the Runtime of Large Scale Iterative Analytics
+http://www.vldb.org/pvldb/vol6/p1678-popescu.pdf
+On the Embeddability of Random Walk Distances
+http://www.vldb.org/pvldb/vol6/p1690-zhao.pdf
+Instant Loading for Main Memory Databases
+http://www.vldb.org/pvldb/vol6/p1702-muehlbauer.pdf
+Adaptive Range Filters for Cold Data: Avoiding Trips to Siberia
+http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf
+Scalable Progressive Analytics on Big Data in the Cloud
+http://www.vldb.org/pvldb/vol6/p1726-chandramouli.pdf
+Scalable XML Query Processing using Parallel Pushdown Transducers
+http://www.vldb.org/pvldb/vol6/p1738-ogden.pdf
+Understanding Insights into the Basic Structure and Essential Issues of Table Placement Methods in Clusters
+http://www.vldb.org/pvldb/vol6/p1750-huai.pdf
+A Probabilistic Optimization Framework for the Empty-Answer Problem
+http://www.vldb.org/pvldb/vol6/p1762-mottin.pdf
+Summarizing Answer Graphs Induced by Keyword Queries
+http://www.vldb.org/pvldb/vol6/p1774-wu.pdf
+Supporting Keyword Search in Product Database: A Probabilistic Approach
+http://www.vldb.org/pvldb/vol6/p1786-duan.pdf
+A Sampling Algebra for Aggregate Estimation
+http://www.vldb.org/pvldb/vol6/p1798-nirkhiwale.pdf
+A Temporal-Probabilistic Database Model for Information Extraction
+http://www.vldb.org/pvldb/vol6/p1810-miliaraki.pdf
+Counter Strike: Generic Top-Down Join Enumeration for Hypergraphs
+http://www.vldb.org/pvldb/vol6/p1822-fender.pdf
+Efficient Bulk Updates on Multiversion B-trees
+http://www.vldb.org/pvldb/vol6/p1834-achakeev.pdf
+Query-Driven Approach to Entity Resolution
+http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf
+Expressiveness and Complexity of Order Dependencies
+http://www.vldb.org/pvldb/vol6/p1858-szlichta.pdf
+Counting and Sampling Triangles from a Graph Stream
+http://www.vldb.org/pvldb/vol6/p1870-aduri.pdf
+An Experimental Analysis of Iterated Spatial Joins in Main Memory
+http://www.vldb.org/pvldb/vol6/p1882-sowell.pdf
+Scaling Queries over Big RDF Graphs with Semantic Hash Partitioning
+http://www.vldb.org/pvldb/vol6/p1894-lee.pdf
+Distributed SociaLite: A Datalog-Based Language for Large-Scale Graph Analysis
+http://www.vldb.org/pvldb/vol6/p1906-seo.pdf
+Horton+: A Distributed System for Processing Declarative Reachability Queries over Partitioned Graphs
+http://www.vldb.org/pvldb/vol6/p1918-sarwat.pdf
+Streaming Similarity Search over one Billion Tweets using Parallel Locality-Sensitive Hashing
+http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf
+Anti-Caching: A New Approach to Database Management System Architecture
+http://www.vldb.org/pvldb/vol6/p1942-debrabant.pdf
+Understanding Hierarchical Methods for Differentially Private Histograms
+http://www.vldb.org/pvldb/vol6/p1954-qardaji.pdf
+Towards Social Data Platform: Automatic Topic-focused Monitor for Twitter Stream
+http://www.vldb.org/pvldb/vol6/p1966-rui.pdf
+Simple, Fast, and Scalable Reachability Oracle
+http://www.vldb.org/pvldb/vol6/p1978-jin.pdf
+Aggregation and Ordering in Factorised Databases
+http://www.vldb.org/pvldb/vol6/p1990-zavodny.pdf
+Parallel Computation of Skyline and Reverse Skyline Queries Using MapReduce
+http://www.vldb.org/pvldb/vol6/p2002-shim.pdf
+Fast Iterative Graph Computation with Block Updates
+http://www.vldb.org/pvldb/vol6/p2014-xie.pdf
+NOMAD: Non-locking, stOchastic Multi-machine algorithm for Asynchronous and Decentralized matrix completion
+http://www.stat.purdue.edu/~vishy/talks/nomad.pdf
+Data- and Workload-Aware Query Answering Under Differential Privacy
+http://www.vldb.org/pvldb/vol7/p341-li.pdf
+Calibrating Data to Sensitivity in Private Data Analysis, A Platform for  Differentially-Private Analysis of Weighted Datasets
+http://www.vldb.org/pvldb/vol7/p637-proserpio.pdf
+Adaptive Query Processing on RAW Data
+http://vldb.org/pvldb/vol5/p1942_ioannisalagiannis_vldb2012.pdf
+Concurrent Analytical Query Processing with GPUs
+http://web.cse.ohio-state.edu/hpcs/WWW/HTML/publications/papers/TR-14-3.pdf
+Ibex - An Intelligent Storage Engine with Support for Advanced SQL Off-loading
+http://www.vldb.org/pvldb/vol7/p963-woods.pdf
+DimmWitted: A Study of Main-Memory Statistical Analytics
+http://arxiv-web3.library.cornell.edu/pdf/1403.7550
+An Efficient Publish/Subscribe Index for E-Commerce Databases
+http://www.vldb.org/pvldb/vol7/p613-zhang.pdf
+On Concise Set of Relative Candidate Keys
+http://ise.thss.tsinghua.edu.cn/sxsong/doc/14vldb2.pdf
+Matching Titles with Cross Title Web-Search Enrichment and Community Detection
+http://www.cse.buffalo.edu/DBGROUP/bioinformatics/papers/Vish_VLDB_2014%20.pdf
+Aggregate Estimation Over Dynamic Hidden Web Databases
+http://arxiv.org/pdf/1403.2763v2
+GeoScope: Online detection of GeoCorrelated Information Trends In Social Networks
+http://www.vldb.org/pvldb/vol7/p229-budak.pdf
+Trekking Through Siberia: Managing Cold Data in a Memory-Optimized Database
+http://research.microsoft.com/apps/pubs/default.aspx?id=218305
+Design and Evaluation of Storage Organizations For Read-Optimized Main-Memory Databases
+www.vldb.org/pvldb/vol6/p1474-chasseur.pdf
+ClusterJoin: A Similarity Joins Framework using Map-Reduce
+http://research.microsoft.com/apps/pubs/default.aspx?id=219607
+Folk-IS: Opportunistic Data Services in  Least Developed Countries
+http://www.vldb.org/pvldb/vol7/p425-anciaux.pdf
+SK-LSH : An Efficient Index Structure for Approximate Nearest Neighbor Search
+http://www.vldb.org/pvldb/vol7/p745-liu.pdf
+Hop Doubling Label Indexing for Point-to-Point Distance Querying on Scale-Free Networks
+http://arxiv.org/abs/1403.0779
+Distributed Graph Simulation: Impossibility and Possiblity
+http://homepages.inf.ed.ac.uk/wenfei/papers/vldb14-impossibility.pdf
+Efficient Management of Spatial RDF Data
+www.cs.hku.hk/research/techreps/document/TR-2014-02.pdf
+An Experimental Comparison of Pregel-like Graph Processing Systems
+https://cs.uwaterloo.ca/~kdaudjee/comparison.pdf
+Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems [Vision Paper]
+http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf
+Repairing Vertex Labels under Neighborhood 
+http://ise.thss.tsinghua.edu.cn/sxsong/doc/14vldb1.pdf
+Progressive Approach to Relational Entity Resolution
+http://www.ics.uci.edu/~dvk/pub/C17_VLDB17_Yasser.pdf
+QuEval: Beyond high-dimensional indexing ?la carte
+http://www.vldb.org/pvldb/vol6/p1654-schaeler.pdf
+$\Upsilon$-DB: Managing scientific hypotheses as uncertain data
+http://www.vldb.org/pvldb/vol7/p959-goncalves.pdf
+ConfluxDB: Multi-Master Replication for Partitioned Snapshot Isolation Databases
+http://www.vldb.org/pvldb/vol7/p947-chairunnanda.pdf
+The Case for Personal Data-Driven Decision Making
+http://www.vldb.org/pvldb/vol7/p943-duggan.pdf
