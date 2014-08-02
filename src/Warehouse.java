@@ -97,6 +97,7 @@ public class Warehouse {
             	fw.write(tmp+"\n");
             }
             fw.close();
+            
             XMLWorkerHelper worker = XMLWorkerHelper.getInstance();
             // convert to PDF
             worker.parseXHtml(pdfWriter, document, fis);

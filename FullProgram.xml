@@ -18,9 +18,11 @@
 		<chair>BIRTE Chair</chair>
 		<paper>
 			<id>300</id>
-			<link>none</link>
+			<link>http://db.csail.mit.edu/birte2014/index.html</link>
 			<title>BIRTE</title>
 			<authors>Castellanos Malu G (Hewlett Packard),Dayal Umeshwar (Hewlett Packard)</authors>
+			<abstract>The 8th International Workshop on Business Intelligence for the Real-Time Enterprise (BIRTE 2014) will be held on September 1, 2014 in conjunction with the VLDB 2014 Conference that will take place from the 1st to 5th of September 2014 in Hangzhou, China.
+Following the previous years' workshops, the BIRTE 2014 workshop aims at providing a forum for presentation of the latest research results, new technology developments, and new applications in the areas of business intelligence and real time enterprise.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -33,9 +35,12 @@
 		<chair>Bringing the Value of Big Data to Users Chair</chair>
 		<paper>
 			<id>301</id>
-			<link>none</link>
+			<link>https://sites.google.com/site/data4u2014/</link>
 			<title>Bringing the Value of Big Data to Users</title>
 			<authors>Rada Chirkova (North Carolina State University), Jun Yang (Duke University)</authors>
+			<abstract>The trend of bigger and bigger data---in terms of volume, velocity, and variety---is inevitable. Ultimately, how "big data" will impact the broad population of users rests on what value we can bring to them. Historically, the database community has focused primarily on efficient processing of structured queries posed by expert users on pre-organized data. But this focus only addresses one of the many different challenges in bringing the value of big data to users. Besides making queries and analysis faster and more scalable, we must address the pain points before and after analytics---i.e., how to put together data from diverse sources and "wrangle" it into representations appropriate for analyses, and how to communicate results and insights effectively. To broaden the impact of big data, we must also move beyond our traditional notions of "users," such as programmers and analysts, to a much wider range of new user archetypes, such as non-expert users who want to "get something" from their data, or ordinary citizens who wish to play a more active role in understanding public data.
+
+The main goals of the workshop are to help expand the scope of database research to encompass a more complete picture of how to deal with big data, and to promote new, alternative viewpoints on what the database community should work on, if it is to play a bigger role in bringing the benefits of big data to the public. The workshop is designed to bring together researchers with similar interests, foster discussion of work in progress, encourage ideas that are "off the beaten track," and engage non-traditional users of database research. Our emphasis is on the importance of usability to a wider range of user archetypes. Other communities are also actively studying usability issues in big data; we believe that it is high time for the database community to begin contributing its expertise and perspectives to this important problem.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -51,6 +56,7 @@
 			<link>http://www-db.in.tum.de/hosted/imdm2014/</link>
 			<title>IMDM</title>
 			<authors>Justin Levandoski (Microsoft Research),Andy Pavlo (Carnegie Mellon University),Thomas Neumann (Technische Universität München), Arun Jagatheesan (University of California (San Diego)</authors>
+			<abstract>The second international workshop on In-memory Memory Data Management and Analytics (IMDM 2014) aims to bring together researchers and practitioners interested in the proliferation of in-memory data management and analytics infrastructures. The workshop is a forum to present research challenges, novel ideas and methodologies that can improve in-memory (main memory) data management and analytics. The proceedings of IMDM 2014 will be published by Springer-Verlag as Lecture Notes in Computer Science (LNCS). </abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -66,6 +72,13 @@
 			<link>www.adms-conf.org</link>
 			<title>ADMS</title>
 			<authors>Rajesh Bordawekar, IBM</authors>
+			<abstract>The objective of this one-day workshop is to investigate opportunities in accelerating data management systems and workloads (which include traditional OLTP, data warehousing/OLAP, ETL, Streaming/Real-time, Business Analytics, and XML/RDF Processing) using processors (e.g., commodity and specialized Multi-core, GPUs, FPGAs, and ASICs), storage systems (e.g., Storage-class Memories like SSDs and Phase-change Memory), and programming models like MapReduce, GraphLab, CUDA, OpenCL, and OpenACC.
+
+The current data management scenario is characterized by the following trends: traditional OLTP and OLAP/data warehousing systems are being used for increasing complex workloads (e.g., Petabyte of data, complex queries under real-time constraints, etc.); applications are becoming far more distributed, often consisting of different data processing components; non-traditional domains such as bio-informatics, social networking, mobile computing, sensor applications, gaming are generating growing quantities of data of different types; economical and energy constraints are leading to greater consolidation and virtualization of resources; and analyzing vast quantities of complex data is becoming more important than traditional transactional processing.
+
+At the same time, there have been tremendous improvements in the CPU and memory technologies. Newer processors are more capable in the CPU and memory capabilities and are optimized for multiple application domains. Commodity systems are increasingly using multi-core processors with more than 6 cores per chip and enterprise-class systems are using processors with 8 cores per chip, where each core can execute upto 4 simultaneous threads. Specialized multi-core processors such as the GPUs have brought the computational capabilities of supercomputers to cheaper commodity machines. On the storage front, FLASH-based solid state devices (SSDs) are becoming smaller in size, cheaper in price, and larger in capacity. Exotic technologies like Phase-change memory are on the near-term horizon and can be game-changers in the way data is stored and processed.
+
+In spite of the trends, currently there is limited usage of these technologies in data management domain. Naive usage of multi-core processors or SSDs often leads to unbalanced system. It is therefore important to evaluate applications in a holistic manner to ensure effective utilization of CPU and memory resources. This workshop aims to understand impact of modern hardware technologies on accelerating core components of data management workloads. Specifically, the workshop hopes to explore the interplay between overall system design, core algorithms, query optimization strategies, programming approaches, performance modelling and evaluation, etc., from the perspective of data management applications.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -133,6 +146,7 @@
 			<abstract>Data management research, systems, and technologies have drastically improved the availability of data analysis capabilities, particularly for non-experts, due in part to low-en-try barriers and reduced ownership costs (e.g., for data management infrastructures and applications). Major reasons for the widespread success of database systems and today’s multi-billion dollar data management market include data independence, separating physical representation and storage from the actual information, and declarative languages, separating the program specification from its intended execution environment. In contrast, today’s big data solutions do not offer data independence and declarative specification. As a result, big data technologies are mostly employed in newly-established companies with IT-savvy employees or in large well-established companies with big IT departments. We argue that current big data solutions will continue to fall short of widespread adoption, due to usability problems, despite the fact that in-situ data analytics technologies achieve a good degree of schema independence. In particular, we consider the lack of a declarative specification to be a major road-block, contributing to the scarcity in available data scientists available and limiting the application of big data to the IT-savvy industries. In particular, data scientists currently have to spend a lot of time on tuning their data analysis programs for specific data characteristics and a specific execution environment. We believe that the research com-munity needs to bring the powerful concepts of declarative specification to current data analysis systems, in order to achieve the broad big data technology adoption and effectively deliver the promise that novel big data technologies offer.</abstract>
 			<authorInfo>
 				<photo>volker.jpg</photo>
+				<bio>Volker Markl is a Full Professor and Chair of the Database Systems and Information Management (DIMA) group at the Technische Universitat Berlin (TU Berlin) as well as an adjunct status-only professor at the University of Toronto. Earlier in his career, Dr. Markl lead a research group at FORWISS, the Bavarian Research Center for Knowledge-based Systems in Munich, Germany, and was a Research Staff member &amp; Project Leader at the IBM Almaden Research Center in San Jose, California, USA. Dr. Markl has published numerous research papers on indexing, query optimization, lightweight information integration, and scalable data processing. He holds 7 patents, has transferred technology into several commercial products, and advises several companies and startups. He has been speaker and principal investigator of the Stratosphere research project that resulted in the "Apache Flink" big data analytics system. Dr. Markl currently serves as the secretary of the VLDB Endowment and was recently elected as one of Germany's leading "digital minds" (Digitale Köpfe) by the German Informatics Society (GI).</bio>
 			</authorInfo>
 		</paper>
 	</slot>
@@ -147,7 +161,7 @@
 			<room>Diamond 1</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 20.2 Chair</chair>
+		<chair>Jeffrey Yu</chair>
 		<paper>
 			<id>214</id>
 			<link>none</link>
@@ -198,7 +212,7 @@
 			<room>Diamond 2</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 2 Chair</chair>
+		<chair>Surajit Chaudhury</chair>
 		<paper>
 			<id>101</id>
 			<link>http://www.vldb.org/pvldb/vol7/p109-eravci.pdf</link>
@@ -252,7 +266,7 @@
 		<chair>Industrial 1 Chair</chair>
 		<paper>
 			<id>701</id>
-			<link>none</link>
+			<link>http://stratos.seas.harvard.edu/publications/joins-encoded-and-partitioned-data</link>
 			<title>Joins on Encoded and Partitioned Data</title>
 			<authors>Jae-Gil Lee* (KAIST)*),Gopi Attaluri (IBM Software Group)),Ronald Barber (IBM Almaden Research Center)),Naresh Chainani (IBM Software Group)),Oliver Draese (IBM Software Group)),Frederick Ho (IBM Informix)),Stratos Idreos (Harvard University)),Min-Soo Kim (DGIST)),Sam Lightstone (IBM Software Group)),Guy Lohman (IBM Almaden Research Center)),Konstantinos Morfonios (Oracle)),Keshava Murthy (IBM Informix)),Ippokratis Pandis (IBM Almaden)),Lin Qiao (LinkedIn)),Vijayshankar Raman (IBM Almaden Research Center)),Vincent Kulandai Samy (IBM Almaden Research Center)),Richard Sidle (IBM Almaden Research Center)),Knut Stolze (IBM Software Group)),Liping Zhang (IBM Software Group))</authors>
 			<abstract>Compression has historically been used to reduce the cost of storage, I/Os from that storage, and buffer pool utilization, at the expense of the CPU required to decompress data every time it is queried. However, significant additional CPU efficiencies can be achieved by deferring decompression as late in query processing as possible and performing query processing operations directly on the still-compressed data. In this paper, we investigate the benefits and challenges of performing joins on compressed (or encoded) data. We demonstrate the benefit of independently optimizing the compression scheme of each join column, even though join predicates relating values from multiple columns may require translation of the encoding of one join column into the encoding of the other. We also show the benefit of compressing "payload" data other than the join columns "on the fly," to minimize the size of hash tables used in the join. By partitioning the domain of each column and defining separate dictionaries for each partition, we can achieve even better overall compression as well as increased flexibility in dealing with new values introduced by updates. Instead of decompressing both join columns participating in a join to resolve their different compression schemes, our system performs a light-weight mapping of only qualifying rows from one of the join columns to the encoding space of the other at run time. Consequently, join predicates can be applied directly on the compressed data. We call this procedure encoding translation. Two alternatives of encoding translation are developed and compared in the paper. We provide a comprehensive evaluation of these alternatives using product implementations of each on the TPC-H data set, and demonstrate that performing joins on encoded and partitioned data achieves both superior performance and excellent compression.</abstract>
@@ -286,7 +300,7 @@
 			<room>Diamond 4</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 14 Chair</chair>
+		<chair>Kyuseok Shim</chair>
 		<paper>
 			<id>177</id>
 			<link>http://www.vldb.org/pvldb/vol7/p145-wang.pdf</link>
@@ -337,7 +351,7 @@
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 11 Chair</chair>
+		<chair>Lei Chen</chair>
 		<paper>
 			<id>161</id>
 			<link>http://www.vldb.org/pvldb/vol7/p229-budak.pdf</link>
@@ -480,7 +494,7 @@
 			<room>Diamond 1</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 24 Chair</chair>
+		<chair>Alexandra Meliou</chair>
 		<paper>
 			<id>251</id>
 			<link>http://www.vldb.org/pvldb/vol7/p457-deutch.pdf</link>
@@ -524,7 +538,7 @@
 			<room>Diamond 2</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 5.1 Chair</chair>
+		<chair>Alfons Kemper</chair>
 		<paper>
 			<id>118</id>
 			<link>http://www.vldb.org/pvldb/vol7/p853-klonatos.pdf</link>
@@ -601,7 +615,7 @@
 			<room>Diamond 4</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 15 Chair</chair>
+		<chair>Amr El Abbadi</chair>
 		<paper>
 			<id>183</id>
 			<link>http://www.vldb.org/pvldb/vol7/p425-anciaux.pdf</link>
@@ -645,7 +659,7 @@
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 10.1 Chair</chair>
+		<chair>Cong Yu</chair>
 		<paper>
 			<id>151</id>
 			<link>http://www.vldb.org/pvldb/vol7/p505-gupta.pdf</link>
@@ -802,7 +816,7 @@
 			<room>Diamond 1</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 7.2 Chair</chair>
+		<chair>Natassa Ailamaki</chair>
 		<paper>
 			<id>137</id>
 			<link>http://www.vldb.org/pvldb/vol7/p85-balkesen.pdf</link>
@@ -846,7 +860,7 @@
 			<room>Diamond 2</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 6 Chair</chair>
+		<chair>Chee Yong Chan</chair>
 		<paper>
 			<id>128</id>
 			<link>http://www.vldb.org/pvldb/vol7/p429-giannikis.pdf</link>
@@ -899,7 +913,7 @@
 			<room>Diamond 4</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 13 Chair</chair>
+		<chair>Wolfgang Lehner</chair>
 		<paper>
 			<id>172</id>
 			<link>http://research.microsoft.com/apps/pubs/default.aspx?id=218305</link>
@@ -943,7 +957,7 @@
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 21.2 Chair</chair>
+		<chair>Letizia Tanca</chair>
 		<paper>
 			<id>235</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1762-mottin.pdf</link>
@@ -1121,9 +1135,11 @@
 			<abstract>In this collaborative keynote address, we will share Google's experience in building a scalable data infrastructure that leverages datacenters for managing Google's advertising data over the last decade. In order to support the massive online advertising platform at Google, the data infrastructure must simultaneously support both transactional and analytical workloads. The focus of this talk will be to highlight how the datacenter architecture and the cloud computing paradigm has enabled us to manage the exponential growth in data volumes and user queries, make our services highly available and fault tolerant to massive datacenter outages, and deliver results with very low latencies. We note that other Internet companies have also undergone similar growth in data volumes and user queries. In fact, this phenomenon has resulted in at least two new terms in the technology lexicon: big data and cloud computing. Cloud computing (and datacenters) have been largely responsible for scaling the data volumes from terabytes range just a few years ago to now reaching in the exabyte range over the next couple of years. Delivering solutions at this scale that are fault-tolerant, latency sensitive, and highly available requires a combination of research advances with engineering ingenuity at Google and elsewhere. Next, we will try to answer the following question: is a datacenter just another (very large) computer? Or, does it fundamentally change the design principles for data-centric applications and systems. We will conclude with some of the unique research challenges that need to be addressed in order to sustain continuous growth in data volumes while supporting high throughput and low latencies.</abstract>
 			<authorInfo>
 				<photo>shivav-2.png</photo>
+				<bio>Shivakumar Venkataraman is Vice President of Engineering for Google's Advertising Infrastructure and Payments Systems. He received his BS in Computer Science from IIT, Madras in 1990 and received his MS and PhD in Computer Science from University of Wisconsin at Madison in 1991 and 1996 respectively. From 1996 to 2000, he worked as an Advisory Software Engineer with IBM working on the development of IBM's federated query optimizers and associated technologies. After leaving IBM in 2000, he worked with Cohera Corporation, PeopleSoft, Required Technologies, and AdeSoft. He also served as a Visiting Faculty member at UC Berkeley in 2002. He has been with Google since 2003 . At Google, Dr. Venkataraman is recognized for the vision in the development of critical technologies for databases: scalable distributed database management system F1, scalable data warehousing solution Mesa, scalable log-processing system Photon, among others.</bio>
 			</authorInfo>
 			<authorInfo>
 				<photo>agrawal.jpg</photo>
+				<bio>Divyakant Agrawal is a Professor of Computer Science and the Director of Engineering Computing Infrastructure at the University of California at Santa Barbara. His research expertise is in the areas of database systems, distributed computing, data warehousing, and large-scale information systems. Divy Agrawal is an ACM Distinguished Scientist (2010), an ACM Fellow (2012), and an IEEE Fellow (2012). His current interests are in the areas of scalable data management and data analysis in cloud computing environments, security and privacy of data in the cloud, and scalable analytics over social networks data and social media. In 2013-14, he was on a sabbatical leave from UCSB and served as a Visiting Scientist in the Advertising Infrastructure Group at Google, Inc. in Mountain View, CA. In 2014-15, he will be on leave from UCSB and will serve as a Director of Research in Data Analytics at Qatar Computing Research Institute.</bio>
 			</authorInfo>
 		</paper>
 	</slot>
@@ -1138,7 +1154,7 @@
 			<room>Diamond 1</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 18 Chair</chair>
+		<chair>Wenfei Fan</chair>
 		<paper>
 			<id>198</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1546-tao.pdf</link>
@@ -1189,7 +1205,7 @@
 			<room>Diamond 2</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 16 Chair</chair>
+		<chair>Yunyao Li</chair>
 		<paper>
 			<id>188</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1786-duan.pdf</link>
@@ -1277,7 +1293,7 @@
 			<room>Diamond 4</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 3 Chair</chair>
+		<chair>Feifei Li</chair>
 		<paper>
 			<id>107</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1594-rekatsinas.pdf</link>
@@ -1328,7 +1344,7 @@
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 22 Chair</chair>
+		<chair>Ihab Ilyas</chair>
 		<paper>
 			<id>240</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf</link>
@@ -1478,7 +1494,7 @@
 			<room>Diamond 1</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 20.1 Chair</chair>
+		<chair>Martin Theobald</chair>
 		<paper>
 			<id>209</id>
 			<link>http://www.vldb.org/pvldb/vol7/p401-yu.pdf</link>
@@ -1522,7 +1538,7 @@
 			<room>Diamond 2</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 23 Chair</chair>
+		<chair>Paul Larson</chair>
 		<paper>
 			<id>246</id>
 			<link>none</link>
@@ -1603,7 +1619,7 @@
 			<room>Diamond 4</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 12 Chair</chair>
+		<chair>Gustavo Alonso</chair>
 		<paper>
 			<id>167</id>
 			<link>none</link>
@@ -1647,7 +1663,7 @@
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 10.2 Chair</chair>
+		<chair>Luna Dong</chair>
 		<paper>
 			<id>156</id>
 			<link>http://www.vldb.org/pvldb/vol7/p837-aluc.pdf</link>
@@ -1855,7 +1871,7 @@
 			<room>Diamond 1</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 20.4 Chair</chair>
+		<chair>Mike Carey</chair>
 		<paper>
 			<id>225</id>
 			<link>http://www.vldb.org/pvldb/vol7/p577-salihoglu.pdf</link>
@@ -1905,7 +1921,7 @@
 			<room>Diamond 2</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 4 Chair</chair>
+		<chair>Bin Cui</chair>
 		<paper>
 			<id>113</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf</link>
@@ -1993,7 +2009,7 @@
 			<room>Diamond 4</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 1 Chair</chair>
+		<chair>Surajit Chaudhury</chair>
 		<paper>
 			<id>96</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1870-aduri.pdf</link>
@@ -2037,7 +2053,7 @@
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 9 Chair</chair>
+		<chair>Yannis Papakonstantinou</chair>
 		<paper>
 			<id>146</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1582-thirumuruganathan.pdf</link>
@@ -2206,7 +2222,7 @@
 			<room>Diamond 1</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 7.1 Chair</chair>
+		<chair>Ryan Johnson</chair>
 		<paper>
 			<id>133</id>
 			<link>http://web.cse.ohio-state.edu/hpcs/WWW/HTML/publications/papers/TR-14-3.pdf</link>
@@ -2243,7 +2259,7 @@
 			<room>Diamond 2</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 8 Chair</chair>
+		<chair>Peter Triantafillou</chair>
 		<paper>
 			<id>142</id>
 			<link>http://www.vldb.org/pvldb/vol7/p613-zhang.pdf</link>
@@ -2308,7 +2324,7 @@
 			<room>Diamond 4</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 17 Chair</chair>
+		<chair>Rui Zhang</chair>
 		<paper>
 			<id>194</id>
 			<link>http://www.vldb.org/pvldb/vol7/p745-liu.pdf</link>
@@ -2345,7 +2361,7 @@
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 21.1 Chair</chair>
+		<chair>Jun Yang</chair>
 		<paper>
 			<id>231</id>
 			<link>http://www.vldb.org/pvldb/vol7/p797-jugel.pdf</link>
@@ -2493,7 +2509,7 @@
 			<room>Diamond 1</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 20.3 Chair</chair>
+		<chair>Raymond Wong</chair>
 		<paper>
 			<id>220</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1690-zhao.pdf</link>
@@ -2537,7 +2553,7 @@
 			<room>Diamond 2</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 5.2 Chair</chair>
+		<chair>Jayant Haritsa</chair>
 		<paper>
 			<id>123</id>
 			<link>http://www.vldb.org/pvldb/vol7/p389-chester.pdf</link>
@@ -2611,7 +2627,7 @@
 			<room>Diamond 4</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 25 Chair</chair>
+		<chair>Sudipto Das</chair>
 		<paper>
 			<id>256</id>
 			<link>http://www.vldb.org/pvldb/vol7/p947-chairunnanda.pdf</link>
@@ -2655,7 +2671,7 @@
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Papers 19 Chair</chair>
+		<chair>Yoshi Ishikawa</chair>
 		<paper>
 			<id>204</id>
 			<link>none</link>
@@ -2797,6 +2813,9 @@
 			<link>http://prof.ict.ac.cn/bpoe_5_vldb</link>
 			<title>BPOE</title>
 			<authors>Jianfeng Zhan, Chinese Academy of Sciences</authors>
+			<abstract>Big data has emerged as a strategic property of nations and organizations. There are driving needs to generate values from big data. However, the sheer volume of big data requires significant storage capacity, transmission bandwidth, computations, and power consumption. It is expected that systems with unprecedented scales can resolve the problems caused by varieties of big data with daunting volumes. Nevertheless, without big data benchmarks, it is very difficult for big data owners to make choice on which system is best for meeting with their specific requirements. They also face challenges on how to optimize the systems and their solutions for specific or even comprehensive workloads. Meanwhile, researchers are also working on innovative data management systems, hardware architectures, operating systems, and programming systems to improve performance in dealing with big data.
+
+This workshop, the fifth its series, focuses on architecture and system support for big data systems, aiming at bringing researchers and practitioners from data management, architecture, and systems research communities together to discuss the research issues at the intersection of these areas.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -2812,6 +2831,7 @@
 			<link>none</link>
 			<title>PDA@IOT</title>
 			<authors>CHRISTOPHIDES Vassilis (ICS-FORTH Greece),Themis Palpanas (University of Trento),)</authors>
+			<abstract>Ubiquitous sensing in the emerging Internet of Things (IoT) permeates almost every facet of human activity. Quantified-self wearable devices enable self-tracking of any kind of biological, physical, health, or behavioral information, smart home sensors capture accurate indoor environmental information and energy consumption habits, residential gateways record in real-time usage information of communication and entertainment devices, while smart cars and phones trace the places and trajectories of our everyday life.  Fine-grained personal data are now massively created through active and passive monitoring of individuals and are mostly analyzed by vertical applications coupled with different kinds of IoT sensors (e.g., health and well-being, home automation, sustainable energy and urban planning). Clearly, the value of such big data is not yet exploited by their own creators. Besides privacy concerns and the challenges emerging in this context of private, resource-constrained networks of sensors, individuals are striving today for tools that can help them to gather, manage and make sense of all the personal data they produce.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -2827,6 +2847,7 @@
 			<link>http://events.sti2.at/bersys2014/</link>
 			<title>BeRSys</title>
 			<authors>Irini Fundulaki (ICS-FORTH Greece),Ioan Toma (University of Innsbruck),Ioana Manolescu (Inria Saclay France)</authors>
+			<abstract>Following the 1st International workshop on Benchmarking RDF Systems (BeRSys 2013) the aim of the BeRSys 2014 workshop is to provide a discussion forum where researchers and industrials can meet to discuss topics related to the performance of RDF systems. BeRSys 2014 is the only workshop dedicated to benchmarking different aspects of RDF engines - in the line of TPCTC series of workshops.The focus of the workshop is to expose and initiate discussions on best practices, different application needs and scenarios related to different aspects of RDF data management. </abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -2839,9 +2860,11 @@
 		<chair>SSW Chair</chair>
 		<paper>
 			<id>308</id>
-			<link>none</link>
+			<link>http://pamir.dia.uniroma3.it:8080/SSW2014/Home.html</link>
 			<title>SSW</title>
 			<authors>Roberto De Virgilio, Yahoo</authors>
+			<abstract>We are witnessing a smooth evolution of the Web from a worldwide information space of linked documents to a global knowledge base, composed of  semantically interconnected resources. To date, the correlated and semantically annotated data available on the web amounts to 25 billion RDF triples, interlinked by around 395 million RDF links. The continuous publishing and the integration of the plethora of semantic datasets from companies, government and public sector projects is leading to the creation of the so-called Web of Knowledge. Each semantic dataset contributes to extend the global knowledge and increases its reasoning capabilities. As a matter of facts, researchers are now looking with growing interest to semantic issues in this huge amount of correlated data available on the Web. Many progresses have been made in the field of semantic technologies, from formal models to repositories and reasoning engines. While the focus of many practitioners is on exploiting such semantic information to contribute to IR problems from a document centric point of view, we believe that such a vast, and constantly growing, amount of semantic data raises data management issues that must be faced in a dynamic, highly distributed and heterogeneous environment such as the Web.
+The fourth edition of the International Workshop on Semantic Search over the Web (SSW) will discuss about data management issues related to the search over the web and the relationships with semantic web technologies, proposing new models, languages and applications.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -2854,9 +2877,10 @@
 		<chair>TPCTC Chair</chair>
 		<paper>
 			<id>309</id>
-			<link>none</link>
+			<link>http://www.tpc.org/tpctc/tpctc2014/default.asp</link>
 			<title>TPCTC</title>
 			<authors>Raghunath Nambiar, CISCO</authors>
+			<abstract>The Transaction Processing Performance Council (TPC) is a non-profit organization established in August 1988. Over the past two decades, the TPC has had a significant impact on the computing industry’s use of industry-standard benchmarks. Vendors use TPC benchmarks to illustrate performance competitiveness for their existing products, and to improve and monitor the performance of their products under development. Many buyers use TPC benchmark results as points of comparison when purchasing new computing systems. The information technology landscape is evolving at a rapid pace, challenging industry experts and researchers to develop innovative techniques for evaluation, measurement and characterization of complex systems. The TPC remains committed to developing new benchmark standards to keep pace, and one vehicle for achieving this objective is the sponsorship of the Technology Conference on Performance Evaluation and Benchmarking (TPCTC). Over the last five years we have held TPCTC successfully in conjunction with VLDB.</abstract>
 		</paper>
 	</slot>
 </period>
