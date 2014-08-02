@@ -87,6 +87,16 @@ public class Warehouse {
             // InputStreamReader fis = new InputStreamReader(new
             // FileInputStream("dbTrento.html"));
             // get the XMLWorkerHelper Instance
+            
+            BufferedReader br = new BufferedReader(fis);
+            FileWriter fw = new FileWriter("tmp.html");
+            String tmp = null;
+            while((tmp=br.readLine())!=null)
+            {
+            	System.out.println(tmp);
+            	fw.write(tmp+"\n");
+            }
+            fw.close();
             XMLWorkerHelper worker = XMLWorkerHelper.getInstance();
             // convert to PDF
             worker.parseXHtml(pdfWriter, document, fis);
