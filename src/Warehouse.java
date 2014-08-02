@@ -71,17 +71,6 @@ public class Warehouse {
             // get Instance of the PDFWriter // Setup output
             pdfWriter = PdfWriter.getInstance(document, new FileOutputStream(pdffile));
 
-            // document header attributes
-            document.addAuthor("dbTrento");
-            document.addCreationDate();
-            document.addProducer();
-            document.addCreator("dbTrento");
-            document.addTitle("VLDB");
-            document.setPageSize(PageSize.A4);
-
-            // open document
-            document.open();
-
             // To convert a HTML file from the filesystem use FIS
             InputStreamReader fis = new InputStreamReader(new ByteArrayInputStream(htmlStream.toByteArray()));
             // InputStreamReader fis = new InputStreamReader(new
@@ -97,10 +86,12 @@ public class Warehouse {
             	fw.write(tmp+"\n");
             }
             fw.close();
-            
+            System.out.println("done");
+            /*
             XMLWorkerHelper worker = XMLWorkerHelper.getInstance();
             // convert to PDF
             worker.parseXHtml(pdfWriter, document, fis);
+            */
 
         }
         catch (Exception e)
@@ -111,7 +102,6 @@ public class Warehouse {
         finally
         {
             // close the document
-            document.close();
             // close the writer
             if (pdfWriter != null)
                 pdfWriter.close();
