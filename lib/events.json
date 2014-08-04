@@ -536,14 +536,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Approximate MaxRS in Spatial Databases written by Yufei Tao* (Chinese University of Hong Kong), Xiaocheng Hu (CUHK), dong-Wan Choi (KAIST), Chin-Wan Chung (KAIST)"
-},{"day":"Wednesday Sep 3rd",
-"fromHour": 10,
-"fromMin": 30,
-"toHour": 12,
-"toMin": 15,
-"location": "Diamond 1",
-"title": "Presentation of the paper: Authenticating Top-k Queries in Location-based Services with Confidentiality written by Qian Chen* (HKBU), Haibo Hu (Hong Kong Baptist University), Jianliang Xu (Hong Kong Baptist University)"
+"title": "Presentation of the paper: Finding Shortest Paths on Terrains by Killing Two Birds with One Stone written by Manohar Kaul* (Aarhus University), Raymond Chi-Wing Wong (Hong Kong University of Science and Technology), Bin Yang (Aarhus University), Christian Jensen (Aarhus University)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -557,7 +550,14 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Finding Shortest Paths on Terrains by Killing Two Birds with One Stone written by Manohar Kaul* (Aarhus University), Raymond Chi-Wing Wong (Hong Kong University of Science and Technology), Bin Yang (Aarhus University), Christian Jensen (Aarhus University)"
+"title": "Presentation of the paper: Approximate MaxRS in Spatial Databases written by Yufei Tao* (Chinese University of Hong Kong), Xiaocheng Hu (CUHK), dong-Wan Choi (KAIST), Chin-Wan Chung (KAIST)"
+},{"day":"Wednesday Sep 3rd",
+"fromHour": 10,
+"fromMin": 30,
+"toHour": 12,
+"toMin": 15,
+"location": "Diamond 1",
+"title": "Presentation of the paper: PRESS: A Novel Framework of Trajectory Compression in Road Networks written by Renchu Song (Fudan University), Weiwei Sun* (Fudan University), Baihua Zheng, Yu Zheng (Microsoft Research Asia)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -571,7 +571,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: PRESS: A Novel Framework of Trajectory Compression in Road Networks written by Renchu Song (Fudan University), Weiwei Sun* (Fudan University), Baihua Zheng, Yu Zheng (Microsoft Research Asia)"
+"title": "Presentation of the paper: Authenticating Top-k Queries in Location-based Services with Confidentiality written by Qian Chen* (HKBU), Haibo Hu (Hong Kong Baptist University), Jianliang Xu (Hong Kong Baptist University)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,

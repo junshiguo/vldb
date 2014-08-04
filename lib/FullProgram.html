@@ -1432,7 +1432,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 <h1 class="section" id="D2F1030T1215">Wednesday Sep 3rd 10:30-12:15 </h1>
 <div class="session_events_wrapper">
 <h2 class="session" onclick="" id="D2F1030T1215R1">
-<strong>Papers 18: Paths and Reachability</strong>
+<strong>Papers 18: Paths and Trajectories</strong>
 </h2>
 <h3 class="location">
 <strong>Location: Diamond 1</strong><img src="map.png" alt="map" title="Show map" class="paper_controls" onclick="TryOpen('../images/diamond.jpg')"></h3>
@@ -1441,21 +1441,12 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1546-tao.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title198">
-<strong>Approximate MaxRS in Spatial Databases</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p73-kaul.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title201">
+<strong>Finding Shortest Paths on Terrains by Killing Two Birds with One Stone</strong>
 </h4>
-<p>Yufei Tao* (Chinese University of Hong Kong), Xiaocheng Hu (CUHK), dong-Wan Choi (KAIST), Chin-Wan Chung (KAIST)</p>
+<p>Manohar Kaul* (Aarhus University), Raymond Chi-Wing Wong (Hong Kong University of Science and Technology), Bin Yang (Aarhus University), Christian Jensen (Aarhus University)</p>
 <div class="paper_content">
-<p>In the {\em maximizing range sum} (MaxRS) problem, given (i) a set $P$ of 2D points each of which is associated with a positive weight, and (ii) a rectangle $r$ of specific extents, we need to decide where to place $r$ in order to maximize the {\em covered weight} of $r$ -- that is, the total weight of the data points covered by $r$. Algorithms solving the problem exactly entail expensive CPU or I/O cost. In practice, exact answers are often not compulsory in a MaxRS application, where slight imprecision can often be comfortably tolerated, provided that approximate answers can be computed considerably faster. Motivated by this, the present paper studies the {\em  $(1-\eps)$-approximate MaxRS problem}, which admits the same inputs as MaxRS, but aims instead to return a rectangle whose covered weight is at least $(1-\eps) m^\*$, where $m^\*$ is the optimal covered weight, and $\eps$ can be an arbitrarily small constant between 0 and 1. We present fast algorithms that settle this problem with strong theoretical guarantees.</p>
-</div>
-</div>
-<div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p49-chen.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title199">
-<strong>Authenticating Top-k Queries in Location-based Services with Confidentiality</strong>
-</h4>
-<p>Qian Chen* (HKBU), Haibo Hu (Hong Kong Baptist University), Jianliang Xu (Hong Kong Baptist University)</p>
-<div class="paper_content">
-<p>State-of-the-art location-based services (LBSs) involve data owners, requesting clients, and service providers. As LBSs become new business opportunities, there is an increasing necessity to verify the genuineness of service results. Unfortunately, while traditional query authentication techniques can address this issue, they fail to protect the confidentiality of data, which is sensitive location information when LBSs are concerned. Recent work has studied how to preserve such location privacy in query authentication. However, the prior work is limited to range queries, where private values only appear on one side of the range comparison. In this paper, we address the more challenging authentication problem on top-k queries, where private values appear on both sides of a comparison. To start with, we propose two novel cryptographic building blocks, followed by a comprehensive design of authentication schemes for top-k queries based on R-tree and Power Diagram indexes. Optimizations, security analysis, and experimental results consistently show the effectiveness and robustness of the proposed schemes under various system settings and query workloads.</p>
+<p>With the increasing availability of terrain data, e.g., from aerial laser scans, the management of such data is attracting increasing attention in both industry and academia. In particular, spatial queries, e.g., k-nearest neighbor and reverse nearest neighbor queries, in Euclidean and spatial network spaces are being extended to terrains. Such queries all rely on an important operation, that of finding shortest surface distances. However, shortest surface distance computation is very time consuming. We propose techniques that enable efficient computation of lower and upper bounds of the shortest surface distance, which enable faster query processing by eliminating expensive distance computations. Empirical studies show that our bounds are much tighter than the best-known bounds in many cases and that they enable speedups of up to 43 times for some well-known spatial queries.</p>
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
@@ -1468,12 +1459,21 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p73-kaul.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title201">
-<strong>Finding Shortest Paths on Terrains by Killing Two Birds with One Stone</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1546-tao.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title198">
+<strong>Approximate MaxRS in Spatial Databases</strong>
 </h4>
-<p>Manohar Kaul* (Aarhus University), Raymond Chi-Wing Wong (Hong Kong University of Science and Technology), Bin Yang (Aarhus University), Christian Jensen (Aarhus University)</p>
+<p>Yufei Tao* (Chinese University of Hong Kong), Xiaocheng Hu (CUHK), dong-Wan Choi (KAIST), Chin-Wan Chung (KAIST)</p>
 <div class="paper_content">
-<p>With the increasing availability of terrain data, e.g., from aerial laser scans, the management of such data is attracting increasing attention in both industry and academia. In particular, spatial queries, e.g., k-nearest neighbor and reverse nearest neighbor queries, in Euclidean and spatial network spaces are being extended to terrains. Such queries all rely on an important operation, that of finding shortest surface distances. However, shortest surface distance computation is very time consuming. We propose techniques that enable efficient computation of lower and upper bounds of the shortest surface distance, which enable faster query processing by eliminating expensive distance computations. Empirical studies show that our bounds are much tighter than the best-known bounds in many cases and that they enable speedups of up to 43 times for some well-known spatial queries.</p>
+<p>In the {\em maximizing range sum} (MaxRS) problem, given (i) a set $P$ of 2D points each of which is associated with a positive weight, and (ii) a rectangle $r$ of specific extents, we need to decide where to place $r$ in order to maximize the {\em covered weight} of $r$ -- that is, the total weight of the data points covered by $r$. Algorithms solving the problem exactly entail expensive CPU or I/O cost. In practice, exact answers are often not compulsory in a MaxRS application, where slight imprecision can often be comfortably tolerated, provided that approximate answers can be computed considerably faster. Motivated by this, the present paper studies the {\em  $(1-\eps)$-approximate MaxRS problem}, which admits the same inputs as MaxRS, but aims instead to return a rectangle whose covered weight is at least $(1-\eps) m^\*$, where $m^\*$ is the optimal covered weight, and $\eps$ can be an arbitrarily small constant between 0 and 1. We present fast algorithms that settle this problem with strong theoretical guarantees.</p>
+</div>
+</div>
+<div id="booklet_data" class="booklet_paper_folded">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p661-song.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title203">
+<strong>PRESS: A Novel Framework of Trajectory Compression in Road Networks</strong>
+</h4>
+<p>Renchu Song (Fudan University), Weiwei Sun* (Fudan University), Baihua Zheng, Yu Zheng (Microsoft Research Asia)</p>
+<div class="paper_content">
+<p>Location data becomes more and more important. In this paper, we focus on the trajectory data, and propose a new framework, namely PRESS (Paralleled Road-Network-Based Trajectory Compression), to effectively compress trajectory data under road network constraints. Different from existing work, PRESS proposes a novel representation for trajectories to separate the spatial representation of a trajectory from the temporal representation, and proposes a Hybrid Spatial Compression (HSC) algorithm and error Bounded Temporal Compression (BTC) algorithm to compress the spatial and temporal information of trajectories respectively. PRESS also supports common spatial-temporal queries without fully decompressing the data. Through an extensive experimental study on real trajectory dataset, PRESS significantly outperforms existing approaches in terms of saving storage cost of trajectory data with bounded errors.</p>
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
@@ -1486,12 +1486,12 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p661-song.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title203">
-<strong>PRESS: A Novel Framework of Trajectory Compression in Road Networks</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p49-chen.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title199">
+<strong>Authenticating Top-k Queries in Location-based Services with Confidentiality</strong>
 </h4>
-<p>Renchu Song (Fudan University), Weiwei Sun* (Fudan University), Baihua Zheng, Yu Zheng (Microsoft Research Asia)</p>
+<p>Qian Chen* (HKBU), Haibo Hu (Hong Kong Baptist University), Jianliang Xu (Hong Kong Baptist University)</p>
 <div class="paper_content">
-<p>Location data becomes more and more important. In this paper, we focus on the trajectory data, and propose a new framework, namely PRESS (Paralleled Road-Network-Based Trajectory Compression), to effectively compress trajectory data under road network constraints. Different from existing work, PRESS proposes a novel representation for trajectories to separate the spatial representation of a trajectory from the temporal representation, and proposes a Hybrid Spatial Compression (HSC) algorithm and error Bounded Temporal Compression (BTC) algorithm to compress the spatial and temporal information of trajectories respectively. PRESS also supports common spatial-temporal queries without fully decompressing the data. Through an extensive experimental study on real trajectory dataset, PRESS significantly outperforms existing approaches in terms of saving storage cost of trajectory data with bounded errors.</p>
+<p>State-of-the-art location-based services (LBSs) involve data owners, requesting clients, and service providers. As LBSs become new business opportunities, there is an increasing necessity to verify the genuineness of service results. Unfortunately, while traditional query authentication techniques can address this issue, they fail to protect the confidentiality of data, which is sensitive location information when LBSs are concerned. Recent work has studied how to preserve such location privacy in query authentication. However, the prior work is limited to range queries, where private values only appear on one side of the range comparison. In this paper, we address the more challenging authentication problem on top-k queries, where private values appear on both sides of a comparison. To start with, we propose two novel cryptographic building blocks, followed by a comprehensive design of authentication schemes for top-k queries based on R-tree and Power Diagram indexes. Optimizations, security analysis, and experimental results consistently show the effectiveness and robustness of the proposed schemes under various system settings and query workloads.</p>
 </div>
 </div>
 <br>
