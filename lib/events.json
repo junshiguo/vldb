@@ -11,7 +11,7 @@
 "toHour": 10,
 "toMin": 0,
 "location": "Crystal",
-"title": "Presentation of the paper: Breaking the Chains: On Declarative Data Analysis and Data Independence in the Big Data Era written by Volker Markl, Technische Universit√§t Berlin"
+"title": "Presentation of the paper: Breaking the Chains: On Declarative Data Analysis and Data Independence in the Big Data Era written by Volker Markl, Technische Universit?t Berlin"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 8,
 "fromMin": 30,
@@ -88,6 +88,13 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
+"title": "Presentation of the paper: Simple, Fast, and Scalable Reachability Oracle written by Ruoming Jin*, Guan Wang (Kent State University)"
+},{"day":"Tuesday Sep 2nd",
+"fromHour": 10,
+"fromMin": 30,
+"toHour": 12,
+"toMin": 15,
+"location": "Diamond 1",
 "title": "Presentation of the paper: Reachability Querying: An Independent Permutation Labeling Approach written by Hao WEI* (The Chinese University f HK), Jeffrey Xu Yu (The Chinese University of Hong Kong), Can Lu (The Chinese University of Hong Kong), Ruoming Jin (Kent State University)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
@@ -95,14 +102,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Path Problems in Temporal Graphs written by Huanhuan Wu (CUHK), James Cheng* (CUHK), Silu Huang (CUHK), Yiping Ke (Institute of High Performance Computing), Yi Lu (CUHK), Yanyan Xu (CUHK)"
-},{"day":"Tuesday Sep 2nd",
-"fromHour": 10,
-"fromMin": 30,
-"toHour": 12,
-"toMin": 15,
-"location": "Diamond 1",
-"title": "Presentation of the paper: Simple, Fast, and Scalable Reachability Oracle written by Ruoming Jin*, Guan Wang (Kent State University)"
+"title": "Presentation of the paper: Toward a Distance Oracle for Billion-Node Graphs written by Zichao Qi, Yanghua Xiao* (Fudan University), Bin Shao, Haixun Wang (Google Research)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
@@ -116,14 +116,14 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Finding the Cost-Optimal Path with Time Constraint over Time-Dependent Graphs written by Yajun Yang* (Tianjin University), Hong Gao, Jeffrey Xu Yu (The Chinese University of Hong Kong), Jianzhong Li (Harbin Institute of Technology)"
+"title": "Presentation of the paper: Path Problems in Temporal Graphs written by Huanhuan Wu (CUHK), James Cheng* (CUHK), Silu Huang (CUHK), Yiping Ke (Institute of High Performance Computing), Yi Lu (CUHK), Yanyan Xu (CUHK)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Toward a Distance Oracle for Billion-Node Graphs written by Zichao Qi, Yanghua Xiao* (Fudan University), Bin Shao, Haixun Wang (Google Research)"
+"title": "Presentation of the paper: Finding the Cost-Optimal Path with Time Constraint over Time-Dependent Graphs written by Yajun Yang* (Tianjin University), Hong Gao, Jeffrey Xu Yu (The Chinese University of Hong Kong), Jianzhong Li (Harbin Institute of Technology)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
@@ -263,14 +263,14 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: RCSI: Scalable similarity search in thousand(s) of genomes written by Sebastian Wandelt* (Humboldt-Universit√§t zu Berlin), Johannes Starlinger, Marc Bux, Ulf Leser,)"
+"title": "Presentation of the paper: RCSI: Scalable similarity search in thousand(s) of genomes written by Sebastian Wandelt* (Humboldt-Universit?t zu Berlin), Johannes Starlinger, Marc Bux, Ulf Leser,)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: $\\Upsilon$-DB: Managing scientific hypotheses as uncertain data written by Bernardo Gon√ßalves* (LNCC), Fabio Porto (LNCC)"
+"title": "Presentation of the paper: $\\Upsilon$-DB: Managing scientific hypotheses as uncertain data written by Bernardo Gon?alves* (LNCC), Fabio Porto (LNCC)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
@@ -284,7 +284,7 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Similarity Search for Scientific Workflows written by Johannes Starlinger* (Humboldt-Universit√§t zu Berlin), Bryan Brancotte (Universit√© Paris-Sud), Sarah Cohen-Boulakia (Universit√© Paris-Sud), Ulf Leser$$$$$$$)"
+"title": "Presentation of the paper: Similarity Search for Scientific Workflows written by Johannes Starlinger* (Humboldt-Universit?t zu Berlin), Bryan Brancotte (Universit®¶ Paris-Sud), Sarah Cohen-Boulakia (Universit®¶ Paris-Sud), Ulf Leser$$$$$$$)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
@@ -368,7 +368,7 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 5",
-"title": "Presentation of the paper: Semantic Culturomics (Vision Paper) written by Fabian Suchanek* (T√©l√©com ParisTech), Nicoleta Preda (University of Versailles)"
+"title": "Presentation of the paper: Semantic Culturomics (Vision Paper) written by Fabian Suchanek* (T®¶l®¶com ParisTech), Nicoleta Preda (University of Versailles)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
@@ -438,7 +438,7 @@
 "toHour": 17,
 "toMin": 15,
 "location": "Diamond 2",
-"title": "Presentation of the paper: Optimizing Join Enumeration in Transformation-based Query Optimizers written by Anil Shanbhag* (IIT Bombay), S Sudarshan (IIT Bombay)"
+"title": "Presentation of the paper: Aggregation and Ordering in Factorised Databases written by Nurzhan Bakibayev (Oxford), Tomas Kocisky (Oxford), Dan Olteanu* (Oxford University), Jakub Zavodny (Oxford)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 15,
 "fromMin": 45,
@@ -459,7 +459,7 @@
 "toHour": 17,
 "toMin": 15,
 "location": "Diamond 2",
-"title": "Presentation of the paper: Aggregation and Ordering in Factorised Databases written by Nurzhan Bakibayev (Oxford), Tomas Kocisky (Oxford), Dan Olteanu* (Oxford University), Jakub Zavodny (Oxford)"
+"title": "Presentation of the paper: Optimizing Join Enumeration in Transformation-based Query Optimizers written by Anil Shanbhag* (IIT Bombay), S Sudarshan (IIT Bombay)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 15,
 "fromMin": 45,
@@ -501,6 +501,13 @@
 "toHour": 17,
 "toMin": 15,
 "location": "Diamond 5",
+"title": "Presentation of the paper: Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems [Vision Paper] written by Kristi Morton* (University of Washington), Magdalena Balazinska (University of Washington), Dan Grossman (University of Washington), Jock Mackinlay (Tableau Software)"
+},{"day":"Tuesday Sep 2nd",
+"fromHour": 15,
+"fromMin": 45,
+"toHour": 17,
+"toMin": 15,
+"location": "Diamond 5",
 "title": "Presentation of the paper: A Probabilistic Optimization Framework for the Empty-Answer Problem written by Davide Mottin*, Alice Marascu, Senjuti Basu Roy (Univ of Washington Tacoma), Gautam Das (University of Texas (Arlington), Themis Palpanas, Yannis Velegrakis,)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 15,
@@ -515,7 +522,7 @@
 "toHour": 17,
 "toMin": 15,
 "location": "Diamond 5",
-"title": "Presentation of the paper: Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems [Vision Paper] written by Kristi Morton* (University of Washington), Magdalena Balazinska (University of Washington), Dan Grossman (University of Washington), Jock Mackinlay (Tableau Software)"
+"title": "Presentation of the paper: A System for Management and Analysis of Preference Data written by Marie Jacob* (University Of Pennsylvania), Benny Kimelfeld (LogicBlox), Julia Stoyanovich (Drexel University)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 15,
 "fromMin": 45,
@@ -523,13 +530,6 @@
 "toMin": 15,
 "location": "Diamond 5",
 "title": "Presentation of the paper: An Approach towards the Study of Symmetric Queries written by Marc Gyssens* (Hasselt University), Jan Paredaens (University of Antwerp), Dirk Van Gucht (Indiana University), Jef Wijsen (University of Mons), Yuqing Wu (Indiana University)"
-},{"day":"Tuesday Sep 2nd",
-"fromHour": 15,
-"fromMin": 45,
-"toHour": 17,
-"toMin": 15,
-"location": "Diamond 5",
-"title": "Presentation of the paper: A System for Management and Analysis of Preference Data written by Marie Jacob* (University Of Pennsylvania), Benny Kimelfeld (LogicBlox), Julia Stoyanovich (Drexel University)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -564,7 +564,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Probabilistic Nearest Neighbor Queries on Uncertain Moving Object Trajectories written by Johannes Niedermayer* (LMU Munich), Andreas Z√ºfle, Tobias Emrich (University of Munich), Matthias Renz (Ludwig-Maximilians University Munich), Nikos Mamoulis (University of Hong Kong), Lei Chen (Hong Kong University of Science and Technology), Hans-Peter Kriegel$$$$$$$)"
+"title": "Presentation of the paper: Probabilistic Nearest Neighbor Queries on Uncertain Moving Object Trajectories written by Johannes Niedermayer* (LMU Munich), Andreas Z®πfle, Tobias Emrich (University of Munich), Matthias Renz (Ludwig-Maximilians University Munich), Nikos Mamoulis (University of Hong Kong), Lei Chen (Hong Kong University of Science and Technology), Hans-Peter Kriegel$$$$$$$)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -592,7 +592,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 2",
-"title": "Presentation of the paper: When Speed Has a Price: Fast Information Extraction Using Approximate Algorithms written by Gon√ßalo Sim√µes* (INESC-ID and Instituto Superior T√©cnico), Helena Galhardas (INESC-ID and Instituto Superior T√©cnico), Luis Gravano (Columbia University)"
+"title": "Presentation of the paper: When Speed Has a Price: Fast Information Extraction Using Approximate Algorithms written by Gon?alo Sim?es* (INESC-ID and Instituto Superior T®¶cnico), Helena Galhardas (INESC-ID and Instituto Superior T®¶cnico), Luis Gravano (Columbia University)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -662,7 +662,14 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 5",
-"title": "Presentation of the paper: Query-Driven Approach to Entity Resolution written by Hotham Altwaijry* (University of california - Irv), Dmitri Kalashnikov (UC Irvine), Sharad Mehrotra (University of California (Irvine)"
+"title": "Presentation of the paper: Scalable Discovery of Unique Column Combinations written by Arvid Heise* (Hasso-Plattner Institute), Jorge Quian®¶-Ruiz (QCRI), Ziawasch Abedjan (Hasso-Plattner Institute), Anja Jentzsch (Hasso-Plattner Institute), Felix Naumann (Hasso-Plattner Institute)"
+},{"day":"Wednesday Sep 3rd",
+"fromHour": 10,
+"fromMin": 30,
+"toHour": 12,
+"toMin": 15,
+"location": "Diamond 5",
+"title": "Presentation of the paper: Discovering Denial Constraints written by Xu Chu (University of Waterloo), Ihab Ilyas ( University of Waterloo), Paolo Papotti* (QCRI)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -676,7 +683,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 5",
-"title": "Presentation of the paper: Discovering Denial Constraints written by Xu Chu (University of Waterloo), Ihab Ilyas (QCRI), Paolo Papotti* (QCRI)"
+"title": "Presentation of the paper: Query-Driven Approach to Entity Resolution written by Hotham Altwaijry* (University of california - Irv), Dmitri Kalashnikov (UC Irvine), Sharad Mehrotra (University of California (Irvine)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -684,13 +691,6 @@
 "toMin": 15,
 "location": "Diamond 5",
 "title": "Presentation of the paper: Progressive Approach to Relational Entity Resolution written by Yasser Altowim* (UC Irvine), Dmitri Kalashnikov (University of California- Irvine), sharad Mehrotra (University of California- Irvine)"
-},{"day":"Wednesday Sep 3rd",
-"fromHour": 10,
-"fromMin": 30,
-"toHour": 12,
-"toMin": 15,
-"location": "Diamond 5",
-"title": "Presentation of the paper: Scalable Discovery of Unique Column Combinations written by Arvid Heise* (Hasso-Plattner Institute), Jorge Quian√©-Ruiz (QCRI), Ziawasch Abedjan (Hasso-Plattner Institute), Anja Jentzsch (Hasso-Plattner Institute), Felix Naumann (Hasso-Plattner Institute)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -739,7 +739,7 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 2",
-"title": "Presentation of the paper: QuEval: Beyond high-dimensional indexing √† la carte written by Martin Sch√§ler* (University of Magdeburg), Alexander Grebhahn (University of Passau), Reimar Schr√∂ter (University of Magdeburg), Sandro Schulze (TU Braunschweig), Veit K√∂ppen (University of Magdeburg), Gunter Saake (University of Magdeburg)"
+"title": "Presentation of the paper: QuEval: Beyond high-dimensional indexing ®§ la carte written by Martin Sch?ler* (University of Magdeburg), Alexander Grebhahn (University of Passau), Reimar Schr?ter (University of Magdeburg), Sandro Schulze (TU Braunschweig), Veit K?ppen (University of Magdeburg), Gunter Saake (University of Magdeburg)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 13,
 "fromMin": 45,
@@ -753,7 +753,7 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 2",
-"title": "Presentation of the paper: OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases written by Djellel Eddine Difallah* (University of fribourg), Andrew Pavlo (Carnegie Mellon University), Carlo Curino (Microsoft), Philippe Cudr√©-Mauroux (University of Fribourg)"
+"title": "Presentation of the paper: OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases written by Djellel Eddine Difallah* (University of fribourg), Andrew Pavlo (Carnegie Mellon University), Carlo Curino (Microsoft), Philippe Cudr®¶-Mauroux (University of Fribourg)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 13,
 "fromMin": 45,
@@ -767,7 +767,7 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 2",
-"title": "Presentation of the paper: Benchmarking Scalability and Elasticity of Distributed Database Systems [Experiments and Analysis Paper] written by J√∂rn Kuhlenkamp (KIT), Markus Klems* (KIT), Oliver R√∂ss (KIT)"
+"title": "Presentation of the paper: Benchmarking Scalability and Elasticity of Distributed Database Systems [Experiments and Analysis Paper] written by J?rn Kuhlenkamp (KIT), Markus Klems* (KIT), Oliver R?ss (KIT)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 13,
 "fromMin": 45,
@@ -858,7 +858,7 @@
 "toHour": 12,
 "toMin": 0,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Efficient Management of Spatial RDF Data written by John Liagouris (HKU), Nikos Mamoulis* (University of Hong Kong), Panagiotis Bouros (Humboldt-Universitaet zu Berlin), Manolis Terrovitis (IMIS `Athena')"
+"title": "Presentation of the paper: An Effective Encoding Scheme for Spatial RDF Data written by John Liagouris (HKU), Nikos Mamoulis* (University of Hong Kong), Panagiotis Bouros (Humboldt-Universitaet zu Berlin), Manolis Terrovitis (IMIS `Athena')"
 },{"day":"Thursday Sep 4th",
 "fromHour": 10,
 "fromMin": 15,
@@ -900,6 +900,20 @@
 "toHour": 12,
 "toMin": 0,
 "location": "Diamond 2",
+"title": "Presentation of the paper: The Uncracked Pieces in Database Cracking written by Felix Martin Schuhknecht* (Saarland University), Alekh Jindal (MIT), Jens  Dittrich (Saarland University)"
+},{"day":"Thursday Sep 4th",
+"fromHour": 10,
+"fromMin": 15,
+"toHour": 12,
+"toMin": 0,
+"location": "Diamond 2",
+"title": "Presentation of the paper: Efficient Bulk Updates on Multiversion B-trees written by Daniar Achakeev* (Philipps-Universit?t Marburg), Bernhard Seeger (University of Marburg)"
+},{"day":"Thursday Sep 4th",
+"fromHour": 10,
+"fromMin": 15,
+"toHour": 12,
+"toMin": 0,
+"location": "Diamond 2",
 "title": "Presentation of the paper: Bitlist: New Full-text Index for Low Space Cost and Efficient Keyword Search written by Weixiong Rao* (University of Helsinki), Lei Chen (Honk Kong University of Science and Technology), Pan Hui (HKUST (Telekom Innovation Laboratories (German,Berlin (Germany), Sasu Tarkoma (University of Helsinki (Finland)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 10,
@@ -908,20 +922,6 @@
 "toMin": 0,
 "location": "Diamond 2",
 "title": "Presentation of the paper: Streaming Similarity Search over one Billion Tweets using Parallel Locality-Sensitive Hashing written by Narayanan Sundaram* (Intel Corporation), Aizana Turmukhametova (MIT), Nadathur Satish (Intel Corporation), Todd Mostak (Harvard), Piotr Indyk (MIT), Sam Madden, Pradeep Dubey (Intel Corporation)"
-},{"day":"Thursday Sep 4th",
-"fromHour": 10,
-"fromMin": 15,
-"toHour": 12,
-"toMin": 0,
-"location": "Diamond 2",
-"title": "Presentation of the paper: The Uncracked Pieces in Database Cracking written by Felix Martin Schuhknecht* (Saarland University), Alekh Jindal (MIT), Jens  Dittrich (Saarland University)"
-},{"day":"Thursday Sep 4th",
-"fromHour": 10,
-"fromMin": 15,
-"toHour": 12,
-"toMin": 0,
-"location": "Diamond 2",
-"title": "Presentation of the paper: Efficient Bulk Updates on Multiversion B-trees written by Daniar Achakeev* (Philipps-Universit√§t Marburg), Bernhard Seeger (University of Marburg)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 10,
 "fromMin": 15,
@@ -949,7 +949,7 @@
 "toHour": 12,
 "toMin": 0,
 "location": "Diamond 4",
-"title": "Presentation of the paper: Instant Loading for Main Memory Databases written by Tobias M√ºhlbauer* (Technische Universit√§t M√ºnchen), Wolf Roediger (TUM), Robert Seilbeck (Technische Universit√§t M√ºnchen), Angelika Reiser (Technische Universit√§t M√ºnchen), Alfons Kemper (Technische Universit√§t M√ºnchen), Thomas Neumann (Technische Universit√§t M√ºnchen)"
+"title": "Presentation of the paper: Instant Loading for Main Memory Databases written by Tobias M®πhlbauer* (Technische Universit?t M®πnchen), Wolf Roediger (TUM), Robert Seilbeck (Technische Universit?t M®πnchen), Angelika Reiser (Technische Universit?t M®πnchen), Alfons Kemper (Technische Universit?t M®πnchen), Thomas Neumann (Technische Universit?t M®πnchen)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 10,
 "fromMin": 15,
@@ -1005,7 +1005,7 @@
 "toHour": 14,
 "toMin": 45,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Low-Latency Handshake Join written by Pratanu Roy* (ETH Zurich), Jens Teubner (TU Dortmund University), Rainer Gemulla (Max-Plack-Institut Saarbr√ºcken)"
+"title": "Presentation of the paper: Low-Latency Handshake Join written by Pratanu Roy* (ETH Zurich), Jens Teubner (TU Dortmund University), Rainer Gemulla (Max-Plack-Institut Saarbr®πcken)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 13,
 "fromMin": 30,
@@ -1285,7 +1285,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 3",
-"title": "Presentation of the paper: Fuxi: Fault Tolerant Resource Management and Job Scheduling System at Internet Scale written by Zhuo Zhang (Alibaba Cloud Computing)),Chao Li (Alibaba Cloud Computing)),Yangyu Tao (Alibaba Cloud Computing)),Renyu  Yang* (Beihang University)*),Jie Xu  (Beihang University (University of Leeds))"
+"title": "Presentation of the paper: Fuxi: a Fault-Tolerant Resource Management and Job Scheduling System at Internet Scale written by Zhuo Zhang (Alibaba Cloud Computing)),Chao Li (Alibaba Cloud Computing)),Yangyu Tao (Alibaba Cloud Computing)),Renyu  Yang* (Beihang University)*),Jie Xu  (Beihang University (University of Leeds))"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -1362,7 +1362,7 @@
 "toHour": 16,
 "toMin": 45,
 "location": "Diamond 3",
-"title": "Presentation of the paper: Large-Scale Graph Analytics in Aster 6:  Bringing Context to Big Data Discovery  written by David Simmen* (Teradata AsterÔºâ"
+"title": "Presentation of the paper: Large-Scale Graph Analytics in Aster 6: Bringing Context to Big Data Discovery written by David Simmen* (Teradata Aster£©"
 },{"day":"Thursday Sep 4th",
 "fromHour": 15,
 "fromMin": 15,
@@ -1390,21 +1390,21 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 3",
-"title": "Presentation of the paper: yzStack: Provisioning Customizable Solution for BigData written by Sai Wu (Zhejiang University) (Chun Chen (Zhejiang University) (Gang Chen (Zhejiang University) (Ke Chen (Zhejiang University) (Lidan Shou (Zhejiang University)), Hui Cao (yzBigData Co. (Ltd.)), He Bai (City Cloud Technology (Hangzhou) Co. (Ltd.))"
+"title": "Presentation of the paper: yzBigData: Provisioning Customizable Solution for Big Data written by Sai Wu (Zhejiang University) (Chun Chen (Zhejiang University) (Gang Chen (Zhejiang University) (Ke Chen (Zhejiang University) (Lidan Shou (Zhejiang University)), Hui Cao (yzBigData Co. (Ltd.)), He Bai (City Cloud Technology (Hangzhou) Co. (Ltd.))"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 3",
-"title": "Presentation of the paper: Realization of Low Cost and High Performance MySQLCloud Database written by Wei Cao (Alibaba Cloud Computing Inc.), Feng Yu (Alibaba Cloud Computing Inc.), Jiasen Xie (Alibaba Cloud Computing Inc.)"
+"title": "Presentation of the paper: Realization of the Low Cost and High Performance MySQL Cloud Database written by Wei Cao (Alibaba Cloud Computing Inc.), Feng Yu (Alibaba Cloud Computing Inc.), Jiasen Xie (Alibaba Cloud Computing Inc.)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 3",
-"title": "Presentation of the paper: Mariana: Tecent Deep Learning Platform and its Applications written by Yongqiang Zou (Tencent Inc.), Xing Jin (Tencent Inc.), Yi Li (Tencent Inc.), Zhimao Guo (Tencent Inc.), Eryu Wang (Tencent Inc.), Bin Xiao (Tencent Inc.) "
+"title": "Presentation of the paper: Mariana: Tencent Deep Learning Platform and its Applications written by Yongqiang Zou (Tencent Inc.), Xing Jin (Tencent Inc.), Yi Li (Tencent Inc.), Zhimao Guo (Tencent Inc.), Eryu Wang (Tencent Inc.), Bin Xiao (Tencent Inc.) "
 },{"day":"Thursday Sep 4th",
 "fromHour": 13,
 "fromMin": 30,
@@ -1572,14 +1572,14 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Pearl",
-"title": "Presentation of the paper: That's All Folks! Llunatic Goes Open Source written by Floris Geerts (University of Antwerp),Giansalvatore Mecca* (Universit√† della Basilicata),Paolo Papotti (QCRI),Donatello Santoro (Universit√† della Basilicata)"
+"title": "Presentation of the paper: That's All Folks! Llunatic Goes Open Source written by Floris Geerts (University of Antwerp),Giansalvatore Mecca* (Universit®§ della Basilicata),Paolo Papotti (QCRI),Donatello Santoro (Universit®§ della Basilicata)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 13,
 "fromMin": 45,
 "toHour": 15,
 "toMin": 15,
 "location": "Pearl",
-"title": "Presentation of the paper: That's All Folks! Llunatic Goes Open Source written by Floris Geerts (University of Antwerp),Giansalvatore Mecca* (Universit√† della Basilicata),Paolo Papotti (QCRI),Donatello Santoro (Universit√† della Basilicata)"
+"title": "Presentation of the paper: That's All Folks! Llunatic Goes Open Source written by Floris Geerts (University of Antwerp),Giansalvatore Mecca* (Universit®§ della Basilicata),Paolo Papotti (QCRI),Donatello Santoro (Universit®§ della Basilicata)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
@@ -1726,14 +1726,14 @@
 "toHour": 17,
 "toMin": 15,
 "location": "Pearl",
-"title": "Presentation of the paper: Ocelot\/HyPE: Optimized Data Processing on Heterogeneous Hardware written by Max Heimel* (TU Berlin),Sebastian Bre√ü (Unversity of Magdeburg),Michael Saecker (Parstream GmbH),Bastian Koecher (Technische University Berlin),Volker  Markl (TU Berlin),Gunter Saake (Unversity of Magdeburg)"
+"title": "Presentation of the paper: Ocelot\/HyPE: Optimized Data Processing on Heterogeneous Hardware written by Max Heimel* (TU Berlin),Sebastian Bre? (Unversity of Magdeburg),Michael Saecker (Parstream GmbH),Bastian Koecher (Technische University Berlin),Volker  Markl (TU Berlin),Gunter Saake (Unversity of Magdeburg)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 10,
 "fromMin": 15,
 "toHour": 12,
 "toMin": 0,
 "location": "Pearl",
-"title": "Presentation of the paper: Ocelot\/HyPE: Optimized Data Processing on Heterogeneous Hardware written by Max Heimel* (TU Berlin),Sebastian Bre√ü (Unversity of Magdeburg),Michael Saecker (Parstream GmbH),Bastian Koecher (Technische University Berlin),Volker  Markl (TU Berlin),Gunter Saake (Unversity of Magdeburg)"
+"title": "Presentation of the paper: Ocelot\/HyPE: Optimized Data Processing on Heterogeneous Hardware written by Max Heimel* (TU Berlin),Sebastian Bre? (Unversity of Magdeburg),Michael Saecker (Parstream GmbH),Bastian Koecher (Technische University Berlin),Volker  Markl (TU Berlin),Gunter Saake (Unversity of Magdeburg)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 15,
 "fromMin": 45,
@@ -2062,7 +2062,7 @@
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 3",
-"title": "Presentation of the paper: IMDM written by Justin Levandoski (Microsoft Research),Andy Pavlo (Carnegie Mellon University),Thomas Neumann (Technische Universit√§t M√ºnchen), Arun Jagatheesan (University of California (San Diego)"
+"title": "Presentation of the paper: IMDM written by Justin Levandoski (Microsoft Research),Andy Pavlo (Carnegie Mellon University),Thomas Neumann (Technische Universit?t M®πnchen), Arun Jagatheesan (University of California (San Diego)"
 },{"day":"Monday Sep 1st",
 "fromHour": 9,
 "fromMin": 0,

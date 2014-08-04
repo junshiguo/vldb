@@ -91,7 +91,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>PhD workshop Chair</chair>
 		<paper>
 			<id>304</id>
-			<link>none</link>
+			<link>http://vldb.org/2014/phd_workshop_proceedings.html</link>
 			<title>PhD workshop</title>
 			<authors>Erich Neuhold (University of Vienna),Yunyao Li (IBM)</authors>
 		</paper>
@@ -129,7 +129,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Industrial Keynote: Hasso Plattner; Academic Keynote: Volker Markl Chair</chair>
 		<paper>
 			<id>401</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1722-plattner.pdf</link>
 			<title>The Impact of Columnar In-Memory Databases on Enterprise Systems</title>
 			<authors>Hasso Plattner, University of Potsdam</authors>
 			<abstract>Five years ago I proposed a common database approach for transaction processing and analytical systems using a columnar in-memory database, disputing the common belief that column stores are not suitable for transactional workloads. Today, the concept has been widely adopted in academia and industry and it is proven that it is feasible to run analytical queries on large data sets directly on a redundancy-free schema, eliminating the need to maintain pre-built aggregate tables during data entry transactions. The resulting reduction in transaction complexity leads to a dramatic simplification of data models and applications, redefining the way we build enterprise systems. First analyses of productive applications adopting this concept confirm that system architectures enabled by in-memory column stores are conceptually superior for business transaction processing compared to row-based approaches. Additionally, our analyses show a shift of enterprise workloads to even more read-oriented processing due to the elimination of updates of transaction-maintained aggregates.</abstract>
@@ -140,7 +140,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>402</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1730-markl.pdf</link>
 			<title>Breaking the Chains: On Declarative Data Analysis and Data Independence in the Big Data Era</title>
 			<authors>Volker Markl, Technische Universität Berlin</authors>
 			<abstract>Data management research, systems, and technologies have drastically improved the availability of data analysis capabilities, particularly for non-experts, due in part to low-en-try barriers and reduced ownership costs (e.g., for data management infrastructures and applications). Major reasons for the widespread success of database systems and today’s multi-billion dollar data management market include data independence, separating physical representation and storage from the actual information, and declarative languages, separating the program specification from its intended execution environment. In contrast, today’s big data solutions do not offer data independence and declarative specification. As a result, big data technologies are mostly employed in newly-established companies with IT-savvy employees or in large well-established companies with big IT departments. We argue that current big data solutions will continue to fall short of widespread adoption, due to usability problems, despite the fact that in-situ data analytics technologies achieve a good degree of schema independence. In particular, we consider the lack of a declarative specification to be a major road-block, contributing to the scarcity in available data scientists available and limiting the application of big data to the IT-savvy industries. In particular, data scientists currently have to spend a lot of time on tuning their data analysis programs for specific data characteristics and a specific execution environment. We believe that the research com-munity needs to bring the powerful concepts of declarative specification to current data analysis systems, in order to achieve the broad big data technology adoption and effectively deliver the promise that novel big data technologies offer.</abstract>
@@ -163,11 +163,32 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</location>
 		<chair>Jeffrey Yu</chair>
 		<paper>
+			<id>216</id>
+			<link>http://www.vldb.org/pvldb/vol6/p1978-jin.pdf</link>
+			<title>Simple, Fast, and Scalable Reachability Oracle</title>
+			<authors>Ruoming Jin*, Guan Wang (Kent State University)</authors>
+			<abstract>A reachability oracle (or hop labeling) assigns each vertex v two sets of vertices: Lout(v) and Lin(v), such that u reaches v iff $L_{out}(u) \cap L_{in}(v) \neq \emptyset$.  Despite their simplicity and elegance,reachability oracles have failed to achieve efficiency in more than ten years since their introduction: the main problem is high constructioncost, which stems from a set-cover framework and theneed to materialize transitive closure. In this paper, we present two simple and efficient labeling algorithms, Hierarchical-Labeling and Distribution-Labeling, which can work onmassive real-world graphs:their construction time is an order of magnitude faster than the setcover based labeling approach, and transitive closure materialization is not needed. On large graphs, their index sizes and their query performance can now beat the state-of-the-art transitive closurecompression and online search approaches.</abstract>
+		</paper>
+		<paper>
 			<id>214</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1191-wei.pdf</link>
 			<title>Reachability Querying: An Independent Permutation Labeling Approach</title>
 			<authors>Hao WEI* (The Chinese University f HK), Jeffrey Xu Yu (The Chinese University of Hong Kong), Can Lu (The Chinese University of Hong Kong), Ruoming Jin (Kent State University)</authors>
 			<abstract>Reachability query is a fundamental graph operation which answers whether a vertex can reach another vertex over a large directed graph G with n vertices and m edges, and has been extensively studied. In the literature, all the approaches compute a label for every vertex in a graph G by index construction offline. The query time for answering reachability queries online is affected by the quality of the labels computed in index construction. The three main costs are the index construction time, the index size, and the query time. Some of the up-to-date approaches can answer reachability queries efficiently, but spend non-linear time to construct an index. Some of the up-to-date approaches construct an index in linear time and space, but may need to depth-first search G at run-time in O(n + m). In this paper, as the first, we propose a new randomized labeling approach to answer reachability queries, and the randomness is by independent permutation. We conduct extensive experimental studies to compare with the up-to-date approaches using 19 large real datasets used in the existing work and synthetic datasets. We confirm the efficiency of our approach.</abstract>
+		</paper>
+		<paper>
+			<id>219</id>
+			<link>http://www.vldb.org/pvldb/vol7/p61-xiao.pdf</link>
+			<title>Toward a Distance Oracle for Billion-Node Graphs</title>
+			<authors>Zichao Qi, Yanghua Xiao* (Fudan University), Bin Shao, Haixun Wang (Google Research)</authors>
+			<abstract>The emergence of real life graphs with billions of nodes poses significant challenges for managing and querying these graphs. One of the fundamental queries submitted to graphs is the shortest distance query. Online BFS (breadth-first search) and offline pre-computing pairwise shortest distances are prohibitive in time or space complexity for billion-node graphs. In this paper, we study the feasibility of building distance oracles for billion-node graphs.  A distance oracle provides approximate answers to shortest distance queries by using a pre-computed data structure for the graph. Sketch-based distance oracles are good candidates because they assign each vertex a sketch of bounded size, which means they have linear space complexity. However, state-of-the-art sketch-based distance oracles lack efficiency or accuracy when dealing with big graphs. In this paper, we address the scalability and accuracy issues by focusing on optimizing the three key factors that affect the performance of distance oracles: landmark selection, distributed BFS, and answer generation. We conduct extensive experiments on both real networks and synthetic networks to show that we can build distance oracles of affordable cost and efficiently answer shortest distance queries even for billion-node graphs.</abstract>
+		</paper>
+		<paper>
+			<id>217</id>
+			<link>http://www.vldb.org/pvldb/vol7/p1203-jiang.pdf</link>
+			<title>Hop Doubling Label Indexing for Point-to-Point Distance Querying on Scale-Free Networks</title>
+			<authors>Minhao Jiang* (HKUST), Ada Wai-Chee Fu (Chinese University of Hong Kong), Raymond Chi-Wing Wong (Hong Kong University of Science and Technology), Yanyan Xu (CUHK)</authors>
+			<abstract>We study the problem of point-to-point distance querying for massive scale-free graphs, which is important for numerous applications. Given a directed or undirected graph, we propose to build an index for answering such queries based on a novel hop-doubling labeling technique. We derive bounds on the index size, the computation costs and I/O costs based on the properties of unweighted scale-free graphs. We show that our method is much more efficient and effective compared to the state-of-the-art techniques, in terms of both querying time and indexing costs. Our empirical study shows that our method can handle graphs that are orders of magnitude larger than existing methods.</abstract>
 		</paper>
 		<paper>
 			<id>215</id>
@@ -177,32 +198,11 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<abstract>Shortest path is a fundamental graph problem with numerous applications. However, the concept of classic shortest path is insufficient or even flawed in a temporal graph, as the temporal information determines the order of activities along any path. In this paper, we show the shortcomings of classic shortest path in a temporal graph, and study various concepts of ``shortest'' path for temporal graphs. Computing these temporal paths is challenging as subpaths of a ``shortest'' path may not be ``shortest'' in a temporal graph. We investigate properties of the temporal paths and propose efficient algorithms to compute them. We tested our algorithms on real world temporal graphs to verify their efficiency, and also show that temporal paths are essential for studying temporal graphs by comparing shortest paths in normal static graphs.</abstract>
 		</paper>
 		<paper>
-			<id>216</id>
-			<link>http://www.vldb.org/pvldb/vol6/p1978-jin.pdf</link>
-			<title>Simple, Fast, and Scalable Reachability Oracle</title>
-			<authors>Ruoming Jin*, Guan Wang (Kent State University)</authors>
-			<abstract>A reachability oracle (or hop labeling) assigns each vertex v two sets of vertices: Lout(v) and Lin(v), such that u reaches v iff $L_{out}(u) \cap L_{in}(v) \neq \emptyset$.  Despite their simplicity and elegance,reachability oracles have failed to achieve efficiency in more than ten years since their introduction: the main problem is high constructioncost, which stems from a set-cover framework and theneed to materialize transitive closure. In this paper, we present two simple and efficient labeling algorithms, Hierarchical-Labeling and Distribution-Labeling, which can work onmassive real-world graphs:their construction time is an order of magnitude faster than the setcover based labeling approach, and transitive closure materialization is not needed. On large graphs, their index sizes and their query performance can now beat the state-of-the-art transitive closurecompression and online search approaches.</abstract>
-		</paper>
-		<paper>
-			<id>217</id>
-			<link>http://arxiv.org/abs/1403.0779</link>
-			<title>Hop Doubling Label Indexing for Point-to-Point Distance Querying on Scale-Free Networks</title>
-			<authors>Minhao Jiang* (HKUST), Ada Wai-Chee Fu (Chinese University of Hong Kong), Raymond Chi-Wing Wong (Hong Kong University of Science and Technology), Yanyan Xu (CUHK)</authors>
-			<abstract>We study the problem of point-to-point distance querying for massive scale-free graphs, which is important for numerous applications. Given a directed or undirected graph, we propose to build an index for answering such queries based on a novel hop-doubling labeling technique. We derive bounds on the index size, the computation costs and I/O costs based on the properties of unweighted scale-free graphs. We show that our method is much more efficient and effective compared to the state-of-the-art techniques, in terms of both querying time and indexing costs. Our empirical study shows that our method can handle graphs that are orders of magnitude larger than existing methods.</abstract>
-		</paper>
-		<paper>
 			<id>218</id>
 			<link>http://www.vldb.org/pvldb/vol7/p673-yang.pdf</link>
 			<title>Finding the Cost-Optimal Path with Time Constraint over Time-Dependent Graphs</title>
 			<authors>Yajun Yang* (Tianjin University), Hong Gao, Jeffrey Xu Yu (The Chinese University of Hong Kong), Jianzhong Li (Harbin Institute of Technology)</authors>
 			<abstract>Shortest path query is an important problem and has been well studied in static graphs. However, in practice, the costs of edges in graphs always change over time. We call such graphs as time-dependent graphs. In this paper, we study how to find a cost-optimal path with time constraint in time-dependent graphs. Most existing works regarding the Time-Dependent Shortest Path (TDSP) problem focus on finding a shortest path with the minimum travel time. All these works are based on the following fact: the earliest arrival time at a vertex v can be derived from the earliest arrival time at v's neighbors. Unfortunately, this fact does not hold for our problem. In this paper, we propose a novel algorithm to compute a cost-optimal path with time constraint in time-dependent graphs. We show that the time and space complexities of our algorithm are O(kn log n + mk) and O((n + m)k) respectively. We confirm the effectiveness and efficiency of our algorithm through conducting experiments on real datasets with synthetic cost.</abstract>
-		</paper>
-		<paper>
-			<id>219</id>
-			<link>http://www.vldb.org/pvldb/vol7/p61-xiao.pdf</link>
-			<title>Toward a Distance Oracle for Billion-Node Graphs</title>
-			<authors>Zichao Qi, Yanghua Xiao* (Fudan University), Bin Shao, Haixun Wang (Google Research)</authors>
-			<abstract>The emergence of real life graphs with billions of nodes poses significant challenges for managing and querying these graphs. One of the fundamental queries submitted to graphs is the shortest distance query. Online BFS (breadth-first search) and offline pre-computing pairwise shortest distances are prohibitive in time or space complexity for billion-node graphs. In this paper, we study the feasibility of building distance oracles for billion-node graphs.  A distance oracle provides approximate answers to shortest distance queries by using a pre-computed data structure for the graph. Sketch-based distance oracles are good candidates because they assign each vertex a sketch of bounded size, which means they have linear space complexity. However, state-of-the-art sketch-based distance oracles lack efficiency or accuracy when dealing with big graphs. In this paper, we address the scalability and accuracy issues by focusing on optimizing the three key factors that affect the performance of distance oracles: landmark selection, distributed BFS, and answer generation. We conduct extensive experiments on both real networks and synthetic networks to show that we can build distance oracles of affordable cost and efficiently answer shortest distance queries even for billion-node graphs.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -266,28 +266,28 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Industrial 1 Chair</chair>
 		<paper>
 			<id>701</id>
-			<link>http://stratos.seas.harvard.edu/publications/joins-encoded-and-partitioned-data</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1355-lee.pdf</link>
 			<title>Joins on Encoded and Partitioned Data</title>
 			<authors>Jae-Gil Lee* (KAIST)*),Gopi Attaluri (IBM Software Group)),Ronald Barber (IBM Almaden Research Center)),Naresh Chainani (IBM Software Group)),Oliver Draese (IBM Software Group)),Frederick Ho (IBM Informix)),Stratos Idreos (Harvard University)),Min-Soo Kim (DGIST)),Sam Lightstone (IBM Software Group)),Guy Lohman (IBM Almaden Research Center)),Konstantinos Morfonios (Oracle)),Keshava Murthy (IBM Informix)),Ippokratis Pandis (IBM Almaden)),Lin Qiao (LinkedIn)),Vijayshankar Raman (IBM Almaden Research Center)),Vincent Kulandai Samy (IBM Almaden Research Center)),Richard Sidle (IBM Almaden Research Center)),Knut Stolze (IBM Software Group)),Liping Zhang (IBM Software Group))</authors>
 			<abstract>Compression has historically been used to reduce the cost of storage, I/Os from that storage, and buffer pool utilization, at the expense of the CPU required to decompress data every time it is queried. However, significant additional CPU efficiencies can be achieved by deferring decompression as late in query processing as possible and performing query processing operations directly on the still-compressed data. In this paper, we investigate the benefits and challenges of performing joins on compressed (or encoded) data. We demonstrate the benefit of independently optimizing the compression scheme of each join column, even though join predicates relating values from multiple columns may require translation of the encoding of one join column into the encoding of the other. We also show the benefit of compressing "payload" data other than the join columns "on the fly," to minimize the size of hash tables used in the join. By partitioning the domain of each column and defining separate dictionaries for each partition, we can achieve even better overall compression as well as increased flexibility in dealing with new values introduced by updates. Instead of decompressing both join columns participating in a join to resolve their different compression schemes, our system performs a light-weight mapping of only qualifying rows from one of the join columns to the encoding space of the other at run time. Consequently, join predicates can be applied directly on the compressed data. We call this procedure encoding translation. Two alternatives of encoding translation are developed and compared in the paper. We provide a comprehensive evaluation of these alternatives using product implementations of each on the TPC-H data set, and demonstrate that performing joins on encoded and partitioned data achieves both superior performance and excellent compression.</abstract>
 		</paper>
 		<paper>
 			<id>702</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1452-ahmed.pdf</link>
 			<title>Of Snowstorms and Bushy Trees</title>
 			<authors>Rafi Ahmed* (Oracle)*),Rajkumar Sen (Oracle USA)),Meikel Poess (Oracle)),Sunil Chakkappen (Oracle USA))</authors>
 			<abstract>Many workloads for analytical processing in commercial RDBMSs are dominated by snowstorm queries, which are characterized by references to multiple large fact tables and their associated smaller dimension tables. This paper describes a technique for bushy join tree optimization for snowstorm queries in Oracle database system. This technique generates bushy join trees containing subtrees that produce substantially reduced sets of rows and, therefore, their joins with other subtrees are generally much more efficient than joins in the left-deep trees. The generation of bushy join trees within an existing commercial physical optimizer requires extensive changes to the optimizer. Further, the optimizer will have to consider a large join permutation search space to generate efficient bushy join trees. The novelty of the approach is that bushy join trees can be generated outside the physical optimizer using logical query transformation that explores a considerably pruned search space. The paper describes an algorithm for generating optimal bushy join trees for snowstorm queries using an existing query transformation framework. It also presents performance results for this optimization, which show significant execution time improvements.</abstract>
 		</paper>
 		<paper>
 			<id>703</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1462-vemuri.pdf</link>
 			<title>Execution Primitives for Scalable Joins and Aggregations in Map Reduce</title>
 			<authors>Srinivas Vemuri (Link)),Maneesh Varshney (LinkedIn)),Krishna Puttaswamy* (LinkedIn)*),Rui Liu (LinkedIn))</authors>
 			<abstract>Analytics on Big Data is critical to derive business insights and drive innovation in today's Internet companies. Such analytics involve complex computations on large datasets, and are typically performed on MapReduce based frameworks such as Hive and Pig. However, in our experience, these systems are still quite limited in performing at scale. In particular, calculations that involve complex joins and aggregations, e.g. statistical calculations, scale poorly on these systems. In this paper we propose novel primitives for scaling such calculations. We propose a new data model for organizing datasets into calculation data units that are organized based on user-defined cost functions. We propose new operators that take advantage of these organized data units to significantly speed up joins and aggregations. Finally, we propose strategies for dividing the aggregation load uniformly across worker processes that are very effective in avoiding skews and reducing (or in some cases even removing) the associated overheads. We have implemented all our proposed primitives in a framework called Rubix, which has been in production at LinkedIn for nearly a year. Rubix powers several applications and processes TBs of data each day. We have seen remarkable improvements in speed and cost of complex calculations due to these primitives.</abstract>
 		</paper>
 		<paper>
 			<id>704</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1484-bruno.pdf</link>
 			<title>Advanced Join Strategies for Large-Scale Distributed Computation</title>
 			<authors>Nico Bruno* (Microsoft)*),YONGCHUL KWON (Microsoft)),Ming-Chuan Wu (Microsoft))</authors>
 			<abstract>Companies providing cloud-scale data services have increasing needs to store and analyze massive data sets (e.g., search logs, click streams, and web graph data). For cost and performance reasons, processing is typically done on large clusters of thousands of commodity machines by using high level scripting languages. In the recent past, there has been significant progress in adapting well-known techniques from traditional relational DBMSs to this new scenario. However, important challenges remain open. In this paper we study the very common join operation, discuss some unique challenges in the large-scale distributed scenario, and explain how to efficiently and robustly process joins in a distributed way. Specifically, we introduce novel execution strategies that leverage opportunities not available in centralized scenarios, and others that robustly handle data skew. We report experimental validations of our approaches on Scope production clusters, which power the Applications and Services Group at Microsoft.</abstract>
@@ -324,7 +324,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>180</id>
-			<link>http://research.microsoft.com/apps/pubs/default.aspx?id=219607</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1059-dassarma.pdf</link>
 			<title>ClusterJoin: A Similarity Joins Framework using Map-Reduce</title>
 			<authors>Akash Das Sarma (Stanford University), Yeye He* (Microsoft Research), Surajit Chaudhuri (Microsoft Research)</authors>
 			<abstract>Similarity join is the problem of finding pairs of records with similarity score greater than some threshold. In this paper we study the problem of scaling up similarity join for different metric distance functions using Map Reduce. We propose a ClusterJoin framework that partitions the data space based on the underlying data distribution, and distributes each record to partitions in which they may produce join results based on the distance threshold. We design a set of strong candidate filters specific to different distance functions using a novel bisector-based framework, so that each record only needs to be distributed to a small number of partitions while still guaranteeing correctness. To address data skewness, which is common for high dimensional data, we further develop a dynamic load balancing scheme using sampling, which provides strong probabilistic guarantees on the size of partitions, and greatly improves scalability. Experimental evaluation using real data sets shows that our approach is considerably more scalable compared to state-of-the-art algorithms, especially for high dimensional data with low distance thresholds.</abstract>
@@ -525,7 +525,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>255</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1143-starlinger.pdf</link>
 			<title>Similarity Search for Scientific Workflows</title>
 			<authors>Johannes Starlinger* (Humboldt-Universität zu Berlin), Bryan Brancotte (Université Paris-Sud), Sarah Cohen-Boulakia (Université Paris-Sud), Ulf Leser$$$$$$$)</authors>
 			<abstract>With the increasing popularity of scientific workflows, public repositories are gaining importance as a means to share, find, and reuse such workflows. As the sizes of these repositories grow, methods to compare the scientific workflows stored in them become a necessity, for instance, to allow duplicate detection or similarity search. Scientific workflows are complex objects, and their comparison entails a number of distinct steps from comparing atomic elements to comparison of the workflows as a whole. Various studies have implemented methods for scientific workflow comparison and came up with often contradicting conclusions upon which algorithms work best. Comparing these results is cumbersome, as the original studies mixed different approaches for different steps and used different evaluation data and metrics. We contribute to the field (i) by disecting each previous approach into an explicitly defined and comparable set of subtasks, (ii) by comparing in isolation different approaches taken at each step of scientific workflow comparison, reporting on an number of unexpected findings, (iii) by investigating how these can best be combined into aggregated measures, and (iv) by making available a gold standard of over 2000 similarity ratings contributed by 15 workflow experts on a corpus of almost 1500 workflows and re-implementations of all methods we evaluated.</abstract>
@@ -548,21 +548,21 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>119</id>
-			<link>http://vldb.org/pvldb/vol5/p1942_ioannisalagiannis_vldb2012.pdf</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1119-karpathiotakis.pdf</link>
 			<title>Adaptive Query Processing on RAW Data</title>
 			<authors>Manos Karpathiotakis* (EPFL), Miguel Branco (EPFL), Ioannis Alagiannis (EPFL), Anastasia Ailamaki (EPFL)</authors>
 			<abstract>Database systems deliver impressive performance for large classes of workloads as the result of decades of research into optimizing database engines. High performance, however, is achieved at the cost of versatility. In particular, database systems only operate efficiently over loaded data, i.e., data converted from its original raw format into the system's internal data format. At the same time, data volume continues to increase exponentially and data varies increasingly, with an escalating number of new formats. The consequence is a growing impedance mismatch between the original structures holding the data in the raw files and the structures used by query engines for efficient processing. In an ideal scenario, the query engine would seamlessly adapt itself to the data and ensure efficient query processing regardless of the input data formats, optimizing itself to each instance of a file and of a query by leveraging information available at query time. Today's systems, however, force data to adapt to the query engine during data loading. This paper proposes adapting the query engine to the formats of raw data. It presents RAW, a prototype query engine which enables querying heterogeneous data sources transparently. RAW employs Just-In-Time access paths, which efficiently couple heterogeneous raw files to the query engine and reduce the overheads of traditional general-purpose scan operators. There are, however, inherent overheads with accessing raw data directly that cannot be eliminated, such as converting the raw values. Therefore, RAW also uses column shreds, ensuring that we pay these costs only for the subsets of raw data strictly needed by a query. We use RAW in a real-world scenario and achieve a two-order of magnitude speedup against the existing hand-written solution.</abstract>
 		</paper>
 		<paper>
 			<id>120</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1131-afrati.pdf</link>
 			<title>Storing and Querying Tree-Structured Records in Dremel</title>
 			<authors>Foto  Afrati* (National Technical University of Athens), Dan Delorey (Google), Mosha Pasumansky (Google), Jeffrey Ullman (Stanford University)</authors>
 			<abstract>We investigate nested relations, where each record has a schema. The schema is given by a hierarchical tree with nodes that are attributes with leaf attributes having values. We explore filter and aggregate queries that are given in a dialect of SQL. Complications arise because of {\em repeated} attributes, i.e., attributes that are allowed to have more than one values. We focus on a special class of queries that are processed in Dremel on column-stored data in a way that results in query processing time that is linear on the size of the relevant data, i.e., data stored in the columns that participate in the query. We formally define the data model, the query language and the algorithms for query processing in column-stored data. The concepts of repetition context and semi-flattening are introduced here that play a central role in understanding this class of queries and their algorithms.</abstract>
 		</paper>
 		<paper>
 			<id>121</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1095-nagel.pdf</link>
 			<title>Code generation for efficient query processing in managed runtimes</title>
 			<authors>Fabian Nagel* (University of Edinburgh), Gavin Bierman (Microsoft Research), Stratis Viglas (University of Edinburgh)</authors>
 			<abstract>In this paper we examine opportunities arising from the convergence of two trends in data management: in-memory database systems (IMDBs), which have received renewed attention following the availability of affordable, very large main memory systems; and language-integrated query, which transparently integrates database queries with programming languages (thus addressing the famous 'impedance mismatch' problem). Language-integrated query not only gives application developers a more convenient way to query external data sources like IMDBs, but also to use the same querying language to query an application's in-memory collections. The latter offers further transparency to developers as the query language and all data is represented in the data model of the host programming language. However, compared to IMDBs, this additional freedom comes at a higher cost for query evaluation. Our vision is to improve in-memory query processing of application objects by introducing database technologies to managed runtimes. We focus on querying and we leverage query compilation to improve query processing on application objects. We explore different query compilation strategies and study how they improve the performance of query processing over application data. We take C# as the host programming language as it supports language-integrated query through the LINQ framework. Our techniques deliver significant performance improvements over the default LINQ implementation. Our work makes important first steps towards a future where data processing applications will commonly run on machines that can store their entire datasets in-memory, and will be written in a single programming language employing language-integrated query and IMDB-inspired runtimes to provide transparent and highly efficient querying.</abstract>
@@ -582,29 +582,29 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<room>Diamond 3</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Local Industrial 1 Chair</chair>
+		<chair>陈刚</chair>
 		<paper>
 			<id>601</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1748-baidu.pdf</link>
 			<title>Fatman: Cost-saving and reliable archival storage based on volunteer resources</title>
 			<authors>An Qin (Baidu, Inc), Dianming Hu (Baidu, Inc), Jun Liu (Baidu, Inc), Wenjun Yang (Baidu, Inc), Dai Tan (Baidu, Inc)</authors>
 		</paper>
 		<paper>
 			<id>602</id>
-			<link>none</link>
-			<title>yzStack: Provisioning Customizable Solution for BigData</title>
+			<link>http://www.vldb.org/pvldb/vol7/p1778-yzbigdata.pdf</link>
+			<title>yzBigData: Provisioning Customizable Solution for Big Data</title>
 			<authors>Sai Wu (Zhejiang University) (Chun Chen (Zhejiang University) (Gang Chen (Zhejiang University) (Ke Chen (Zhejiang University) (Lidan Shou (Zhejiang University)), Hui Cao (yzBigData Co. (Ltd.)), He Bai (City Cloud Technology (Hangzhou) Co. (Ltd.))</authors>
 		</paper>
 		<paper>
 			<id>603</id>
-			<link>none</link>
-			<title>Realization of Low Cost and High Performance MySQLCloud Database</title>
+			<link>http://www.vldb.org/pvldb/vol7/p1742-alibaba.pdf</link>
+			<title>Realization of the Low Cost and High Performance MySQL Cloud Database</title>
 			<authors>Wei Cao (Alibaba Cloud Computing Inc.), Feng Yu (Alibaba Cloud Computing Inc.), Jiasen Xie (Alibaba Cloud Computing Inc.)</authors>
 		</paper>
 		<paper>
 			<id>604</id>
-			<link>none</link>
-			<title>Mariana: Tecent Deep Learning Platform and its Applications</title>
+			<link>http://www.vldb.org/pvldb/vol7/p1772-tencent.pdf</link>
+			<title>Mariana: Tencent Deep Learning Platform and its Applications</title>
 			<authors>Yongqiang Zou (Tencent Inc.), Xing Jin (Tencent Inc.), Yi Li (Tencent Inc.), Zhimao Guo (Tencent Inc.), Eryu Wang (Tencent Inc.), Bin Xiao (Tencent Inc.) </authors>
 		</paper>
 	</slot>
@@ -669,7 +669,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>152</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1215-suchanek.pdf</link>
 			<title>Semantic Culturomics (Vision Paper)</title>
 			<authors>Fabian Suchanek* (Télécom ParisTech), Nicoleta Preda (University of Versailles)</authors>
 			<abstract>Newspapers are testimonials of history. The same is increasingly true of social media such as online forums, online communities, and blogs. By looking at the sequence of articles over time, one can discover the birth and the development of trends that marked society and history -- a field known as Culturomics. But Culturomics has so far been limited to statistics on keywords. In this vision paper, we argue that the advent of large knowledge bases (such as YAGO, NELL, DBpedia, and Freebase) will revolutionize the field. If their knowledge is combined with the news articles, it can breathe life into what is otherwise just a sequence of words for a machine. This will allow discovering trends in history and culture, explaining them through explicit logical rules, and making predictions about the events of the future. We predict that this could open up a new field of research, "Semantic Culturomics", in which no longer human text helps machines build up knowledge bases, but knowledge bases help humans understand their society.</abstract>
@@ -847,7 +847,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>141</id>
-			<link>http://arxiv-web3.library.cornell.edu/pdf/1403.7550</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1283-zhang.pdf</link>
 			<title>DimmWitted: A Study of Main-Memory Statistical Analytics</title>
 			<authors>Ce Zhang* (University of Wisconsin-Madison), Chris Re (Stanford)</authors>
 			<abstract>We perform the first study of the tradeoff space of access methods and replication to support statistical analytics using first-order methods executed in the main memory of a Non-Uniform Memory Access (NUMA) machine. Statistical analytics systems differ from conventional SQL-analytics in the amount and types of memory incoherence that they can tolerate. Our goal is to understand tradeoffs in accessing the data in row- or column-order and at what granularity one should share the model and data for a statistical task. We study this new tradeoff space and discover that there are tradeoffs between hardware and statistical efficiency. We argue that our tradeoff study may provide valuable information for designers of analytics engines: for each system we consider, our prototype engine can run at least one popular task at least 100x faster. We conduct our study across five architectures using popular models, including SVMs, logistic regression, Gibbs sampling, and neural networks.</abstract>
@@ -869,11 +869,11 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<abstract>As a result of increases in both the query load and the data managed, as well as changes in hardware architecture (multicore), the last years have seen a shift from query-at-a-time approaches towards shared work (SW) systems where queries are executed in groups. Such groups share operators like scans and joins, leading to systems that process hundreds to thousands of queries in one go.    SW systems range from storage engines that use in-memory cooperative scans to more complex query processing engines that share joins over analytical and star schema queries. In all cases, they rely on either single query optimizers, predicate sharing, or on manually generated plans. In this paper we explore the problem of shared workload optimization (SWO) for SW systems. The challenge in doing so is that the optimization has to be done for the entire workload and that results in a class of stochastic knapsack with uncertain weights optimization, which can only be addressed with heuristics to achieve a reasonable runtime. In this paper we focus on hash joins and shared scans and present a first algorithm capable of optimizing the execution of entire workloads by deriving a global executing plan for all the queries in the system. We evaluate the optimizer over the TPC-W and the TPC-H benchmarks. The results prove the feasibility of this approach and demonstrate the performance gains that can be obtained from SW systems.</abstract>
 		</paper>
 		<paper>
-			<id>129</id>
-			<link>none</link>
-			<title>Optimizing Join Enumeration in Transformation-based Query Optimizers</title>
-			<authors>Anil Shanbhag* (IIT Bombay), S Sudarshan (IIT Bombay)</authors>
-			<abstract>Query optimizers built on the Volcano/Cascades framework, which is based on transformation rules, are used in many commercial databases. Transformation rulesets proposed earlier for join order enumeration in such a framework either allow enumeration of joins with cross-products (which can significantly increase the cost of optimization), or generate a large number of duplicate derivations. In this paper we propose two new rulesets for generating all cross-product free join trees. One of the rulesets is a minor extension of a simple but inefficient ruleset, which we prove is complete (we also show that a naive extension of an efficient ruleset leads to incompleteness). We then propose an efficient new ruleset, which is based on techniques proposed recently for top-down join order enumeration, but unlike earlier work it is cleanly integrated into the Volcano/Cascades framework, and can be used in conjunction with other transformation rules. We show that our ruleset is complete (i.e., it generates the entire search space without cross products) while avoiding inefficiency due to duplicate derivations. We have implemented this ruleset in the PyroJ Optimizer (an implementation of the Volcano optimizer framework) and show that it significantly outperforms the alternatives, in some cases by up to two orders of magnitude, in terms of time taken.</abstract>
+			<id>132</id>
+			<link>http://www.vldb.org/pvldb/vol6/p1990-zavodny.pdf</link>
+			<title>Aggregation and Ordering in Factorised Databases</title>
+			<authors>Nurzhan Bakibayev (Oxford), Tomas Kocisky (Oxford), Dan Olteanu* (Oxford University), Jakub Zavodny (Oxford)</authors>
+			<abstract>A common approach to data analysis involves understanding and  manipulating succinct representations of data. In earlier work, we  put forward a succinct representation system for relational data  called factorised databases and reported on the main-memory query  engine FDB for select-project-join queries on such databases.  In this paper, we extend FDB to support a larger class of practical  queries with aggregates and ordering. This requires novel  optimisation and evaluation techniques. We show how factorisation  coupled with partial aggregation can effectively reduce the number  of operations needed for query evaluation. We also show how  factorisations of query results can support enumeration of tuples in  desired orders as efficiently as listing them from the unfactorised,  sorted results.  We experimentally observe that FDB can outperform off-the-shelf  relational engines by orders of magnitude.</abstract>
 		</paper>
 		<paper>
 			<id>130</id>
@@ -890,11 +890,11 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<abstract>Finding the optimal execution order of join operations is a crucial task of today’s cost-based query optimizers. There are two approaches to identify the best plan: bottom-up and top-down join enumeration. But only the top-down approach allows for branch-and-bound pruning, which can improve compile time by several orders of magnitude while still preserving optimality. For both optimization strategies, efficient enumeration algorithms have been published. However, there are two severe limitations for the top-down approach: The published algorithms can handle only (1) simple (binary) join predicates and (2) inner joins. Since real queries may contain complex join predicates involving more than two relations, and outer joins as well as other non-inner joins, efficient top-down join enumeration cannot be used in practice yet. We develop a novel top-down join enumeration algorithm that overcomes these two limitations. Furthermore, we show that our new algorithm is competitive when compared to the state of the art in bottom-up processing even without playing out its advantage by making use of its branch-and-bound pruning capabilities.</abstract>
 		</paper>
 		<paper>
-			<id>132</id>
-			<link>http://www.vldb.org/pvldb/vol6/p1990-zavodny.pdf</link>
-			<title>Aggregation and Ordering in Factorised Databases</title>
-			<authors>Nurzhan Bakibayev (Oxford), Tomas Kocisky (Oxford), Dan Olteanu* (Oxford University), Jakub Zavodny (Oxford)</authors>
-			<abstract>A common approach to data analysis involves understanding and  manipulating succinct representations of data. In earlier work, we  put forward a succinct representation system for relational data  called factorised databases and reported on the main-memory query  engine FDB for select-project-join queries on such databases.  In this paper, we extend FDB to support a larger class of practical  queries with aggregates and ordering. This requires novel  optimisation and evaluation techniques. We show how factorisation  coupled with partial aggregation can effectively reduce the number  of operations needed for query evaluation. We also show how  factorisations of query results can support enumeration of tuples in  desired orders as efficiently as listing them from the unfactorised,  sorted results.  We experimentally observe that FDB can outperform off-the-shelf  relational engines by orders of magnitude.</abstract>
+			<id>129</id>
+			<link>http://www.vldb.org/pvldb/vol7/p1243-shanbhag.pdf</link>
+			<title>Optimizing Join Enumeration in Transformation-based Query Optimizers</title>
+			<authors>Anil Shanbhag* (IIT Bombay), S Sudarshan (IIT Bombay)</authors>
+			<abstract>Query optimizers built on the Volcano/Cascades framework, which is based on transformation rules, are used in many commercial databases. Transformation rulesets proposed earlier for join order enumeration in such a framework either allow enumeration of joins with cross-products (which can significantly increase the cost of optimization), or generate a large number of duplicate derivations. In this paper we propose two new rulesets for generating all cross-product free join trees. One of the rulesets is a minor extension of a simple but inefficient ruleset, which we prove is complete (we also show that a naive extension of an efficient ruleset leads to incompleteness). We then propose an efficient new ruleset, which is based on techniques proposed recently for top-down join order enumeration, but unlike earlier work it is cleanly integrated into the Volcano/Cascades framework, and can be used in conjunction with other transformation rules. We show that our ruleset is complete (i.e., it generates the entire search space without cross products) while avoiding inefficiency due to duplicate derivations. We have implemented this ruleset in the PyroJ Optimizer (an implementation of the Volcano optimizer framework) and show that it significantly outperforms the alternatives, in some cases by up to two orders of magnitude, in terms of time taken.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -959,6 +959,13 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</location>
 		<chair>Letizia Tanca</chair>
 		<paper>
+			<id>237</id>
+			<link>http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf</link>
+			<title>Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems [Vision Paper]</title>
+			<authors>Kristi Morton* (University of Washington), Magdalena Balazinska (University of Washington), Dan Grossman (University of Washington), Jock Mackinlay (Tableau Software)</authors>
+			<abstract>We present a vision of next-generation visual analytics services. We argue that these services should provide three related capabilities:support visual and interactive data exploration as they do today, but also suggest relevant data to enrich visualizations, and facilitate the integration and cleaning of that data. Most importantly, they should provide all these capabilities seamlessly in the context of an uninterrupted data analysis cycle. We present the challenges and opportunities in building such next-generation visual analytics services.</abstract>
+		</paper>
+		<paper>
 			<id>235</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1762-mottin.pdf</link>
 			<title>A Probabilistic Optimization Framework for the Empty-Answer Problem</title>
@@ -973,11 +980,11 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<abstract>Our news are saturated with claims of ``facts'' made from data. Database research has in the past focused on how to answer queries, but has not devoted much attention to discerning more subtle qualities of the resulting claims, e.g., is a claim ``cherry-picking''?  This paper proposes a framework that models claims based on structured data as parameterized queries. A key insight is that we can learn a lot about a claim by perturbing its parameters and seeing how its conclusion changes.  This framework lets us formulate practical fact-checking tasks---reverse-engineering (often intentionally) vague claims, and countering questionable claims---as computational problems.  Along with the modeling framework, we develop an algorithmic framework that enables efficient instantiations of ``meta'' algorithms by supplying appropriate algorithmic building blocks. We present real-world examples and experiments that demonstrate the power of our model, efficiency of our algorithms, and usefulness of their results.</abstract>
 		</paper>
 		<paper>
-			<id>237</id>
-			<link>http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf</link>
-			<title>Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems [Vision Paper]</title>
-			<authors>Kristi Morton* (University of Washington), Magdalena Balazinska (University of Washington), Dan Grossman (University of Washington), Jock Mackinlay (Tableau Software)</authors>
-			<abstract>We present a vision of next-generation visual analytics services. We argue that these services should provide three related capabilities:support visual and interactive data exploration as they do today, but also suggest relevant data to enrich visualizations, and facilitate the integration and cleaning of that data. Most importantly, they should provide all these capabilities seamlessly in the context of an uninterrupted data analysis cycle. We present the challenges and opportunities in building such next-generation visual analytics services.</abstract>
+			<id>239</id>
+			<link>http://www.vldb.org/pvldb/vol7/p1255-jacob.pdf</link>
+			<title>A System for Management and Analysis of Preference Data</title>
+			<authors>Marie Jacob* (University Of Pennsylvania), Benny Kimelfeld (LogicBlox), Julia Stoyanovich (Drexel University)</authors>
+			<abstract>Over the past decade, the need to analyze large volumes of rankings and preferences has arisen in applications in different domains. Examples include rank aggregation in genomic data analysis, management of votes in elections, and recommendation systems in e-commerce. The scientific community has established a rich literature of paradigms and algorithms for analyzing preference data. However, little focus has been paid to the challenges of building a system for preference-data management, such as incorporation into larger applications, computational abstractions for usability by data scientists, and scaling up to modern volumes. This vision paper proposes a management system for preference data that aims to address these challenges. We adopt the relational database model, and propose extensions that are specialized to handling preference data. In particular, we introduce a special type of a relation that is designed to represent and store preference data. Moreover, we propose a type of composable operations on preference relations (which we call preference-to-preference functions) that can be embedded in SQL statements in a natural fashion; we illustrate their ability to represent common analytics, as well as their ease of use. Each such an operation can be registered as a database primitive, and hence, can be reused across different applications. We outline the challenges in the establishment of such a system, like the translation of known concepts and algorithms into effective solutions for applications in different domains.</abstract>
 		</paper>
 		<paper>
 			<id>238</id>
@@ -985,13 +992,6 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<title>An Approach towards the Study of Symmetric Queries</title>
 			<authors>Marc Gyssens* (Hasselt University), Jan Paredaens (University of Antwerp), Dirk Van Gucht (Indiana University), Jef Wijsen (University of Mons), Yuqing Wu (Indiana University)</authors>
 			<abstract>Many data-intensive applications have to query a database that involves sequences of sets of objects. It is not uncommon that the order of the sets in such a sequence does not affect the result of the query. Such queries are called symmetric. In this paper, the authors wish to initiate research on symmetric queries.     Thereto, a data model is proposed in which a binary relation between objects and set names encodes set membership. On this data model, two query languages are introduced, QuineCALC and SyCALC. They are correlated in a manner that is made precise with the symmetric Boolean functions of Quine, respectively  symmetric relational functions, on sequences of sets of given length. The latter do not only involve the Boolean operations union, intersection, and complement, but also projection and Cartesian product. Quine's characterization of symmetric Boolean functions in terms of incidence information is generalized to QuineCALC queries. In the process, an incidence-based normal form for QuineCALC queries is proposed.     Inspired by these desirable incidence-related properties of  QuineCALC queries, counting-only queries are introduced as SyCALC queries for which the result only depends on incidence information.  Counting-only queries are then characterized as quantified Boolean combinations of QuineCALC queries, and a normal form is proposed for them as well. Finally, it is shown that, while it is undecidable whether a SyCALC query is counting-only, it is decidable whether a counting-only query is a QuineCALC query.</abstract>
-		</paper>
-		<paper>
-			<id>239</id>
-			<link>none</link>
-			<title>A System for Management and Analysis of Preference Data</title>
-			<authors>Marie Jacob* (University Of Pennsylvania), Benny Kimelfeld (LogicBlox), Julia Stoyanovich (Drexel University)</authors>
-			<abstract>Over the past decade, the need to analyze large volumes of rankings and preferences has arisen in applications in different domains. Examples include rank aggregation in genomic data analysis, management of votes in elections, and recommendation systems in e-commerce. The scientific community has established a rich literature of paradigms and algorithms for analyzing preference data. However, little focus has been paid to the challenges of building a system for preference-data management, such as incorporation into larger applications, computational abstractions for usability by data scientists, and scaling up to modern volumes. This vision paper proposes a management system for preference data that aims to address these challenges. We adopt the relational database model, and propose extensions that are specialized to handling preference data. In particular, we introduce a special type of a relation that is designed to represent and store preference data. Moreover, we propose a type of composable operations on preference relations (which we call preference-to-preference functions) that can be embedded in SQL statements in a natural fashion; we illustrate their ability to represent common analytics, as well as their ease of use. Each such an operation can be registered as a database primitive, and hence, can be reused across different applications. We outline the challenges in the establishment of such a system, like the translation of known concepts and algorithms into effective solutions for applications in different domains.</abstract>
 		</paper>
 	</slot>
 	<slot>
@@ -1129,7 +1129,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Industrial Keynote: Shivakumar Venkataraman; Academic Keynote: Divyakant Agrawal</chair>
 		<paper>
 			<id>400</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1720-venkataraman-agrawal.pdf</link>
 			<title>Datacenters as Computers: Google Engineering &amp; Database Research Perspectives</title>
 			<authors>Shivakumar Venkataraman (Google),Divyakant Agrawal (University of California at Santa Barbara)</authors>
 			<abstract>In this collaborative keynote address, we will share Google's experience in building a scalable data infrastructure that leverages datacenters for managing Google's advertising data over the last decade. In order to support the massive online advertising platform at Google, the data infrastructure must simultaneously support both transactional and analytical workloads. The focus of this talk will be to highlight how the datacenter architecture and the cloud computing paradigm has enabled us to manage the exponential growth in data volumes and user queries, make our services highly available and fault tolerant to massive datacenter outages, and deliver results with very low latencies. We note that other Internet companies have also undergone similar growth in data volumes and user queries. In fact, this phenomenon has resulted in at least two new terms in the technology lexicon: big data and cloud computing. Cloud computing (and datacenters) have been largely responsible for scaling the data volumes from terabytes range just a few years ago to now reaching in the exabyte range over the next couple of years. Delivering solutions at this scale that are fault-tolerant, latency sensitive, and highly available requires a combination of research advances with engineering ingenuity at Google and elsewhere. Next, we will try to answer the following question: is a datacenter just another (very large) computer? Or, does it fundamentally change the design principles for data-centric applications and systems. We will conclude with some of the unique research challenges that need to be addressed in order to sustain continuous growth in data volumes while supporting high throughput and low latencies.</abstract>
@@ -1259,28 +1259,28 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Industrial 2 Chair</chair>
 		<paper>
 			<id>709</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1331-sadoghi.pdf</link>
 			<title>Reducing Database Locking Contention Through Multi-version Concurrency</title>
 			<authors>Mohammad Sadoghi* (IBM T.J. Watson Research Cente)*),Mustafa Canim (IBM T.J. Watson Research Center)),Bishwaranjan   Bhattacharjee  (IBM T.J. Watson Research Center)),Fabian Nagel (University of Edinburgh)),Kenneth Ross (Columbia University))</authors>
 			<abstract>In multi-version databases, updates and deletions of records by transactions require appending a new record to tables rather than performing in-place updates. This mechanism incurs non-negligible performance overhead in the presence of multiple indexes on a table, where changes need to be propagated to all indexes. Additionally, an uncommitted record update will block other active transactions from using the index to fetch the most recently committed values for the updated record. In general, in order to support snapshot isolation and/or multi-version concurrency, either each active transaction is forced to search a database temporary area (e.g., rollback segments) to fetch old values of desired records, or each transaction is forced to scan the entire table to find the older versions of the record in a multi-version database (in the absence of specialized temporal indexes). In this work, we describe a novel kV-Indirection structure to enable efficient (parallelizable) optimistic and pessimistic multi-version concurrency control by utilizing the old versions of records (at most two versions of each record) to provide direct access to the recent changes of records without the need of temporal indexes. As a result, our technique results in higher degree of concurrency by reducing the clashes between readers and writers of data and avoiding extended lock delays. We have a working prototype of our concurrency model and kV-Indirection structure in a commercial database and conducted an extensive evaluation to demonstrate the benefits of our multi-version concurrency control, and we obtained orders of magnitude speed up over the single-version concurrency control.</abstract>
 		</paper>
 		<paper>
 			<id>710</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1367-poess.pdf</link>
 			<title>TPC-DI: The First Industry Benchmark for Data Integration</title>
 			<authors>Meikel Poess* (Oracle)*),Tilmann Rabl (University of Toronto)),Hans-Arno Jacobsen (University of Toronto)),Brian Caufield (IBM))</authors>
 			<abstract>Historically, the process of synchronizing a decision support system with data from operational systems has been referred to as Extract, Transform, Load (ETL) and the tools supporting such process have been referred to as ETL tools. Recently, ETL was replaced by the more comprehensive acronym, data integration (DI). DI describes the process of extracting and combining data from a variety of data source formats, transforming that data into a unified data model representation and loading it into a data store. This is done in the context of a variety of scenarios, such as data acquisition for business intelligence, analytics and data warehousing, but also synchronization of data between operational applications, data migrations and conversions, master data management, enterprise data sharing and delivery of data services in a service-oriented architecture context, amongst others. With these scenarios relying on up-to-date information it is critical to implement a highly performing, scalable and easy to maintain data integration system. This is especially important as the complexity, variety and volume of data is constantly increasing and performance of data integration systems is becoming very critical. Despite the significance of having a highly performing DI system, there has been no industry standard for measuring and comparing their performance. The TPC, acknowledging this void, has released TPC-DI, an innovative benchmark for data integration. This paper motivates the reasons behind its development, describes its main characteristics including workload, run rules, metric, and explains key decisions.</abstract>
 		</paper>
 		<paper>
 			<id>711</id>
-			<link>none</link>
-			<title>Fuxi: Fault Tolerant Resource Management and Job Scheduling System at Internet Scale</title>
+			<link>http://www.vldb.org/pvldb/vol7/p1393-zhang.pdf</link>
+			<title>Fuxi: a Fault-Tolerant Resource Management and Job Scheduling System at Internet Scale</title>
 			<authors>Zhuo Zhang (Alibaba Cloud Computing)),Chao Li (Alibaba Cloud Computing)),Yangyu Tao (Alibaba Cloud Computing)),Renyu  Yang* (Beihang University)*),Jie Xu  (Beihang University (University of Leeds))</authors>
 			<abstract>Scalability and fault-tolerance are two fundamental challenges for all distributed computing at Internet scale. Despite many recent advances from both academia and industry, these two problems are still far from settled. In this paper, we present Fuxi, a resource management and job scheduling system that is capable of handling the kind of workload at Alibaba where hundreds of terabytes of data are generated and analyzed everyday to help optimize the company's business operations and user experiences. We employ several novel techniques to enable Fuxi to perform efficient scheduling of hundreds of thousands of concurrent tasks over large clusters with thousands of nodes: 1) an incremental resource management protocol that supports multi-dimensional resource allocation and elastic quota; 2) user-transparent failure recovery where failures of any Fuxi components will not impact the execution of user jobs; and 3) an effective faulty detection mechanism and multi-level blacklisting that prevents them from affecting job execution. Our evaluation results demonstrate that 95% and 91% scheduled CPU/memory utilization can be fulfilled under synthetic workloads, and Fuxi is capable of achieving 2.36TB/minute throughput in GraySort. Additionally, the same Fuxi job only experiences approximately 16% slowdown under a 5% fault-injection rate. Fuxi has been deployed in our production environment since 2009, and it now manages hundreds of thousands of server nodes.</abstract>
 		</paper>
 		<paper>
 			<id>712</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1474-arauz.pdf</link>
 			<title>CAP limits in telecom subscriber database design</title>
 			<authors>Javier Arauz* (Ericsson)*</authors>
 			<abstract>While the notion of a Distributed DBMS has been familiar to the IT industry for several decades, within telecom networks the subscriber data management based on DDBMS technology is a novel addition to a service provider's infrastructure. Service providers are used to telecom networks that are efficient, reliable and easy to maintain and operate, in part thanks to the node model used in designing such networks. A DDBMS spanning a large geographical area however incurs into distributed systems issues not previously seen in telecom networks. Identifying and delivering the right set of trade-offs that satisfies the service providers’ needs while staying within the known physical bounds of a distributed system is therefore crucial if DDBMS are to conquer the subscriber management space within telecom networks.</abstract>
@@ -1317,7 +1317,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>110</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1307-guarnieri.pdf</link>
 			<title>Optimal Security-Aware Query Processing</title>
 			<authors>Marco Guarnieri* (Institute of Information Security (ETH Zurich), David Basin (Institute of Information Security (ETH Zurich)</authors>
 			<abstract>Security-Aware Query Processing is the problem of computing answers to queries in the presence of access control policies. We present general impossibility results for the existence of optimal algorithms for Security-Aware Query Processing and classify query languages for which such algorithms exist. In particular, we show that for the relational calculus there are no optimal algorithms, whereas optimal algorithms exist for some of its fragments, such as the existential fragment. We also establish relationships between two different models of Fine-Grained Access Control, called Truman and Non-Truman models, which have been previously presented in the literature as distinct. For optimal Security-Aware Query Processing, we show that the Non-Truman model is a special case of the Truman model for boolean queries in the relational calculus, moreover the two models coincide for more powerful languages, such as the relational calculus with aggregation operators. In contrast, these two models are distinct for non-boolean queries.</abstract>
@@ -1339,32 +1339,39 @@ In spite of the trends, currently there is limited usage of these technologies i
 	</slot>
 	<slot>
 		<id>D2F1030T1215R5</id>
-		<name>Papers 22: Data quality</name>
+		<name>Papers 22: Data Curation</name>
 		<location>
 			<room>Diamond 5</room>
 			<map>diamond.jpg</map>
 		</location>
 		<chair>Ihab Ilyas</chair>
 		<paper>
-			<id>240</id>
-			<link>http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf</link>
-			<title>Query-Driven Approach to Entity Resolution</title>
-			<authors>Hotham Altwaijry* (University of california - Irv), Dmitri Kalashnikov (UC Irvine), Sharad Mehrotra (University of California (Irvine)</authors>
-			<abstract>This paper explores "on-the-fly" data cleaning in the context of a user query. A novel Query-Driven Approach (QDA) is developed that performs a minimal number of cleaning steps that are only necessary to answer a given selection query correctly. The comprehensive empirical evaluation of the proposed approach demonstrates its significant advantage in terms of efficiency over traditional techniques for query-driven applications.</abstract>
-		</paper>
-		<paper>
-			<id>241</id>
-			<link>none</link>
-			<title>Repairing Vertex Labels under Neighborhood Constraints</title>
-			<authors>Shaoxu Song* (Tsinghua University), Hong Cheng (The Chinese University of Hong Kong), Jeffrey Xu Yu (The Chinese University of Hong Kong), Lei Chen (Hong Kong University of Science and Technology)</authors>
-			<abstract>A broad class of data, ranging from similarity networks, workflow networks to protein networks, can be modeled as graphs with data values as vertex labels. The vertex labels (data values) are often dirty for various reasons such as typos or erroneous reporting of results in scientific experiments. Neighborhood constraints, specifying label pairs that are allowed to appear on adjacent vertexes in the graph, are employed to detect and repair erroneous vertex labels. In this paper, we study the problem of repairing vertex labels to make graphs satisfy neighborhood constraints. Unfortunately, the relabeling problem is proved to be NP-hard, which motivates us to devise approximation methods for repairing, and identify in- teresting special cases (star and clique constraints) that can be efficiently solved. We propose several approximate repairing algorithms including greedy heuristics, contraction method and a hybrid approach. The performances of algorithms are also analyzed for the special case. Our extensive experimental evaluation, on both synthetic and real data, demonstrates the effectiveness of eliminating frauds in several types of application networks. Remarkably, the hybrid method performs well in practice, i.e., guarantees termiation, while achieving high effectiveness at the same time.</abstract>
+			<id>244</id>
+			<link>http://www.vldb.org/pvldb/vol7/p301-heise.pdf</link>
+			<title>Scalable Discovery of Unique Column Combinations</title>
+			<authors>Arvid Heise* (Hasso-Plattner Institute), Jorge Quiané-Ruiz (QCRI), Ziawasch Abedjan (Hasso-Plattner Institute), Anja Jentzsch (Hasso-Plattner Institute), Felix Naumann (Hasso-Plattner Institute)</authors>
+			<abstract>The discovery of all unique (and non-unique) column combinations in a given dataset is at the core of any data profiling effort. The results are useful for a large number of areas of data management, such as anomaly detection, data integration, data modeling, duplicate detection, indexing, and query optimization. However, discovering all unique and non-unique column combinations is an NP-hard problem, which in principle requires to verify an exponential number of column combinations for uniqueness on all data values. Thus, achieving efficiency and scalability in this context is a tremendous challenge by itself.    In this paper, we devise DUCC, a scalable and efficient approach to the problem of finding all unique and non-unique column combinations in big datasets. We first model the problem as a graph coloring problem and analyze the pruning effect of individual combinations. We then present our hybrid column-based pruning technique, which traverses the lattice in a depth-first and random walk combination. This strategy allows DUCC to typically depend on the solution set size and hence to prune large swaths of the lattice. DUCC also incorporates row-based pruning to run uniqueness checks in just few milliseconds. To achieve even higher scalability, DUCC runs on several CPU cores (scale-up) and compute nodes (scale-out) with a very low overhead. We exhaustively evaluate DUCC using three datasets (two real and one synthetic) with several millions rows and hundreds of attributes. We compare DUCC with related work: Gordian and HCA. The results show that DUCC is up to more than 2 orders of magnitude faster than Gordian and HCA (631x faster than Gordian and 398x faster than HCA). Finally, a series of scalability experiments shows the efficiency of DUCC to scale up and out.</abstract>
 		</paper>
 		<paper>
 			<id>242</id>
 			<link>http://www.vldb.org/pvldb/vol6/p1498-papotti.pdf</link>
 			<title>Discovering Denial Constraints</title>
-			<authors>Xu Chu (University of Waterloo), Ihab Ilyas (QCRI), Paolo Papotti* (QCRI)</authors>
+			<authors>Xu Chu (University of Waterloo), Ihab Ilyas ( University of Waterloo), Paolo Papotti* (QCRI)</authors>
 			<abstract>Integrity constraints (ICs) provide a valuable tool for enforcing correct application semantics. However, designing ICs requires experts and time. Proposals for automatic discovery have been made for some formalisms, such as functional dependencies (FDs) and their extension conditional functional dependencies (CFDs). Unfortunately, these dependencies cannot express many common business rules. For example, an American citizen cannot have lower salary and higher tax rate than another citizen in the same state. In this paper, we tackle the challenges of discovering dependencies in a more expressive integrity constraint language, namely Denial Constrains (DCs). DCs are expressive enough to overcome the limits of previous languages and, at the same time, have enough structure to allow efficient discovery and application in several scenarios. We lay out theoretical and practical foundations for DCs, including a set of sound inference rules and a linear algorithm for implication testing. We then develop an efficient instance-driven DC discovery algorithm (FASTDC) and propose a novel scoring function to rank DCs for user validation. Using real-world and synthetic datasets, we experimentally evaluate the scalability and effectiveness of our proposed solution.</abstract>
+		</paper>
+		<paper>
+			<id>241</id>
+			<link>http://www.vldb.org/pvldb/vol7/p987-song.pdf</link>
+			<title>Repairing Vertex Labels under Neighborhood Constraints</title>
+			<authors>Shaoxu Song* (Tsinghua University), Hong Cheng (The Chinese University of Hong Kong), Jeffrey Xu Yu (The Chinese University of Hong Kong), Lei Chen (Hong Kong University of Science and Technology)</authors>
+			<abstract>A broad class of data, ranging from similarity networks, workflow networks to protein networks, can be modeled as graphs with data values as vertex labels. The vertex labels (data values) are often dirty for various reasons such as typos or erroneous reporting of results in scientific experiments. Neighborhood constraints, specifying label pairs that are allowed to appear on adjacent vertexes in the graph, are employed to detect and repair erroneous vertex labels. In this paper, we study the problem of repairing vertex labels to make graphs satisfy neighborhood constraints. Unfortunately, the relabeling problem is proved to be NP-hard, which motivates us to devise approximation methods for repairing, and identify in- teresting special cases (star and clique constraints) that can be efficiently solved. We propose several approximate repairing algorithms including greedy heuristics, contraction method and a hybrid approach. The performances of algorithms are also analyzed for the special case. Our extensive experimental evaluation, on both synthetic and real data, demonstrates the effectiveness of eliminating frauds in several types of application networks. Remarkably, the hybrid method performs well in practice, i.e., guarantees termiation, while achieving high effectiveness at the same time.</abstract>
+		</paper>
+		<paper>
+			<id>240</id>
+			<link>http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf</link>
+			<title>Query-Driven Approach to Entity Resolution</title>
+			<authors>Hotham Altwaijry* (University of california - Irv), Dmitri Kalashnikov (UC Irvine), Sharad Mehrotra (University of California (Irvine)</authors>
+			<abstract>This paper explores "on-the-fly" data cleaning in the context of a user query. A novel Query-Driven Approach (QDA) is developed that performs a minimal number of cleaning steps that are only necessary to answer a given selection query correctly. The comprehensive empirical evaluation of the proposed approach demonstrates its significant advantage in terms of efficiency over traditional techniques for query-driven applications.</abstract>
 		</paper>
 		<paper>
 			<id>243</id>
@@ -1374,15 +1381,8 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<abstract>This paper proposes a progressive approach to entity resolution (ER) that allows users to explore a trade-off between the resolution cost and the achieved quality of the resolved data. In particular, our approach aims to produce the highest quality result given a constraint on the resolution budget, specified by the user. Our proposed method monitors and dynamically reassesses the resolution progress to determine which parts of the data should be resolved next and how they should be resolved. The comprehensive empirical evaluation of the proposed approach demonstrates its significant advantage in terms of efficiency over the traditional ER techniques for the given problem settings.</abstract>
 		</paper>
 		<paper>
-			<id>244</id>
-			<link>http://www.vldb.org/pvldb/vol7/p301-heise.pdf</link>
-			<title>Scalable Discovery of Unique Column Combinations</title>
-			<authors>Arvid Heise* (Hasso-Plattner Institute), Jorge Quiané-Ruiz (QCRI), Ziawasch Abedjan (Hasso-Plattner Institute), Anja Jentzsch (Hasso-Plattner Institute), Felix Naumann (Hasso-Plattner Institute)</authors>
-			<abstract>The discovery of all unique (and non-unique) column combinations in a given dataset is at the core of any data profiling effort. The results are useful for a large number of areas of data management, such as anomaly detection, data integration, data modeling, duplicate detection, indexing, and query optimization. However, discovering all unique and non-unique column combinations is an NP-hard problem, which in principle requires to verify an exponential number of column combinations for uniqueness on all data values. Thus, achieving efficiency and scalability in this context is a tremendous challenge by itself.    In this paper, we devise DUCC, a scalable and efficient approach to the problem of finding all unique and non-unique column combinations in big datasets. We first model the problem as a graph coloring problem and analyze the pruning effect of individual combinations. We then present our hybrid column-based pruning technique, which traverses the lattice in a depth-first and random walk combination. This strategy allows DUCC to typically depend on the solution set size and hence to prune large swaths of the lattice. DUCC also incorporates row-based pruning to run uniqueness checks in just few milliseconds. To achieve even higher scalability, DUCC runs on several CPU cores (scale-up) and compute nodes (scale-out) with a very low overhead. We exhaustively evaluate DUCC using three datasets (two real and one synthetic) with several millions rows and hundreds of attributes. We compare DUCC with related work: Gordian and HCA. The results show that DUCC is up to more than 2 orders of magnitude faster than Gordian and HCA (631x faster than Gordian and 398x faster than HCA). Finally, a series of scalability experiments shows the efficiency of DUCC to scale up and out.</abstract>
-		</paper>
-		<paper>
 			<id>245</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1071-vesdapunt.pdf</link>
 			<title>Crowdsourcing Algorithms for Entity Resolution</title>
 			<authors>Norases Vesdapunt* (Stanford University), Kedar Bellare (Facebook), Nilesh Dalvi (Facebook)</authors>
 			<abstract>In this paper, we study a hybrid human-machine approach for solving the problem of Entity Resolution (ER). The goal of ER is to identify all records in a database that refer to the same underlying entity, and are therefore duplicates of each other. Our input is a graph over all the records in a database, where each edge has a probability denoting our prior belief (based on Machine Learning models) that the pair of records represented by the given edge are duplicates. Our objective is to resolve all the duplicates by asking humans to verify the equality of a subset of edges, leveraging the transitivity of the equality relation to infer the remaining edges (e.g. a = c can be inferred given a = b and b = c). We consider the problem of designing optimal strategies for asking questions to humans that minimize the expected number of questions asked. Using our theoretical framework, we analyze several strategies, and show that a strategy, claimed as "optimal" for this problem in a recent work, can perform arbitrarily bad in theory. We propose alternate strategies with theoretical guarantees. Using both public datasets as well as the production system at Facebook, we show that our techniques are effective in practice.</abstract>
@@ -1504,7 +1504,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>210</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1023-maehara.pdf</link>
 			<title>Computing Personalized PageRank Quickly by Exploiting Graph Structures</title>
 			<authors>Takanori Maehara* (National Institute of Informatics), Takuya Akiba (The University of Tokyo), Yoichi Iwata (The University of Tokyo), Ken-ichi Kawarabayashi (National Institute of Informatics)</authors>
 			<abstract>We propose a new scalable algorithm that can compute Personalized PageRank (PPR) very quickly. The Power method is a state-of-the-art algorithm for computing exact PPR; however, it requires many iterations. Thus reducing the number of iterations is the main challenge. We achieve this by exploiting graph structures of web graphs and social networks. The convergence of our algorithm is very fast. In fact, it requires up to 7.5 times fewer iterations than the Power method and is up to five times faster in actual computation time. To the best of our knowledge, this is the first time to use graph structures explicitly to solve PPR quickly. Our contributions can be summarized as follows. 1. We provide an algorithm for computing a tree decomposition, which is more efficient and scalable than any previous algorithm. 2. Using the above algorithm, we can obtain a ``core-tree decomposition'' of any web graph and social network. This allows us to decompose a web graph and a social network into (1) the ``core,'' which behaves like an expander graph, and (2) a small tree-width graph, which behaves like a ``tree'' in an algorithmic sense. 3. We apply a direct method to the small tree-width part to construct an LU decomposition. 4. Building on the LU decomposition and using it as ``preconditoner,'' we apply GMRES method (a state-of-the-art advanced iterative method) to compute PPR for whole web graphs and social networks.</abstract>
@@ -1541,7 +1541,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Paul Larson</chair>
 		<paper>
 			<id>246</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol6/p1654-schaeler.pdf</link>
 			<title>QuEval: Beyond high-dimensional indexing à la carte</title>
 			<authors>Martin Schäler* (University of Magdeburg), Alexander Grebhahn (University of Passau), Reimar Schröter (University of Magdeburg), Sandro Schulze (TU Braunschweig), Veit Köppen (University of Magdeburg), Gunter Saake (University of Magdeburg)</authors>
 			<abstract>In the recent past, the amount of high-dimensional data, such as feature vectors extracted from multimedia data, increased dramatically. A large variety of indexes have been proposed to store and access such data efficiently. However, due to specific requirements of a certain use case, choosing an adequate index structure is a complex and time-consuming task. This may be due to engineering challenges or open research questions.To overcome this limitation, we present QuEval, an open-source framework that can be flexibly extended w.r.t. index structures, distance metrics, and data sets. QuEval provides a unified environment for a sound evaluation of different indexes, for instance, to support tuning of indexes. In an empirical evaluation, we show how to apply our framework, motivate benefits, and demonstrate analysis possibilities.</abstract>
@@ -1562,14 +1562,14 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>249</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1295-floratou.pdf</link>
 			<title>SQL-on-Hadoop: Full Circle Back to Shared-Nothing Database Architectures</title>
 			<authors>Avrilia Floratou* (IBM Almaden Research Center), Umar Farooq Minhas (IBM Almaden Research Center (US), Fatma Ozcan (IBM Almaden)</authors>
 			<abstract>SQL query processing for analytics over Hadoop data has recently gained significant traction. Among many systems providing some SQL support over Hadoop, Hive is the first native Hadoop system that uses an underlying framework such as MapReduce or Tez to process SQL-like statements. Impala, on the other hand, represents the new emerging class of SQL-on-Hadoop systems that exploit a shared-nothing parallel database architecture over Hadoop. Both systems optimize their data ingestion via columnar storage, and promote different file formats: ORC and Parquet. In this paper, we compare the performance of these two systems by conducting a set of cluster experiments using a TPC-H like benchmark and two TPC-DS inspired workloads. We also closely study the I/O efficiency of their columnar formats using a set of micro-benchmarks. Our results show that Impala is 3.3X to 4.4X faster than Hive on MapReduce and 2.1X to 2.8X than Hive on Tez for the overall TPC-H experiments. Impala is also 8.2X to 10X faster than Hive on MapReduce and about 4.3X faster than Hive on Tez for the TPC-DS inspired experiments. Through detailed analysis of experimental results, we identify the reasons for this performance gap and examine the strengths and limitations of each system.</abstract>
 		</paper>
 		<paper>
 			<id>250</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1219-klems.pdf</link>
 			<title>Benchmarking Scalability and Elasticity of Distributed Database Systems [Experiments and Analysis Paper]</title>
 			<authors>Jörn Kuhlenkamp (KIT), Markus Klems* (KIT), Oliver Röss (KIT)</authors>
 			<abstract>Distributed database system performance benchmarks are an important source of information for decision makers who must select the right technology for their data management problems. Since important decisions rely on trustworthy experimental data, it is necessary to reproduce experiments and verify the results. We reproduce performance and scalability benchmarking experiments of HBase and Cassandra that have been conducted by previous research and compare the results. The scope of our reproduced experiments is extended with a performance evaluation of Cassandra on different Amazon EC2 infrastructure configurations, and an evaluation of Cassandra and HBase elasticity by measuring scaling speed and performance impact while scaling.</abstract>
@@ -1585,28 +1585,28 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Industrial 3 Chair</chair>
 		<paper>
 			<id>705</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1379-lin.pdf</link>
 			<title>Real-Time Twitter Recommendation: Online Motif Detection in Large Dynamic Graphs</title>
 			<authors>Pankaj Gupta (Twitter)),Venu Satuluri (Twitter)),Ajeet Grewal (Twitter)),Siva Gurumurthy (Twitter)),Volodymyr Zhabiuk (Twitter)),Quannan Li (Twitter)),Jimmy Lin* (Twitter)*)</authors>
 			<abstract>We describe a production Twitter system for generating relevant, personalized, and timely recommendations based on observing the temporally-correlated actions of each user's followings. The system currently serves millions of recommendations daily to tens of millions of mobile users. The approach can be viewed as a specific instance of the novel problem of online motif detection in large dynamic graphs. Our current solution partitions the graph across a number of machines, and with the construction of appropriate data structures, motif detection can be translated into the lookup and intersection of adjacency lists in each partition. We conclude by discussing a generalization of the problem that perhaps represents a new class of data management systems.</abstract>
 		</paper>
 		<paper>
 			<id>706</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1508-yan.pdf</link>
 			<title>Error-bounded Sampling for Analytics on Big Sparse Data</title>
 			<authors>Ying Yan* (Microsoft Research)*),Liang Chen (Microsoft Research)),Zheng Zhang (MSRA))</authors>
 			<abstract>Aggregation queries are at the core of business intelligence and data analytics. In the big data era, many scalable shared-nothing systems have been developed to process aggregation queries over massive amount of data. Microsoft's SCOPE is a well-known instance in this category. Nevertheless, aggregation queries are still expensive, because query processing needs to consume the entire data set, which is often hundreds of terabytes. Data sampling is a technique that samples a small portion of data to process and returns an approximate result with an error bound, thereby reducing the query's execution time. While similar problems were studied in the database literature, we encountered new challenges that disable most of prior efforts: (1) error bounds are dictated by end users and cannot be compromised, (2) data is sparse, meaning data has a limited population but a wide range. For such cases, conventional uniform sampling often yield high sampling rates and thus deliver limited or no performance gains. In this paper, we propose error-bounded stratified sampling to reduce sample size. The technique relies on the insight that we may only reduce the sampling rate with the knowledge of data distributions. The technique has been implemented into Microsoft internal search query platform. Results show that the proposed approach can reduce up to 99% sample size comparing with uniform sampling, and its performance is robust against data volume and other key performance metrics.</abstract>
 		</paper>
 		<paper>
 			<id>707</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1381-cha.pdf</link>
 			<title>Interval Disaggregate: A New Operator for Business Planning</title>
 			<authors>Sang Cha (SAP Labs Korea)),Kunsoo Park* (SAP Labs Korea)*),Chang Song (SAP Labs Korea)),Ki Kim (SAP Labs Korea)),Cheol Ryu (SAP Labs Korea)),Sunho Lee (SAP Labs Korea))</authors>
 			<abstract>Business planning as well as analytics on top of large-scale database systems is valuable to decision makers, but planning operations known and implemented so far are very basic. In this paper we propose a new planning operation called interval disaggregate, which goes as follows. Suppose that the planner, typically the management of a company, plans sales revenues of its products in the current year. An interval of the expected revenue for each product in the current year is computed from historical data in the database as the prediction interval of linear regression on the data. A total target revenue for the current year is given by the planner. The goal of the interval disaggregate operation is to find an appropriate disaggregation of the target revenue, considering the intervals. We formulate the problem of interval disaggregation more precisely and give solutions for the problem. Multidimensional geometry plays a crucial role in the problem formulation and the solutions. We implemented interval disaggregation into the planning engine of SAP HANA and did experiments on real-world data. Our experiments show that interval disaggregation gives more appropriate solutions with respect to historical data than the known basic disaggregation called referential disaggregation. We also show that interval disaggregation can be combined with the deseasonalization technique when the dataset shows seasonal fluctuations.</abstract>
 		</paper>
 		<paper>
 			<id>708</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1529-sun.pdf</link>
 			<title>Chimera: Large-Scale Classification using Machine Learning, Rules, and Crowdsourcing</title>
 			<authors>AnHai Doan* (Univ. of Wisconsin Madison)*),Chong Sun (WalmartLabs)),Narasimhan  Rampalli (WalmartLabs))</authors>
 			<abstract>solution to classify tens of millions of products into 5000+ product types at WalmartLabs. We show that at this scale, many conventional assumptions regarding learning and crowdsourcing break down, and that existing solutions cease to work. We describe how Chimera employs a combination of learning, rules (created by in-house analysts), and crowdsourcing to achieve accurate, continuously improving, and cost-effective classification. We discuss a set of lessons learned for other similar Big Data systems. In particular, we argue that at large scales crowdsourcing is critical, but must be used in combination with learning, rules, and in-house analysts. We also argue that using rules (in conjunction with learning) is a must, and that more research attention should be paid to helping analysts create and manage (tens of thousands of) rules more effectively.</abstract>
@@ -1622,7 +1622,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Gustavo Alonso</chair>
 		<paper>
 			<id>167</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1259-gupta.pdf</link>
 			<title>Mesa: Geo-Replicated, Near Real-Time, Scalable Data Warehousing</title>
 			<authors>Ashish Gupta* (Google Inc.), Fan Yang (Google Inc.), Jason Govig (Google Inc.), Adam Kirsch (Google Inc.), Kelvin Chan (Google Inc.), Kevin Lai (Google Inc.), Shuo Wu (Google Inc.), Sandeep Dhoot (Google Inc.), Abhilash Kumar (Google Inc.), Ankur Agiwal (Google Inc.), Sanjay Bhansali (Google Inc.), Mingsheng Hong (Google Inc.), Jamie Cameron (Google Inc.), Masood Siddiqi (Google Inc.), David Jones (dlj@google.com), Jeff Shute (Google Inc.), Andrey Gubarev (Google), Shivakumar Venkataraman (Google Inc.), Divyakant Agrawal (Google Inc.)</authors>
 			<abstract>Mesa is a highly scalable analytic data warehousing system that stores critical measurement data related to Google's Internet advertising business. Mesa is designed to satisfy a complex and challenging set of user and systems requirements, including near real-time data ingestion and queryability, as well as high availability, reliability, fault tolerance, and scalability for large data and query volumes. Specifically, Mesa handles petabytes of data, processes millions of row updates per second, and serves billions of queries that fetch trillions of rows per day. Mesa is geo-replicated across multiple datacenters and provides consistent and repeatable query answers at low latency, even when an entire datacenter fails. This paper presents the Mesa system and reports the performance and scale that it achieves.</abstract>
@@ -1680,14 +1680,14 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>158</id>
-			<link>http://www.cse.buffalo.edu/DBGROUP/bioinformatics/papers/Vish_VLDB_2014%20.pdf</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1167-londhe.pdf</link>
 			<title>Matching Titles with Cross Title Web-Search Enrichment and Community Detection</title>
 			<authors>Vishrawas Gopalakrishnan* (SUNY Buffalo), Nikhil Londhe (SUNY Buffalo), Aidong  Zhang (SUNY Buffalo), HUng Ngo (SUNY Buffalo), Rohini Srihari (SUNY Buffalo)</authors>
 			<abstract>Title matching refers roughly to the following problem. We are given two strings of text obtained from different data sources. The texts refer to some underlying physical entities and the problem is to report whether the two strings refer to the same physical entity or not. There are manifestations of this problem in a variety of domains, such as product or bibliography matching, and location or person disambiguation. We propose a new approach to solving this problem, consisting of two main components. The first component uses Web searches to "enrich'' the given pair of titles: making titles that refer to the same physical entity more similar, and those which do not, much less similar. A notion of similarity is then measured using the second component, where the tokens from the two titles are modelled as vertices of a "social'' network graph. A "strength of ties'' style of clustering algorithm is then applied on this to see whether they form one cohesive "community'' (matching titles), or separately clustered communities (mismatching titles). Experimental results confirm the effectiveness of our approach over existing title matching methods across several input domains.</abstract>
 		</paper>
 		<paper>
 			<id>159</id>
-			<link>http://arxiv.org/pdf/1403.2763v2</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1107-liu.pdf</link>
 			<title>Aggregate Estimation Over Dynamic Hidden Web Databases</title>
 			<authors>Weimo Liu* (The George Washington University), Saravanan Thirumuruganathan, Nan Zhang (George Washington University), Gautam Das (UT Arlington)</authors>
 			<abstract>Many web databases are "hidden" behind (i.e., only accessible through) a restrictive, form-like, search interface. Recent studies have shown that it is possible to estimate aggregate query answers over such hidden web databases by issuing a small number of carefully designed search queries through the restrictive web interface. A problem with these existing work, however, is that they all assume the underlying database to be static, while most real-world web databases (e.g., Amazon, eBay) are frequently updated. In this paper, we study the novel problem of estimating aggregates over dynamic hidden web databases while adhering to the stringent query-cost limitation they enforce (e.g., at most 1,000 search queries per day). Theoretical analysis and extensive real-world experiments demonstrate the effectiveness of our proposed algorithms and their superiority over baseline solutions (e.g., the repeated execution of algorithms designed for static web databases).</abstract>
@@ -1881,14 +1881,14 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>226</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1083-fan.pdf</link>
 			<title>Distributed Graph Simulation: Impossibility and Possiblity</title>
 			<authors>Wenfei Fan (University of Edinburgh), Xin Wang (University of Edinburgh), YINGHUI WU* (University of California Santa), Dong Deng (Tsinghua University)</authors>
 		</paper>
 		<paper>
 			<id>227</id>
-			<link>www.cs.hku.hk/research/techreps/document/TR-2014-02.pdf</link>
-			<title>Efficient Management of Spatial RDF Data</title>
+			<link>http://www.vldb.org/pvldb/vol7/p1271-liagouris.pdf</link>
+			<title>An Effective Encoding Scheme for Spatial RDF Data</title>
 			<authors>John Liagouris (HKU), Nikos Mamoulis* (University of Hong Kong), Panagiotis Bouros (Humboldt-Universitaet zu Berlin), Manolis Terrovitis (IMIS `Athena')</authors>
 			<abstract>The RDF data model has recently been extended to support representation and querying of spatial information (i.e., locations and geometries), which is associated with RDF entities. Still, there are limited efforts towards extending RDF stores to efficiently support spatial queries, such as range selections (e.g., find entities within a given range) and spatial joins (e.g., find pairs of entities whose locations are close to each other). In this paper, we propose an extension for RDF stores that supports efficient spatial data management. Our contributions include an effective encoding scheme for entities having spatial locations, the introduction of on-the-fly spatial filters and spatial join algorithms, and several optimizations that minimize the overhead of geometry and dictionary accesses. We implemented the proposed techniques as an extension to the open-source RDF-3X engine and we experimentally evaluated them using real RDF knowledge bases. The results show that our system offers robust performance for spatial queries, while introducing little overhead to the original query engine.</abstract>
 		</paper>
@@ -1908,7 +1908,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>230</id>
-			<link>https://cs.uwaterloo.ca/~kdaudjee/comparison.pdf</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1047-han.pdf</link>
 			<title>An Experimental Comparison of Pregel-like Graph Processing Systems</title>
 			<authors>Minyang Han* (University of Waterloo), Khuzaima Daudjee (University of Waterloo), Khaled Ammar (University of Waterloo), Tamer Ozsu (University of Waterloo), Xingfang Wang (University of Waterloo), Tianqi Jin (University of Waterloo)</authors>
 			<abstract>The introduction of Google's Pregel generated much interest in the field of large-scale graph data processing, inspiring the development of Pregel-like systems such as Apache Giraph, GPS, Mizan, and GraphLab, all of which have appeared in the past two years. To gain an understanding of how Pregel-like systems perform, we conduct a study to experimentally compare Giraph, GPS, Mizan, and GraphLab on equal ground by considering graph and algorithm agnostic optimizations and by using several metrics. The systems are compared with four different algorithms (PageRank, single source shortest path, weakly connected components, and distributed minimum spanning tree) on up to 128 Amazon EC2 machines. We find that the system optimizations present in Giraph and GraphLab allow them to perform well. Our evaluation also shows Giraph 1.0.0's considerable improvement since Giraph 0.1 and identifies areas of improvement for all systems.</abstract>
@@ -1937,20 +1937,6 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<abstract>Huge amounts of data are being generated by sensing devices every day, recording the status of objects and the environment. Such observational data is widely used in scientific research. As the capabilities of sensors keep improving, the data produced are drastically expanding in precision and quantity, making it a write-intensive domain. Log-structured storage is capable of providing high write throughput, and hence is a natural choice for managing large-scale observational data.  In this paper, we propose an approach to indexing and querying observational data in log-structured storage. Based on key traits of observational data, we design a novel index approach called the CR-index (Continuous Range Index), which provides fast query performance without compromising write throughput. It is a lightweight structure that is fast to construct and often small enough to reside in RAM. Our experimental results show that the CR-index is superior in handling observational data compared to other indexing techniques. While our focus is scientific data, we believe our index will be effective for other applications with similar properties, such as process monitoring in manufacturing.</abstract>
 		</paper>
 		<paper>
-			<id>115</id>
-			<link>http://www.vldb.org/pvldb/vol6/p1522-rao.pdf</link>
-			<title>Bitlist: New Full-text Index for Low Space Cost and Efficient Keyword Search</title>
-			<authors>Weixiong Rao* (University of Helsinki), Lei Chen (Honk Kong University of Science and Technology), Pan Hui (HKUST (Telekom Innovation Laboratories (German,Berlin (Germany), Sasu Tarkoma (University of Helsinki (Finland)</authors>
-			<abstract>Nowadays Web search engines are experiencing significant performance challenges caused by a huge amount of Web pages and increasingly larger number of Web users. The key issue for addressing these challenges is to design a compact structure which can index Web documents with low space and meanwhile process keyword search very fast. Unfortunately, the current solutions typically separate the space optimization from the search improvement. As a result, such solutions either save space yet with search inefficiency, or allow fast keyword search but with huge space requirement. In this paper, to address the challenges, we propose a novel structure bitlist with both low space requirement and supporting fast keyword search. Specifically, based on a simple yet very efficient encoding scheme, bitlist uses a single number to encode a set of integer document IDs for low space, and adopts fast bitwise operations for very efficient boolean-based keyword search. Based on real data sets, our extensive experimental results verify that bitlist outperforms the recent proposed solution, inverted list compression [23, 22] by spending 36.71% less space and 61.91% faster processing time, and achieves comparable running time as [8] but with significantly lower space.</abstract>
-		</paper>
-		<paper>
-			<id>116</id>
-			<link>http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf</link>
-			<title>Streaming Similarity Search over one Billion Tweets using Parallel Locality-Sensitive Hashing</title>
-			<authors>Narayanan Sundaram* (Intel Corporation), Aizana Turmukhametova (MIT), Nadathur Satish (Intel Corporation), Todd Mostak (Harvard), Piotr Indyk (MIT), Sam Madden, Pradeep Dubey (Intel Corporation)</authors>
-			<abstract>Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing, and many other areas. One popular algorithm for similarity search, especially for high dimensional data (where spatial indexes like kd-trees do not perform well) is Locality Sensitive Hashing (LSH), an approximation algorithm for finding similar objects.In this paper, we describe a new variant of LSH, called Parallel LSH (PLSH) designed to be extremely efficient, capable of scaling out on multiple nodes and multiple cores, and which supports high-throughput streaming of new data. Our approach employs several novel ideas, including: cache-conscious hash table layout, using a 2-level merge algorithm for hash table construction; an efficient algorithm for duplicate elimination during hash-table querying; an insert-optimized hash table structure and efficient data expiration algorithm for streaming data; and a performance model that accurately estimates performance of the algorithm and can be used to optimize parameter settings. We show that on a workload where we perform similarity search on a dataset of  1 Billion tweets, with hundreds of millions of new tweets per day, we can achieve query times of 1–2.5 ms. We show that this is an order of magnitude faster than existing indexing schemes, such as inverted indexes. To the best of our knowledge, this is the fastest implementation of LSH, with table construction times up to 3.7X faster and query times that are 8.3X faster than a basic implementation.</abstract>
-		</paper>
-		<paper>
 			<id>117</id>
 			<link>http://www.vldb.org/pvldb/vol7/p97-schuhknecht.pdf</link>
 			<title>The Uncracked Pieces in Database Cracking</title>
@@ -1964,6 +1950,20 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<authors>Daniar Achakeev* (Philipps-Universität Marburg), Bernhard Seeger (University of Marburg)</authors>
 			<abstract>Partial persistent index structures support efficient access to current and past versions of objects, while updates are allowed on the current version. The Multiversion B-Tree (MVBT) represents a partially persistent index-structure with both, asymptotic worst-case performance and excellent performance in real life applications. Updates are performed tuple-by-tuple with the same asymptotic performance as for standard B$^+$trees. To the best of our knowledge, there is no efficient algorithm for bulk loading and bulk update of MVBT and other partially persistent index structures. In this paper, we propose the first loading algorithm for MVBT that meets the lower-bound of external sorting. In addition, our approach is also applicable to bulk updates. This is achieved by combining two basic technologies, weight balancing and buffer tree. Our extensive set of experiments confirm the theoretical findings: Our loading algorithm runs considerably faster than performing updates tuple-by-tuple.</abstract>
 		</paper>
+		<paper>
+			<id>115</id>
+			<link>http://www.vldb.org/pvldb/vol6/p1522-rao.pdf</link>
+			<title>Bitlist: New Full-text Index for Low Space Cost and Efficient Keyword Search</title>
+			<authors>Weixiong Rao* (University of Helsinki), Lei Chen (Honk Kong University of Science and Technology), Pan Hui (HKUST (Telekom Innovation Laboratories (German,Berlin (Germany), Sasu Tarkoma (University of Helsinki (Finland)</authors>
+			<abstract>Nowadays Web search engines are experiencing significant performance challenges caused by a huge amount of Web pages and increasingly larger number of Web users. The key issue for addressing these challenges is to design a compact structure which can index Web documents with low space and meanwhile process keyword search very fast. Unfortunately, the current solutions typically separate the space optimization from the search improvement. As a result, such solutions either save space yet with search inefficiency, or allow fast keyword search but with huge space requirement. In this paper, to address the challenges, we propose a novel structure bitlist with both low space requirement and supporting fast keyword search. Specifically, based on a simple yet very efficient encoding scheme, bitlist uses a single number to encode a set of integer document IDs for low space, and adopts fast bitwise operations for very efficient boolean-based keyword search. Based on real data sets, our extensive experimental results verify that bitlist outperforms the recent proposed solution, inverted list compression [23, 22] by spending 36.71% less space and 61.91% faster processing time, and achieves comparable running time as [8] but with significantly lower space.</abstract>
+		</paper>
+		<paper>
+			<id>116</id>
+			<link>http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf</link>
+			<title>Streaming Similarity Search over one Billion Tweets using Parallel Locality-Sensitive Hashing</title>
+			<authors>Narayanan Sundaram* (Intel Corporation), Aizana Turmukhametova (MIT), Nadathur Satish (Intel Corporation), Todd Mostak (Harvard), Piotr Indyk (MIT), Sam Madden, Pradeep Dubey (Intel Corporation)</authors>
+			<abstract>Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing, and many other areas. One popular algorithm for similarity search, especially for high dimensional data (where spatial indexes like kd-trees do not perform well) is Locality Sensitive Hashing (LSH), an approximation algorithm for finding similar objects.In this paper, we describe a new variant of LSH, called Parallel LSH (PLSH) designed to be extremely efficient, capable of scaling out on multiple nodes and multiple cores, and which supports high-throughput streaming of new data. Our approach employs several novel ideas, including: cache-conscious hash table layout, using a 2-level merge algorithm for hash table construction; an efficient algorithm for duplicate elimination during hash-table querying; an insert-optimized hash table structure and efficient data expiration algorithm for streaming data; and a performance model that accurately estimates performance of the algorithm and can be used to optimize parameter settings. We show that on a workload where we perform similarity search on a dataset of  1 Billion tweets, with hundreds of millions of new tweets per day, we can achieve query times of 1–2.5 ms. We show that this is an order of magnitude faster than existing indexing schemes, such as inverted indexes. To the best of our knowledge, this is the fastest implementation of LSH, with table construction times up to 3.7X faster and query times that are 8.3X faster than a basic implementation.</abstract>
+		</paper>
 	</slot>
 	<slot>
 		<id>D3F1015T1200R3</id>
@@ -1975,28 +1975,28 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Industrial 4 Chair</chair>
 		<paper>
 			<id>717</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1343-su.pdf</link>
 			<title>Changing Engines in Midstream: A Java Stream Computational Model for Big Data Processing</title>
 			<authors>Xueyuan Su* (Oracle Corporation)*),Garret Swart (Oracle Corporation)),Brian Goetz (Oracle Corporation)),Brian Oliver (Oracle Corporation)),Paul Sandoz (Oracle Corporation))</authors>
 			<abstract>With the addition of lambda expressions and the Stream API in Java 8, Java has gained a powerful and expressive query language that operates over in-memory collections of Java objects, making the transformation and analysis of data more convenient, scalable and efficient. In this paper, we build on Java 8 Stream and add a DistributableStream abstraction that supports federated query execution over an extensible set of distributed compute engines. Each query eventually results in the creation of a materialized result that is returned either as a local object or as an engine defined distributed Java Collection that can be saved and/or used as a source for future queries. Distinctively, DistributableStream supports the changing of compute engines both between and within a query, allowing different parts of a computation to be executed on different platforms. At execution time, the query is organized as a sequence of pipelined stages, each stage potentially running on a different engine. Each node that is part of a stage executes its portion of the computation on the data available locally or produced by the previous stage of the computation. This approach allows for computations to be assigned to engines based on pricing, data locality, and resource availability. Coupled with the inherent laziness of stream operations, this brings great flexibility to query planning and separates the semantics of the query from the details of the engine used to execute it. We currently support three engines, Local, Apache Hadoop MapReduce and Oracle Coherence, and we illustrate how new engines and data sources can be added.</abstract>
 		</paper>
 		<paper>
 			<id>718</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1417-chen.pdf</link>
 			<title>Fast Foreign-Key Detection in Microsoft SQL Server PowerPivot for Excel</title>
 			<authors>Zhimin Chen (Microsoft Research)),Vivek Narasayya* (Microsoft Research)*),Surajit Chaudhuri (Microsoft Research))</authors>
 			<abstract>Microsoft SQL Server PowerPivot for Excel, or PowerPivot for short, is an in-memory business intelligence (BI) engine that enables Excel users to interactively create pivot tables over large data sets imported from sources such as relational databases, text files and web data feeds. Unlike traditional pivot tables in Excel that are defined on a single table, PowerPivot allows analysis over multiple tables connected via foreign-key joins. In many cases however, these foreign-key relationships are not known a priori, and information workers are often not be sophisticated enough to define these relationships. Therefore, the ability to automatically discover foreign-key relationships in PowerPivot is valuable, if not essential. The key challenge is to perform this detection interactively and with high precision even when data sets scale to hundreds of millions of rows and the schema contains tens of tables and hundreds of columns. In this paper, we describe techniques for fast foreign-key detection in PowerPivot and experimentally evaluate its accuracy, performance and scale on both synthetic benchmarks and real-world data sets. These techniques have been incorporated into PowerPivot for Excel.</abstract>
 		</paper>
 		<paper>
 			<id>719</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1429-yu.pdf</link>
 			<title>Big Data Small Footprint: The Design of A Low-Power Classifier for Detecting Transportation Modes</title>
 			<authors>Meng-Chieh Yu* (HTC (Studio Engineering)*),Tong Yu (National Taiwan University)),ShaoChen Wang (HTC)),Chih-Jen Lin (National Taiwan University)),Edward Y. Chang (HTC))</authors>
 			<abstract>Sensors on mobile phones and wearables, and in general sensors on IoT (Internet of Things), bring forth a couple of new challenges to big data research. First, the power consumption for analyzing sensor data must be low, since most wearables and portable devices are power-strapped. Second, the velocity of analyzing big data on these devices must be high, otherwise the limited local storage may overflow. This paper presents our hardware-software co-design of a classifier for wearables to detect a person's transportation mode (i.e., still, walking, running, biking, and on a vehicle). We particularly focus on addressing the big-data small-footprint requirement by designing a classifier that is low in both computational complexity and memory requirement. Together with a sensor-hub configuration, we are able to drastically reduce power consumption by 99%, while maintaining competitive mode-detection accuracy. The data used in the paper is made publicly available for conducting research.</abstract>
 		</paper>
 		<paper>
 			<id>720</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1520-gankidi.pdf</link>
 			<title>Indexing HDFS Data in PDW: Splitting the data from the index</title>
 			<authors>Vinitha  Gankidi (University of Wisconsin (Madison)),Nikhil Teletia* (Microsoft)*),Jignesh Patel (University of Wisconsin)),Alan Halverson (Microsoft Jim Gray Systems Lab)),David Dewitt (Microsoft Jim Gray Research Lab))</authors>
 			<abstract>There is a growing interest in making relational DBMSs work synergistically with MapReduce systems. However, there are interesting technical challenges associated with figuring out the right balance between the use and co-deployment of these systems. This paper focuses on one specific aspect of this balance, namely how to leverage the superior indexing and query processing power of a relational DBMS for data that is often more cost-effectively stored in Hadoop/HDFS. We present a method to use conventional B+-tree indices in an RDBMS for data stored in HDFS and demonstrate that our approach is especially effective for highly selective queries.</abstract>
@@ -2063,7 +2063,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>147</id>
-			<link>http://ise.thss.tsinghua.edu.cn/sxsong/doc/14vldb2.pdf</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1179-song.pdf</link>
 			<title>On Concise Set of Relative Candidate Keys</title>
 			<authors>Shaoxu Song* (Tsinghua University), Lei Chen (Hong Kong University of Science and Technology), Hong Cheng (The Chinese University of Hong Kong)</authors>
 			<abstract>Matching keys, specifying what attributes to compare and how to compare them for identifying the same real-world entities, are found to be useful in applications like record matching, blocking and windowing [7]. Owing to the complex redundant semantics among matching keys, capturing a proper set of matching keys is highly non-trivial. Analogous to minimal/candidate keys w.r.t. functional dependencies, relative candidate keys (rcks [7], with a minimal number of compared attributes, see a more formal definition in Section 2) can clear up redundant semantics w.r.t. “what attributes to compare”. However, we note that redundancy issues may still exist among rcks on the same attributes about “how to compare them”. In this paper, we propose to find a concise set of matching keys, which has less redundancy and can still meet the requirements on coverage and validity. Specifically, we study approximation algorithms to efficiently discover a near optimal set. To ensure the quality of matching keys, the returned results are guaranteed to be rcks (minimal on compared attributes), and most importantly, minimal w.r.t. distance restrictions (i.e., redundancy free w.r.t. “how to compare the attributes”). The experimental evaluation demonstrates that our concise rck set is more effective than the existing rck choosing method. Moreover, the proposed pruning methods show up to 2 orders of magnitude improvement w.r.t. time costs on concise rck set discovery.</abstract>
@@ -2296,22 +2296,22 @@ In spite of the trends, currently there is limited usage of these technologies i
 			<room>Diamond 3</room>
 			<map>diamond.jpg</map>
 		</location>
-		<chair>Local Industrial 2 Chair</chair>
+		<chair>寿黎但</chair>
 		<paper>
 			<id>605</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1766-nuhs.pdf</link>
 			<title>GEMINI: An Integrative Healthcare Analytics System</title>
 			<authors>Zheng Jye Ling (National University Health System)),Quoc Trung Tran (National University of Singapore)),Ju Fan (National University of Singapore)),Gerald C.H. Koh (National University Health System)),Thi Nguyen (National University of Singapore)),Chuen Seng Tan (National University Health System)),James W. L. Yip (National University Health System)),Meihui Zhang (National University of Singapore))</authors>
 		</paper>
 		<paper>
 			<id>606</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1760-netease.pdf</link>
 			<title>A Personalized Recommendation System for Dating Site</title>
 			<authors>Chaoyue Dai (NetEase Inc.) , Feng Qian (NetEase Inc.), Wei Jiang (NetEase Inc.), Zhoutian Wang (NetEase Inc.), Zenghong Wu (NetEase Inc.)</authors>
 		</paper>
 		<paper>
 			<id>607</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1754-huawei.pdf</link>
 			<title>Design and Implementation of a Real-Time Interactive Analytics System for Large Spatio-Temporal Data</title>
 			<authors>Shiming Zhang (Huawei Noah's Ark Lab)),Yin Yang (University of Illinois at Urbana-Champaign)),Wei Fan (Huawei Noah's Ark Lab)),Marianne Winslett (University of Illinois at Urbana-Champaign))
 )</authors>
@@ -2563,7 +2563,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>124</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1231-cao.pdf</link>
 			<title>Bounded Conjunctive Queries</title>
 			<authors>Yang Cao* (University of Edinburgh), Wenfei Fan (University of Edinburgh), Wenyuan Yu (Facebook)</authors>
 			<abstract>A query Q is said to be effectively bounded if for all datasets D, there exists a subset D_Q of D such that Q(D) = Q(D_Q), and the size of D_Q and time for fetching D_Q are independent of the size of D. The need for studying such queries is evident, since it allows us to compute Q(D) by accessing a bounded dataset D_Q, regardless of how big D is. This paper investigates effectively bounded conjunctive queries (SPC) under an access schema A, which specifies indices and cardinality constraints commonly used. We provide characterizations (sufficient and necessary conditions) for determining whether an SPC query Q is effectively bounded under A. We study several problems for deciding whether Q is bounded, and if not, for identifying a minimum set of parameters of Q to instantiate and make Q bounded. We show that these problems range from quadratic-time to NP-complete, and develop efficient (heuristic) algorithms for them. We also provide an algorithm that, given an effectively bounded SPC query Q and an access schema A, generates a query plan for evaluating Q by accessing a bounded amount of data in any (possibly big) dataset. We experimentally verify that our algorithms substantially reduce the cost of query evaluation.</abstract>
@@ -2593,28 +2593,28 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Industrial 5 Chair</chair>
 		<paper>
 			<id>713</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1319-shi.pdf</link>
 			<title>MRTuner: A Toolkit to Enable Holistic Optimization for MapReduce Jobs</title>
 			<authors>Juwei Shi* (IBM Research China)*),Jia  Zou (IBM Research-China)),Jiaheng Lu (RUC)),Zhao Cao (IBM Research China)),Shi Qiang Li (IBM Research China)),Chen Wang (IBM China Research Lab))</authors>
 			<abstract>MapReduce based data-intensive computing solutions are increasingly deployed as production systems. Unlike Internet companies who invent and adopt the technology from the very beginning, traditional enterprises demand easy-to-use software due to the limited capabilities of administrators. Automatic job optimization software for MapReduce is a promising technique to satisfy such requirements. In this paper, we introduce a toolkit from IBM, called MRTuner, to enable holistic optimization for MapReduce jobs. In particular, we propose a novel Producer-Transporter-Consumer (PTC) model, which characterizes the tradeoffs in the parallel execution among tasks. We also carefully investigate the complicated relations among about twenty parameters, which have significant impact on the job performance. We design an efficient search algorithm to find the optimal execution plan. Finally, we conduct a thorough experimental evaluation on two different types of clusters using the HiBench suite which covers various Hadoop workloads from GB to TB size levels. The results show that the search latency of MRTuner is a few orders of magnitude faster than that of the state-of-the-art cost-based optimizer, and the effectiveness of the optimized execution plan is also significantly improved.</abstract>
 		</paper>
 		<paper>
 			<id>714</id>
-			<link>none</link>
-			<title>Large-Scale Graph Analytics in Aster 6:  Bringing Context to Big Data Discovery </title>
+			<link>http://www.vldb.org/pvldb/vol7/p1405-simmen.pdf</link>
+			<title>Large-Scale Graph Analytics in Aster 6: Bringing Context to Big Data Discovery</title>
 			<authors>David Simmen* (Teradata Aster）</authors>
 			<abstract>Graph analytics is an important big data discovery technique. Applications include identifying influential employees for retention, detecting fraud in a complex interaction network, and determining product affinities by exploiting community buying patterns. Specialized platforms have emerged to satisfy the unique processing requirements of large-scale graph analytics; however, these platforms do not enable graph analytics to be combined with other analytics techniques, nor do they work well with the vast ecosystem of SQL-based business applications. Teradata Aster 6.0 adds support for large-scale graph analytics to its repertoire of analytics capabilities. The solution extends the multi-engine processing architecture with support for bulk synchronous parallel execution, and a specialized graph engine that enables iterative analysis of graph structures. Graph analytics functions written to the vertex-oriented API exposed by the graph engine can be invoked from the context of an SQL query and composed with existing SQL-MR functions, thereby enabling data scientists and business applications to express computations that combine large-scale graph analytics with techniques better suited to a different style of processing. The solution includes a suite of pre-built graph analytic functions adapted for parallel execution.</abstract>
 		</paper>
 		<paper>
 			<id>715</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1441-boykin.pdf</link>
 			<title>Summingbird: A Framework for Integrating Batch and Online MapReduce Computations</title>
 			<authors>Oscar Boykin (Twitter)),Sam Ritchie (Twitter)),Ian O'Connell (Twitter)),Jimmy Lin* (Twitter)*)</authors>
 			<abstract>Summingbird is an open-source domain-specific language implemented in Scala and designed to integrate online and batch MapReduce computations in a single framework. Summingbird programs are written using dataflow abstractions such as sources, sinks, and stores, and can run on different execution platforms: Hadoop for batch processing (via Scalding/Cascading) and Storm for online processing. Different execution modes require different bindings for the dataflow abstractions (e.g., HDFS files or message queues for the source) but do not require any changes to the program logic. Furthermore, Summingbird can operate in a hybrid processing mode that transparently integrates batch and online results to efficiently generate up-to-date aggregations over long time spans. The language was designed to improve developer productivity and address pain points in building analytics solutions at Twitter where often, the same code needs to be written twice (once for batch processing and again for online processing) and indefinitely maintained in parallel. Our key insight is that certain algebraic structures provide the theoretical foundation for integrating batch and online processing in a seamless fashion. This means that Summingbird imposes constraints on the types of aggregations that can be performed, although in practice we have not found these constraints to be overly restrictive for a broad range of analytics tasks at Twitter.</abstract>
 		</paper>
 		<paper>
 			<id>716</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1496-liu.pdf</link>
 			<title>DGFIndex for Smart Grid: Enhancing Hive with a Cost-Effective Multidimensional Range Index</title>
 			<authors>Liu Yue* (Chinese Academy of Sciences)*),Songlin Hu (Chinese Academy of Science)),Tilmann Rabl (University of Toronto)),Wantao Liu (Chinese Academy of Science)),Hans-Arno Jacobsen (University of Toronto)),Kaifeng Wu (State Grid Electricity Science Research Institute)),Jian Chen (Zhejiang Electric Power Corporation))</authors>
 			<abstract>In Smart Grid applications, as the number of deployed electric smart meters increases, massive amounts of valuable meter data is generated and collected every day. To enable reliable data collection and make business decisions fast, high throughput storage and high-performance analysis of massive meter data become crucial for grid companies. Considering the advantage of high efficiency, fault tolerance, and price-performance of Hadoop and Hive systems, they are frequently deployed as underlying platform for big data processing. However, in real business use cases, these data analysis applications typically involve multidimensional range queries (MDRQ) as well as batch reading and statistics on the meter data. While Hive is high-performance at complex data batch reading and analysis, it lacks efficient indexing techniques for MDRQ. In this paper, we propose DGFIndex, an index structure for Hive that efficiently supports MDRQ for massive meter data. DGFIndex divides the data space into cubes using the grid file technique. Unlike the existing indexes in Hive, which stores all combinations of multiple dimensions, DGFIndex only stores the information of cubes. This leads to smaller index size and faster query processing. Furthermore, with pre-computing user-defined aggregations of each cube, DGFIndex only needs to access the boundary region for aggregation query. Our comprehensive experiments show that DGFIndex can save significant disk space in comparison with the existing indexes in Hive and the query performance with DGFIndex is 2-50 times faster than existing indexes in Hive and HadoopDB for aggregation query, 2-5 times faster than both for non-aggregation query, 2-75 times faster than scanning the whole table in different query selectivity.</abstract>
@@ -2637,7 +2637,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		</paper>
 		<paper>
 			<id>257</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1035-serafini.pdf</link>
 			<title>Accordion: Elastic Scalability for Database Systems Supporting Distributed Transactions</title>
 			<authors>Marco Serafini* (Qatar Computing Research Insti), Essam Mansour (Qatar Computing Research Institute), Ashraf Aboulnaga (Qatar Computing Research Institute), Kenneth Salem (Univesity of Waterloo), Taha Rafiq (Amazon.com (Canada), Umar Farooq Minhas (IBM Almaden Research Center (US)</authors>
 			<abstract>Providing the ability to elastically use more or fewer servers on demand (scale out and scale in) as the load varies is essential for database management systems (DBMSes) deployed on today's distributed computing platforms, such as the cloud. This requires solving the problem of dynamic (online) data placement, which has so far been addressed only for workloads where all transactions are local to one sever. In DBMSes where ACID transactions can access more than one partition, distributed transactions represent a major performance bottleneck. Scaling out and spreading data across a larger number of servers does not necessarily result in a linear increase in the overall system throughput, because transactions that used to access only one server may become distributed. In this paper we present Accordion, a dynamic data placement system for partition-based DBMSes that support ACID transactions (local or distributed). It does so by explicitly considering the affinity between partitions, which indicates the frequency in which they are accessed together by the same transactions. Accordion estimates the capacity of a server by explicitly considering the impact of distributed transactions and affinity on the maximum throughput of the server. It then integrates this estimation in a mixed-integer linear program to explore the space of possible configurations and decide whether to scale out. We implemented Accordion and evaluated it using H-Store, a shared-nothing in-memory DBMS. Our results using the TPC-C and YCSB benchmarks show that Accordion achieves benefits compared to alternative heuristics of up to an order of magnitude reduction in the number of servers used and in the amount of data migrated.</abstract>
@@ -2674,7 +2674,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 		<chair>Yoshi Ishikawa</chair>
 		<paper>
 			<id>204</id>
-			<link>none</link>
+			<link>http://www.vldb.org/pvldb/vol7/p1155-kellaris.pdf</link>
 			<title>Differentially Private Event Sequences over Infinite Streams</title>
 			<authors>Georgios Kellaris (HKUST), Stavros Papadopoulos* (Intel Labs &amp; MIT), Xiaokui Xiao (NTU), Dimitris Papadias (HKUST)</authors>
 			<abstract>Numerous applications require continuous publication of statistics for monitoring purposes, such as real-time traffic analysis, timely disease outbreak discovery, and social trends observation. These statistics may be derived from sensitive user data and, hence, necessitate privacy preservation. A notable paradigm for offering strong privacy guarantees in statistics publishing is e-differential privacy. However, there is limited literature that adapts this concept to settings where the statistics are computed over an infinite stream of "events" (i.e., data items generated by the users), and published periodically. These works aim at hiding a single event over the entire stream. We argue that, in most practical scenarios, sensitive information is revealed from multiple events occurring at contiguous time instances. Towards this end, we put forth the novel notion of w-event privacy over infinite streams, which protects any event sequence occurring in w successive time instants. We first formulate our privacy concept, motivate its importance, and introduce a methodology for achieving it. We next design two instantiations, whose utility is independent of the stream length. Finally, we confirm the practicality of our solutions experimenting with real data.</abstract>
@@ -2828,7 +2828,7 @@ This workshop, the fifth its series, focuses on architecture and system support 
 		<chair>PDA@IOT Chair</chair>
 		<paper>
 			<id>306</id>
-			<link>none</link>
+			<link>http://www.thlab.net/pda-iot2014/</link>
 			<title>PDA@IOT</title>
 			<authors>CHRISTOPHIDES Vassilis (ICS-FORTH Greece),Themis Palpanas (University of Trento),)</authors>
 			<abstract>Ubiquitous sensing in the emerging Internet of Things (IoT) permeates almost every facet of human activity. Quantified-self wearable devices enable self-tracking of any kind of biological, physical, health, or behavioral information, smart home sensors capture accurate indoor environmental information and energy consumption habits, residential gateways record in real-time usage information of communication and entertainment devices, while smart cars and phones trace the places and trajectories of our everyday life.  Fine-grained personal data are now massively created through active and passive monitoring of individuals and are mostly analyzed by vertical applications coupled with different kinds of IoT sensors (e.g., health and well-being, home automation, sustainable energy and urban planning). Clearly, the value of such big data is not yet exploited by their own creators. Besides privacy concerns and the challenges emerging in this context of private, resource-constrained networks of sensors, individuals are striving today for tools that can help them to gather, manage and make sense of all the personal data they produce.</abstract>

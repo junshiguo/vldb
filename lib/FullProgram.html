@@ -1,8 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
- 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- 		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+ 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <title>VLDB 2014 Detailed Program</title>
@@ -133,7 +132,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title304">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://vldb.org/2014/phd_workshop_proceedings.html')"><h4 class="paper_title" onclick="" id="title304">
 <strong>PhD workshop</strong>
 </h4>
 <p>Erich Neuhold (University of Vienna),Yunyao Li (IBM)</p>
@@ -174,7 +173,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title401">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1722-plattner.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title401">
 <strong>The Impact of Columnar In-Memory Databases on Enterprise Systems</strong>
 </h4>
 <p>Hasso Plattner, University of Potsdam</p>
@@ -187,7 +186,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title402">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1730-markl.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title402">
 <strong>Breaking the Chains: On Declarative Data Analysis and Data Independence in the Big Data Era</strong>
 </h4>
 <p>Volker Markl, Technische Universit&auml;t Berlin</p>
@@ -215,12 +214,39 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title214">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1978-jin.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title216">
+<strong>Simple, Fast, and Scalable Reachability Oracle</strong>
+</h4>
+<p>Ruoming Jin*, Guan Wang (Kent State University)</p>
+<div class="paper_content">
+<p>A reachability oracle (or hop labeling) assigns each vertex v two sets of vertices: Lout(v) and Lin(v), such that u reaches v iff $L_{out}(u) \cap L_{in}(v) \neq \emptyset$.  Despite their simplicity and elegance,reachability oracles have failed to achieve efficiency in more than ten years since their introduction: the main problem is high constructioncost, which stems from a set-cover framework and theneed to materialize transitive closure. In this paper, we present two simple and efficient labeling algorithms, Hierarchical-Labeling and Distribution-Labeling, which can work onmassive real-world graphs:their construction time is an order of magnitude faster than the setcover based labeling approach, and transitive closure materialization is not needed. On large graphs, their index sizes and their query performance can now beat the state-of-the-art transitive closurecompression and online search approaches.</p>
+</div>
+</div>
+<div id="booklet_data" class="booklet_paper_folded">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1191-wei.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title214">
 <strong>Reachability Querying: An Independent Permutation Labeling Approach</strong>
 </h4>
 <p>Hao WEI* (The Chinese University f HK), Jeffrey Xu Yu (The Chinese University of Hong Kong), Can Lu (The Chinese University of Hong Kong), Ruoming Jin (Kent State University)</p>
 <div class="paper_content">
 <p>Reachability query is a fundamental graph operation which answers whether a vertex can reach another vertex over a large directed graph G with n vertices and m edges, and has been extensively studied. In the literature, all the approaches compute a label for every vertex in a graph G by index construction offline. The query time for answering reachability queries online is affected by the quality of the labels computed in index construction. The three main costs are the index construction time, the index size, and the query time. Some of the up-to-date approaches can answer reachability queries efficiently, but spend non-linear time to construct an index. Some of the up-to-date approaches construct an index in linear time and space, but may need to depth-first search G at run-time in O(n + m). In this paper, as the first, we propose a new randomized labeling approach to answer reachability queries, and the randomness is by independent permutation. We conduct extensive experimental studies to compare with the up-to-date approaches using 19 large real datasets used in the existing work and synthetic datasets. We confirm the efficiency of our approach.</p>
+</div>
+</div>
+<div id="booklet_data" class="booklet_paper_folded">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p61-xiao.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title219">
+<strong>Toward a Distance Oracle for Billion-Node Graphs</strong>
+</h4>
+<p>Zichao Qi, Yanghua Xiao* (Fudan University), Bin Shao, Haixun Wang (Google Research)</p>
+<div class="paper_content">
+<p>The emergence of real life graphs with billions of nodes poses significant challenges for managing and querying these graphs. One of the fundamental queries submitted to graphs is the shortest distance query. Online BFS (breadth-first search) and offline pre-computing pairwise shortest distances are prohibitive in time or space complexity for billion-node graphs. In this paper, we study the feasibility of building distance oracles for billion-node graphs.  A distance oracle provides approximate answers to shortest distance queries by using a pre-computed data structure for the graph. Sketch-based distance oracles are good candidates because they assign each vertex a sketch of bounded size, which means they have linear space complexity. However, state-of-the-art sketch-based distance oracles lack efficiency or accuracy when dealing with big graphs. In this paper, we address the scalability and accuracy issues by focusing on optimizing the three key factors that affect the performance of distance oracles: landmark selection, distributed BFS, and answer generation. We conduct extensive experiments on both real networks and synthetic networks to show that we can build distance oracles of affordable cost and efficiently answer shortest distance queries even for billion-node graphs.</p>
+</div>
+</div>
+<div id="booklet_data" class="booklet_paper_folded">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1203-jiang.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title217">
+<strong>Hop Doubling Label Indexing for Point-to-Point Distance Querying on Scale-Free Networks</strong>
+</h4>
+<p>Minhao Jiang* (HKUST), Ada Wai-Chee Fu (Chinese University of Hong Kong), Raymond Chi-Wing Wong (Hong Kong University of Science and Technology), Yanyan Xu (CUHK)</p>
+<div class="paper_content">
+<p>We study the problem of point-to-point distance querying for massive scale-free graphs, which is important for numerous applications. Given a directed or undirected graph, we propose to build an index for answering such queries based on a novel hop-doubling labeling technique. We derive bounds on the index size, the computation costs and I/O costs based on the properties of unweighted scale-free graphs. We show that our method is much more efficient and effective compared to the state-of-the-art techniques, in terms of both querying time and indexing costs. Our empirical study shows that our method can handle graphs that are orders of magnitude larger than existing methods.</p>
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
@@ -233,39 +259,12 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1978-jin.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title216">
-<strong>Simple, Fast, and Scalable Reachability Oracle</strong>
-</h4>
-<p>Ruoming Jin*, Guan Wang (Kent State University)</p>
-<div class="paper_content">
-<p>A reachability oracle (or hop labeling) assigns each vertex v two sets of vertices: Lout(v) and Lin(v), such that u reaches v iff $L_{out}(u) \cap L_{in}(v) \neq \emptyset$.  Despite their simplicity and elegance,reachability oracles have failed to achieve efficiency in more than ten years since their introduction: the main problem is high constructioncost, which stems from a set-cover framework and theneed to materialize transitive closure. In this paper, we present two simple and efficient labeling algorithms, Hierarchical-Labeling and Distribution-Labeling, which can work onmassive real-world graphs:their construction time is an order of magnitude faster than the setcover based labeling approach, and transitive closure materialization is not needed. On large graphs, their index sizes and their query performance can now beat the state-of-the-art transitive closurecompression and online search approaches.</p>
-</div>
-</div>
-<div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://arxiv.org/abs/1403.0779')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title217">
-<strong>Hop Doubling Label Indexing for Point-to-Point Distance Querying on Scale-Free Networks</strong>
-</h4>
-<p>Minhao Jiang* (HKUST), Ada Wai-Chee Fu (Chinese University of Hong Kong), Raymond Chi-Wing Wong (Hong Kong University of Science and Technology), Yanyan Xu (CUHK)</p>
-<div class="paper_content">
-<p>We study the problem of point-to-point distance querying for massive scale-free graphs, which is important for numerous applications. Given a directed or undirected graph, we propose to build an index for answering such queries based on a novel hop-doubling labeling technique. We derive bounds on the index size, the computation costs and I/O costs based on the properties of unweighted scale-free graphs. We show that our method is much more efficient and effective compared to the state-of-the-art techniques, in terms of both querying time and indexing costs. Our empirical study shows that our method can handle graphs that are orders of magnitude larger than existing methods.</p>
-</div>
-</div>
-<div id="booklet_data" class="booklet_paper_folded">
 <img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p673-yang.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title218">
 <strong>Finding the Cost-Optimal Path with Time Constraint over Time-Dependent Graphs</strong>
 </h4>
 <p>Yajun Yang* (Tianjin University), Hong Gao, Jeffrey Xu Yu (The Chinese University of Hong Kong), Jianzhong Li (Harbin Institute of Technology)</p>
 <div class="paper_content">
 <p>Shortest path query is an important problem and has been well studied in static graphs. However, in practice, the costs of edges in graphs always change over time. We call such graphs as time-dependent graphs. In this paper, we study how to find a cost-optimal path with time constraint in time-dependent graphs. Most existing works regarding the Time-Dependent Shortest Path (TDSP) problem focus on finding a shortest path with the minimum travel time. All these works are based on the following fact: the earliest arrival time at a vertex v can be derived from the earliest arrival time at v's neighbors. Unfortunately, this fact does not hold for our problem. In this paper, we propose a novel algorithm to compute a cost-optimal path with time constraint in time-dependent graphs. We show that the time and space complexities of our algorithm are O(kn log n + mk) and O((n + m)k) respectively. We confirm the effectiveness and efficiency of our algorithm through conducting experiments on real datasets with synthetic cost.</p>
-</div>
-</div>
-<div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p61-xiao.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title219">
-<strong>Toward a Distance Oracle for Billion-Node Graphs</strong>
-</h4>
-<p>Zichao Qi, Yanghua Xiao* (Fudan University), Bin Shao, Haixun Wang (Google Research)</p>
-<div class="paper_content">
-<p>The emergence of real life graphs with billions of nodes poses significant challenges for managing and querying these graphs. One of the fundamental queries submitted to graphs is the shortest distance query. Online BFS (breadth-first search) and offline pre-computing pairwise shortest distances are prohibitive in time or space complexity for billion-node graphs. In this paper, we study the feasibility of building distance oracles for billion-node graphs.  A distance oracle provides approximate answers to shortest distance queries by using a pre-computed data structure for the graph. Sketch-based distance oracles are good candidates because they assign each vertex a sketch of bounded size, which means they have linear space complexity. However, state-of-the-art sketch-based distance oracles lack efficiency or accuracy when dealing with big graphs. In this paper, we address the scalability and accuracy issues by focusing on optimizing the three key factors that affect the performance of distance oracles: landmark selection, distributed BFS, and answer generation. We conduct extensive experiments on both real networks and synthetic networks to show that we can build distance oracles of affordable cost and efficiently answer shortest distance queries even for billion-node graphs.</p>
 </div>
 </div>
 <br>
@@ -343,7 +342,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://stratos.seas.harvard.edu/publications/joins-encoded-and-partitioned-data')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title701">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1355-lee.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title701">
 <strong>Joins on Encoded and Partitioned Data</strong>
 </h4>
 <p>Jae-Gil Lee* (KAIST)*),Gopi Attaluri (IBM Software Group)),Ronald Barber (IBM Almaden Research Center)),Naresh Chainani (IBM Software Group)),Oliver Draese (IBM Software Group)),Frederick Ho (IBM Informix)),Stratos Idreos (Harvard University)),Min-Soo Kim (DGIST)),Sam Lightstone (IBM Software Group)),Guy Lohman (IBM Almaden Research Center)),Konstantinos Morfonios (Oracle)),Keshava Murthy (IBM Informix)),Ippokratis Pandis (IBM Almaden)),Lin Qiao (LinkedIn)),Vijayshankar Raman (IBM Almaden Research Center)),Vincent Kulandai Samy (IBM Almaden Research Center)),Richard Sidle (IBM Almaden Research Center)),Knut Stolze (IBM Software Group)),Liping Zhang (IBM Software Group))</p>
@@ -352,7 +351,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title702">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1452-ahmed.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title702">
 <strong>Of Snowstorms and Bushy Trees</strong>
 </h4>
 <p>Rafi Ahmed* (Oracle)*),Rajkumar Sen (Oracle USA)),Meikel Poess (Oracle)),Sunil Chakkappen (Oracle USA))</p>
@@ -361,7 +360,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title703">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1462-vemuri.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title703">
 <strong>Execution Primitives for Scalable Joins and Aggregations in Map Reduce</strong>
 </h4>
 <p>Srinivas Vemuri (Link)),Maneesh Varshney (LinkedIn)),Krishna Puttaswamy* (LinkedIn)*),Rui Liu (LinkedIn))</p>
@@ -370,7 +369,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title704">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1484-bruno.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title704">
 <strong>Advanced Join Strategies for Large-Scale Distributed Computation</strong>
 </h4>
 <p>Nico Bruno* (Microsoft)*),YONGCHUL KWON (Microsoft)),Ming-Chuan Wu (Microsoft))</p>
@@ -416,7 +415,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://research.microsoft.com/apps/pubs/default.aspx?id=219607')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title180">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1059-dassarma.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title180">
 <strong>ClusterJoin: A Similarity Joins Framework using Map-Reduce</strong>
 </h4>
 <p>Akash Das Sarma (Stanford University), Yeye He* (Microsoft Research), Surajit Chaudhuri (Microsoft Research)</p>
@@ -668,7 +667,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title255">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1143-starlinger.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title255">
 <strong>Similarity Search for Scientific Workflows</strong>
 </h4>
 <p>Johannes Starlinger* (Humboldt-Universit&auml;t zu Berlin), Bryan Brancotte (Universit&eacute; Paris-Sud), Sarah Cohen-Boulakia (Universit&eacute; Paris-Sud), Ulf Leser$$$$$$$)</p>
@@ -696,7 +695,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://vldb.org/pvldb/vol5/p1942_ioannisalagiannis_vldb2012.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title119">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1119-karpathiotakis.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title119">
 <strong>Adaptive Query Processing on RAW Data</strong>
 </h4>
 <p>Manos Karpathiotakis* (EPFL), Miguel Branco (EPFL), Ioannis Alagiannis (EPFL), Anastasia Ailamaki (EPFL)</p>
@@ -705,7 +704,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title120">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1131-afrati.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title120">
 <strong>Storing and Querying Tree-Structured Records in Dremel</strong>
 </h4>
 <p>Foto  Afrati* (National Technical University of Athens), Dan Delorey (Google), Mosha Pasumansky (Google), Jeffrey Ullman (Stanford University)</p>
@@ -714,7 +713,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title121">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1095-nagel.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title121">
 <strong>Code generation for efficient query processing in managed runtimes</strong>
 </h4>
 <p>Fabian Nagel* (University of Edinburgh), Gavin Bierman (Microsoft Research), Stratis Viglas (University of Edinburgh)</p>
@@ -738,30 +737,30 @@ In spite of the trends, currently there is limited usage of these technologies i
 <h3 class="location">
 <strong>Location: Diamond 3</strong><img src="map.png" alt="map" title="Show map" class="paper_controls" onclick="TryOpen('../images/diamond.jpg')"></h3>
 <h4 class="chair">
-<strong>Chair: Local Industrial 1 Chair</strong>
+<strong>Chair: 陈刚</strong>
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title601">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1748-baidu.pdf')"><h4 class="paper_title" onclick="" id="title601">
 <strong>Fatman: Cost-saving and reliable archival storage based on volunteer resources</strong>
 </h4>
 <p>An Qin (Baidu, Inc), Dianming Hu (Baidu, Inc), Jun Liu (Baidu, Inc), Wenjun Yang (Baidu, Inc), Dai Tan (Baidu, Inc)</p>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title602">
-<strong>yzStack: Provisioning Customizable Solution for BigData</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1778-yzbigdata.pdf')"><h4 class="paper_title" onclick="" id="title602">
+<strong>yzBigData: Provisioning Customizable Solution for Big Data</strong>
 </h4>
 <p>Sai Wu (Zhejiang University) (Chun Chen (Zhejiang University) (Gang Chen (Zhejiang University) (Ke Chen (Zhejiang University) (Lidan Shou (Zhejiang University)), Hui Cao (yzBigData Co. (Ltd.)), He Bai (City Cloud Technology (Hangzhou) Co. (Ltd.))</p>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title603">
-<strong>Realization of Low Cost and High Performance MySQLCloud Database</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1742-alibaba.pdf')"><h4 class="paper_title" onclick="" id="title603">
+<strong>Realization of the Low Cost and High Performance MySQL Cloud Database</strong>
 </h4>
 <p>Wei Cao (Alibaba Cloud Computing Inc.), Feng Yu (Alibaba Cloud Computing Inc.), Jiasen Xie (Alibaba Cloud Computing Inc.)</p>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title604">
-<strong>Mariana: Tecent Deep Learning Platform and its Applications</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1772-tencent.pdf')"><h4 class="paper_title" onclick="" id="title604">
+<strong>Mariana: Tencent Deep Learning Platform and its Applications</strong>
 </h4>
 <p>Yongqiang Zou (Tencent Inc.), Xing Jin (Tencent Inc.), Yi Li (Tencent Inc.), Zhimao Guo (Tencent Inc.), Eryu Wang (Tencent Inc.), Bin Xiao (Tencent Inc.) </p>
 </div>
@@ -840,7 +839,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title152">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1215-suchanek.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title152">
 <strong>Semantic Culturomics (Vision Paper)</strong>
 </h4>
 <p>Fabian Suchanek* (T&eacute;l&eacute;com ParisTech), Nicoleta Preda (University of Versailles)</p>
@@ -1064,7 +1063,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://arxiv-web3.library.cornell.edu/pdf/1403.7550')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title141">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1283-zhang.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title141">
 <strong>DimmWitted: A Study of Main-Memory Statistical Analytics</strong>
 </h4>
 <p>Ce Zhang* (University of Wisconsin-Madison), Chris Re (Stanford)</p>
@@ -1092,12 +1091,12 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title129">
-<strong>Optimizing Join Enumeration in Transformation-based Query Optimizers</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1990-zavodny.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title132">
+<strong>Aggregation and Ordering in Factorised Databases</strong>
 </h4>
-<p>Anil Shanbhag* (IIT Bombay), S Sudarshan (IIT Bombay)</p>
+<p>Nurzhan Bakibayev (Oxford), Tomas Kocisky (Oxford), Dan Olteanu* (Oxford University), Jakub Zavodny (Oxford)</p>
 <div class="paper_content">
-<p>Query optimizers built on the Volcano/Cascades framework, which is based on transformation rules, are used in many commercial databases. Transformation rulesets proposed earlier for join order enumeration in such a framework either allow enumeration of joins with cross-products (which can significantly increase the cost of optimization), or generate a large number of duplicate derivations. In this paper we propose two new rulesets for generating all cross-product free join trees. One of the rulesets is a minor extension of a simple but inefficient ruleset, which we prove is complete (we also show that a naive extension of an efficient ruleset leads to incompleteness). We then propose an efficient new ruleset, which is based on techniques proposed recently for top-down join order enumeration, but unlike earlier work it is cleanly integrated into the Volcano/Cascades framework, and can be used in conjunction with other transformation rules. We show that our ruleset is complete (i.e., it generates the entire search space without cross products) while avoiding inefficiency due to duplicate derivations. We have implemented this ruleset in the PyroJ Optimizer (an implementation of the Volcano optimizer framework) and show that it significantly outperforms the alternatives, in some cases by up to two orders of magnitude, in terms of time taken.</p>
+<p>A common approach to data analysis involves understanding and  manipulating succinct representations of data. In earlier work, we  put forward a succinct representation system for relational data  called factorised databases and reported on the main-memory query  engine FDB for select-project-join queries on such databases.  In this paper, we extend FDB to support a larger class of practical  queries with aggregates and ordering. This requires novel  optimisation and evaluation techniques. We show how factorisation  coupled with partial aggregation can effectively reduce the number  of operations needed for query evaluation. We also show how  factorisations of query results can support enumeration of tuples in  desired orders as efficiently as listing them from the unfactorised,  sorted results.  We experimentally observe that FDB can outperform off-the-shelf  relational engines by orders of magnitude.</p>
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
@@ -1119,12 +1118,12 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1990-zavodny.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title132">
-<strong>Aggregation and Ordering in Factorised Databases</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1243-shanbhag.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title129">
+<strong>Optimizing Join Enumeration in Transformation-based Query Optimizers</strong>
 </h4>
-<p>Nurzhan Bakibayev (Oxford), Tomas Kocisky (Oxford), Dan Olteanu* (Oxford University), Jakub Zavodny (Oxford)</p>
+<p>Anil Shanbhag* (IIT Bombay), S Sudarshan (IIT Bombay)</p>
 <div class="paper_content">
-<p>A common approach to data analysis involves understanding and  manipulating succinct representations of data. In earlier work, we  put forward a succinct representation system for relational data  called factorised databases and reported on the main-memory query  engine FDB for select-project-join queries on such databases.  In this paper, we extend FDB to support a larger class of practical  queries with aggregates and ordering. This requires novel  optimisation and evaluation techniques. We show how factorisation  coupled with partial aggregation can effectively reduce the number  of operations needed for query evaluation. We also show how  factorisations of query results can support enumeration of tuples in  desired orders as efficiently as listing them from the unfactorised,  sorted results.  We experimentally observe that FDB can outperform off-the-shelf  relational engines by orders of magnitude.</p>
+<p>Query optimizers built on the Volcano/Cascades framework, which is based on transformation rules, are used in many commercial databases. Transformation rulesets proposed earlier for join order enumeration in such a framework either allow enumeration of joins with cross-products (which can significantly increase the cost of optimization), or generate a large number of duplicate derivations. In this paper we propose two new rulesets for generating all cross-product free join trees. One of the rulesets is a minor extension of a simple but inefficient ruleset, which we prove is complete (we also show that a naive extension of an efficient ruleset leads to incompleteness). We then propose an efficient new ruleset, which is based on techniques proposed recently for top-down join order enumeration, but unlike earlier work it is cleanly integrated into the Volcano/Cascades framework, and can be used in conjunction with other transformation rules. We show that our ruleset is complete (i.e., it generates the entire search space without cross products) while avoiding inefficiency due to duplicate derivations. We have implemented this ruleset in the PyroJ Optimizer (an implementation of the Volcano optimizer framework) and show that it significantly outperforms the alternatives, in some cases by up to two orders of magnitude, in terms of time taken.</p>
 </div>
 </div>
 <br>
@@ -1202,6 +1201,15 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title237">
+<strong>Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems [Vision Paper]</strong>
+</h4>
+<p>Kristi Morton* (University of Washington), Magdalena Balazinska (University of Washington), Dan Grossman (University of Washington), Jock Mackinlay (Tableau Software)</p>
+<div class="paper_content">
+<p>We present a vision of next-generation visual analytics services. We argue that these services should provide three related capabilities:support visual and interactive data exploration as they do today, but also suggest relevant data to enrich visualizations, and facilitate the integration and cleaning of that data. Most importantly, they should provide all these capabilities seamlessly in the context of an uninterrupted data analysis cycle. We present the challenges and opportunities in building such next-generation visual analytics services.</p>
+</div>
+</div>
+<div id="booklet_data" class="booklet_paper_folded">
 <img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1762-mottin.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title235">
 <strong>A Probabilistic Optimization Framework for the Empty-Answer Problem</strong>
 </h4>
@@ -1220,12 +1228,12 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title237">
-<strong>Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems [Vision Paper]</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1255-jacob.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title239">
+<strong>A System for Management and Analysis of Preference Data</strong>
 </h4>
-<p>Kristi Morton* (University of Washington), Magdalena Balazinska (University of Washington), Dan Grossman (University of Washington), Jock Mackinlay (Tableau Software)</p>
+<p>Marie Jacob* (University Of Pennsylvania), Benny Kimelfeld (LogicBlox), Julia Stoyanovich (Drexel University)</p>
 <div class="paper_content">
-<p>We present a vision of next-generation visual analytics services. We argue that these services should provide three related capabilities:support visual and interactive data exploration as they do today, but also suggest relevant data to enrich visualizations, and facilitate the integration and cleaning of that data. Most importantly, they should provide all these capabilities seamlessly in the context of an uninterrupted data analysis cycle. We present the challenges and opportunities in building such next-generation visual analytics services.</p>
+<p>Over the past decade, the need to analyze large volumes of rankings and preferences has arisen in applications in different domains. Examples include rank aggregation in genomic data analysis, management of votes in elections, and recommendation systems in e-commerce. The scientific community has established a rich literature of paradigms and algorithms for analyzing preference data. However, little focus has been paid to the challenges of building a system for preference-data management, such as incorporation into larger applications, computational abstractions for usability by data scientists, and scaling up to modern volumes. This vision paper proposes a management system for preference data that aims to address these challenges. We adopt the relational database model, and propose extensions that are specialized to handling preference data. In particular, we introduce a special type of a relation that is designed to represent and store preference data. Moreover, we propose a type of composable operations on preference relations (which we call preference-to-preference functions) that can be embedded in SQL statements in a natural fashion; we illustrate their ability to represent common analytics, as well as their ease of use. Each such an operation can be registered as a database primitive, and hence, can be reused across different applications. We outline the challenges in the establishment of such a system, like the translation of known concepts and algorithms into effective solutions for applications in different domains.</p>
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
@@ -1235,15 +1243,6 @@ In spite of the trends, currently there is limited usage of these technologies i
 <p>Marc Gyssens* (Hasselt University), Jan Paredaens (University of Antwerp), Dirk Van Gucht (Indiana University), Jef Wijsen (University of Mons), Yuqing Wu (Indiana University)</p>
 <div class="paper_content">
 <p>Many data-intensive applications have to query a database that involves sequences of sets of objects. It is not uncommon that the order of the sets in such a sequence does not affect the result of the query. Such queries are called symmetric. In this paper, the authors wish to initiate research on symmetric queries.     Thereto, a data model is proposed in which a binary relation between objects and set names encodes set membership. On this data model, two query languages are introduced, QuineCALC and SyCALC. They are correlated in a manner that is made precise with the symmetric Boolean functions of Quine, respectively  symmetric relational functions, on sequences of sets of given length. The latter do not only involve the Boolean operations union, intersection, and complement, but also projection and Cartesian product. Quine's characterization of symmetric Boolean functions in terms of incidence information is generalized to QuineCALC queries. In the process, an incidence-based normal form for QuineCALC queries is proposed.     Inspired by these desirable incidence-related properties of  QuineCALC queries, counting-only queries are introduced as SyCALC queries for which the result only depends on incidence information.  Counting-only queries are then characterized as quantified Boolean combinations of QuineCALC queries, and a normal form is proposed for them as well. Finally, it is shown that, while it is undecidable whether a SyCALC query is counting-only, it is decidable whether a counting-only query is a QuineCALC query.</p>
-</div>
-</div>
-<div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title239">
-<strong>A System for Management and Analysis of Preference Data</strong>
-</h4>
-<p>Marie Jacob* (University Of Pennsylvania), Benny Kimelfeld (LogicBlox), Julia Stoyanovich (Drexel University)</p>
-<div class="paper_content">
-<p>Over the past decade, the need to analyze large volumes of rankings and preferences has arisen in applications in different domains. Examples include rank aggregation in genomic data analysis, management of votes in elections, and recommendation systems in e-commerce. The scientific community has established a rich literature of paradigms and algorithms for analyzing preference data. However, little focus has been paid to the challenges of building a system for preference-data management, such as incorporation into larger applications, computational abstractions for usability by data scientists, and scaling up to modern volumes. This vision paper proposes a management system for preference data that aims to address these challenges. We adopt the relational database model, and propose extensions that are specialized to handling preference data. In particular, we introduce a special type of a relation that is designed to represent and store preference data. Moreover, we propose a type of composable operations on preference relations (which we call preference-to-preference functions) that can be embedded in SQL statements in a natural fashion; we illustrate their ability to represent common analytics, as well as their ease of use. Each such an operation can be registered as a database primitive, and hence, can be reused across different applications. We outline the challenges in the establishment of such a system, like the translation of known concepts and algorithms into effective solutions for applications in different domains.</p>
 </div>
 </div>
 <br>
@@ -1410,7 +1409,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title400">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1720-venkataraman-agrawal.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title400">
 <strong>Datacenters as Computers: Google Engineering &amp; Database Research Perspectives</strong>
 </h4>
 <p>Shivakumar Venkataraman (Google),Divyakant Agrawal (University of California at Santa Barbara)</p>
@@ -1570,7 +1569,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title709">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1331-sadoghi.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title709">
 <strong>Reducing Database Locking Contention Through Multi-version Concurrency</strong>
 </h4>
 <p>Mohammad Sadoghi* (IBM T.J. Watson Research Cente)*),Mustafa Canim (IBM T.J. Watson Research Center)),Bishwaranjan   Bhattacharjee  (IBM T.J. Watson Research Center)),Fabian Nagel (University of Edinburgh)),Kenneth Ross (Columbia University))</p>
@@ -1579,7 +1578,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title710">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1367-poess.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title710">
 <strong>TPC-DI: The First Industry Benchmark for Data Integration</strong>
 </h4>
 <p>Meikel Poess* (Oracle)*),Tilmann Rabl (University of Toronto)),Hans-Arno Jacobsen (University of Toronto)),Brian Caufield (IBM))</p>
@@ -1588,8 +1587,8 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title711">
-<strong>Fuxi: Fault Tolerant Resource Management and Job Scheduling System at Internet Scale</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1393-zhang.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title711">
+<strong>Fuxi: a Fault-Tolerant Resource Management and Job Scheduling System at Internet Scale</strong>
 </h4>
 <p>Zhuo Zhang (Alibaba Cloud Computing)),Chao Li (Alibaba Cloud Computing)),Yangyu Tao (Alibaba Cloud Computing)),Renyu  Yang* (Beihang University)*),Jie Xu  (Beihang University (University of Leeds))</p>
 <div class="paper_content">
@@ -1597,7 +1596,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title712">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1474-arauz.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title712">
 <strong>CAP limits in telecom subscriber database design</strong>
 </h4>
 <p>Javier Arauz* (Ericsson)*</p>
@@ -1643,7 +1642,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title110">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1307-guarnieri.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title110">
 <strong>Optimal Security-Aware Query Processing</strong>
 </h4>
 <p>Marco Guarnieri* (Institute of Information Security (ETH Zurich), David Basin (Institute of Information Security (ETH Zurich)</p>
@@ -1671,7 +1670,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 <br>
 <h2 class="session" onclick="" id="D2F1030T1215R5">
-<strong>Papers 22: Data quality</strong>
+<strong>Papers 22: Data Curation</strong>
 </h2>
 <h3 class="location">
 <strong>Location: Diamond 5</strong><img src="map.png" alt="map" title="Show map" class="paper_controls" onclick="TryOpen('../images/diamond.jpg')"></h3>
@@ -1680,16 +1679,25 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title240">
-<strong>Query-Driven Approach to Entity Resolution</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p301-heise.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title244">
+<strong>Scalable Discovery of Unique Column Combinations</strong>
 </h4>
-<p>Hotham Altwaijry* (University of california - Irv), Dmitri Kalashnikov (UC Irvine), Sharad Mehrotra (University of California (Irvine)</p>
+<p>Arvid Heise* (Hasso-Plattner Institute), Jorge Quian&eacute;-Ruiz (QCRI), Ziawasch Abedjan (Hasso-Plattner Institute), Anja Jentzsch (Hasso-Plattner Institute), Felix Naumann (Hasso-Plattner Institute)</p>
 <div class="paper_content">
-<p>This paper explores "on-the-fly" data cleaning in the context of a user query. A novel Query-Driven Approach (QDA) is developed that performs a minimal number of cleaning steps that are only necessary to answer a given selection query correctly. The comprehensive empirical evaluation of the proposed approach demonstrates its significant advantage in terms of efficiency over traditional techniques for query-driven applications.</p>
+<p>The discovery of all unique (and non-unique) column combinations in a given dataset is at the core of any data profiling effort. The results are useful for a large number of areas of data management, such as anomaly detection, data integration, data modeling, duplicate detection, indexing, and query optimization. However, discovering all unique and non-unique column combinations is an NP-hard problem, which in principle requires to verify an exponential number of column combinations for uniqueness on all data values. Thus, achieving efficiency and scalability in this context is a tremendous challenge by itself.    In this paper, we devise DUCC, a scalable and efficient approach to the problem of finding all unique and non-unique column combinations in big datasets. We first model the problem as a graph coloring problem and analyze the pruning effect of individual combinations. We then present our hybrid column-based pruning technique, which traverses the lattice in a depth-first and random walk combination. This strategy allows DUCC to typically depend on the solution set size and hence to prune large swaths of the lattice. DUCC also incorporates row-based pruning to run uniqueness checks in just few milliseconds. To achieve even higher scalability, DUCC runs on several CPU cores (scale-up) and compute nodes (scale-out) with a very low overhead. We exhaustively evaluate DUCC using three datasets (two real and one synthetic) with several millions rows and hundreds of attributes. We compare DUCC with related work: Gordian and HCA. The results show that DUCC is up to more than 2 orders of magnitude faster than Gordian and HCA (631x faster than Gordian and 398x faster than HCA). Finally, a series of scalability experiments shows the efficiency of DUCC to scale up and out.</p>
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title241">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1498-papotti.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title242">
+<strong>Discovering Denial Constraints</strong>
+</h4>
+<p>Xu Chu (University of Waterloo), Ihab Ilyas ( University of Waterloo), Paolo Papotti* (QCRI)</p>
+<div class="paper_content">
+<p>Integrity constraints (ICs) provide a valuable tool for enforcing correct application semantics. However, designing ICs requires experts and time. Proposals for automatic discovery have been made for some formalisms, such as functional dependencies (FDs) and their extension conditional functional dependencies (CFDs). Unfortunately, these dependencies cannot express many common business rules. For example, an American citizen cannot have lower salary and higher tax rate than another citizen in the same state. In this paper, we tackle the challenges of discovering dependencies in a more expressive integrity constraint language, namely Denial Constrains (DCs). DCs are expressive enough to overcome the limits of previous languages and, at the same time, have enough structure to allow efficient discovery and application in several scenarios. We lay out theoretical and practical foundations for DCs, including a set of sound inference rules and a linear algorithm for implication testing. We then develop an efficient instance-driven DC discovery algorithm (FASTDC) and propose a novel scoring function to rank DCs for user validation. Using real-world and synthetic datasets, we experimentally evaluate the scalability and effectiveness of our proposed solution.</p>
+</div>
+</div>
+<div id="booklet_data" class="booklet_paper_folded">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p987-song.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title241">
 <strong>Repairing Vertex Labels under Neighborhood Constraints</strong>
 </h4>
 <p>Shaoxu Song* (Tsinghua University), Hong Cheng (The Chinese University of Hong Kong), Jeffrey Xu Yu (The Chinese University of Hong Kong), Lei Chen (Hong Kong University of Science and Technology)</p>
@@ -1698,12 +1706,12 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1498-papotti.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title242">
-<strong>Discovering Denial Constraints</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title240">
+<strong>Query-Driven Approach to Entity Resolution</strong>
 </h4>
-<p>Xu Chu (University of Waterloo), Ihab Ilyas (QCRI), Paolo Papotti* (QCRI)</p>
+<p>Hotham Altwaijry* (University of california - Irv), Dmitri Kalashnikov (UC Irvine), Sharad Mehrotra (University of California (Irvine)</p>
 <div class="paper_content">
-<p>Integrity constraints (ICs) provide a valuable tool for enforcing correct application semantics. However, designing ICs requires experts and time. Proposals for automatic discovery have been made for some formalisms, such as functional dependencies (FDs) and their extension conditional functional dependencies (CFDs). Unfortunately, these dependencies cannot express many common business rules. For example, an American citizen cannot have lower salary and higher tax rate than another citizen in the same state. In this paper, we tackle the challenges of discovering dependencies in a more expressive integrity constraint language, namely Denial Constrains (DCs). DCs are expressive enough to overcome the limits of previous languages and, at the same time, have enough structure to allow efficient discovery and application in several scenarios. We lay out theoretical and practical foundations for DCs, including a set of sound inference rules and a linear algorithm for implication testing. We then develop an efficient instance-driven DC discovery algorithm (FASTDC) and propose a novel scoring function to rank DCs for user validation. Using real-world and synthetic datasets, we experimentally evaluate the scalability and effectiveness of our proposed solution.</p>
+<p>This paper explores "on-the-fly" data cleaning in the context of a user query. A novel Query-Driven Approach (QDA) is developed that performs a minimal number of cleaning steps that are only necessary to answer a given selection query correctly. The comprehensive empirical evaluation of the proposed approach demonstrates its significant advantage in terms of efficiency over traditional techniques for query-driven applications.</p>
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
@@ -1716,16 +1724,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p301-heise.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title244">
-<strong>Scalable Discovery of Unique Column Combinations</strong>
-</h4>
-<p>Arvid Heise* (Hasso-Plattner Institute), Jorge Quian&eacute;-Ruiz (QCRI), Ziawasch Abedjan (Hasso-Plattner Institute), Anja Jentzsch (Hasso-Plattner Institute), Felix Naumann (Hasso-Plattner Institute)</p>
-<div class="paper_content">
-<p>The discovery of all unique (and non-unique) column combinations in a given dataset is at the core of any data profiling effort. The results are useful for a large number of areas of data management, such as anomaly detection, data integration, data modeling, duplicate detection, indexing, and query optimization. However, discovering all unique and non-unique column combinations is an NP-hard problem, which in principle requires to verify an exponential number of column combinations for uniqueness on all data values. Thus, achieving efficiency and scalability in this context is a tremendous challenge by itself.    In this paper, we devise DUCC, a scalable and efficient approach to the problem of finding all unique and non-unique column combinations in big datasets. We first model the problem as a graph coloring problem and analyze the pruning effect of individual combinations. We then present our hybrid column-based pruning technique, which traverses the lattice in a depth-first and random walk combination. This strategy allows DUCC to typically depend on the solution set size and hence to prune large swaths of the lattice. DUCC also incorporates row-based pruning to run uniqueness checks in just few milliseconds. To achieve even higher scalability, DUCC runs on several CPU cores (scale-up) and compute nodes (scale-out) with a very low overhead. We exhaustively evaluate DUCC using three datasets (two real and one synthetic) with several millions rows and hundreds of attributes. We compare DUCC with related work: Gordian and HCA. The results show that DUCC is up to more than 2 orders of magnitude faster than Gordian and HCA (631x faster than Gordian and 398x faster than HCA). Finally, a series of scalability experiments shows the efficiency of DUCC to scale up and out.</p>
-</div>
-</div>
-<div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title245">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1071-vesdapunt.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title245">
 <strong>Crowdsourcing Algorithms for Entity Resolution</strong>
 </h4>
 <p>Norases Vesdapunt* (Stanford University), Kedar Bellare (Facebook), Nilesh Dalvi (Facebook)</p>
@@ -1877,7 +1876,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title210">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1023-maehara.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title210">
 <strong>Computing Personalized PageRank Quickly by Exploiting Graph Structures</strong>
 </h4>
 <p>Takanori Maehara* (National Institute of Informatics), Takuya Akiba (The University of Tokyo), Yoichi Iwata (The University of Tokyo), Ken-ichi Kawarabayashi (National Institute of Informatics)</p>
@@ -1923,7 +1922,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title246">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1654-schaeler.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title246">
 <strong>QuEval: Beyond high-dimensional indexing &agrave; la carte</strong>
 </h4>
 <p>Martin Sch&auml;ler* (University of Magdeburg), Alexander Grebhahn (University of Passau), Reimar Schr&ouml;ter (University of Magdeburg), Sandro Schulze (TU Braunschweig), Veit K&ouml;ppen (University of Magdeburg), Gunter Saake (University of Magdeburg)</p>
@@ -1950,7 +1949,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title249">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1295-floratou.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title249">
 <strong>SQL-on-Hadoop: Full Circle Back to Shared-Nothing Database Architectures</strong>
 </h4>
 <p>Avrilia Floratou* (IBM Almaden Research Center), Umar Farooq Minhas (IBM Almaden Research Center (US), Fatma Ozcan (IBM Almaden)</p>
@@ -1959,7 +1958,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title250">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1219-klems.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title250">
 <strong>Benchmarking Scalability and Elasticity of Distributed Database Systems [Experiments and Analysis Paper]</strong>
 </h4>
 <p>J&ouml;rn Kuhlenkamp (KIT), Markus Klems* (KIT), Oliver R&ouml;ss (KIT)</p>
@@ -1978,7 +1977,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title705">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1379-lin.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title705">
 <strong>Real-Time Twitter Recommendation: Online Motif Detection in Large Dynamic Graphs</strong>
 </h4>
 <p>Pankaj Gupta (Twitter)),Venu Satuluri (Twitter)),Ajeet Grewal (Twitter)),Siva Gurumurthy (Twitter)),Volodymyr Zhabiuk (Twitter)),Quannan Li (Twitter)),Jimmy Lin* (Twitter)*)</p>
@@ -1987,7 +1986,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title706">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1508-yan.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title706">
 <strong>Error-bounded Sampling for Analytics on Big Sparse Data</strong>
 </h4>
 <p>Ying Yan* (Microsoft Research)*),Liang Chen (Microsoft Research)),Zheng Zhang (MSRA))</p>
@@ -1996,7 +1995,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title707">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1381-cha.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title707">
 <strong>Interval Disaggregate: A New Operator for Business Planning</strong>
 </h4>
 <p>Sang Cha (SAP Labs Korea)),Kunsoo Park* (SAP Labs Korea)*),Chang Song (SAP Labs Korea)),Ki Kim (SAP Labs Korea)),Cheol Ryu (SAP Labs Korea)),Sunho Lee (SAP Labs Korea))</p>
@@ -2005,7 +2004,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title708">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1529-sun.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title708">
 <strong>Chimera: Large-Scale Classification using Machine Learning, Rules, and Crowdsourcing</strong>
 </h4>
 <p>AnHai Doan* (Univ. of Wisconsin Madison)*),Chong Sun (WalmartLabs)),Narasimhan  Rampalli (WalmartLabs))</p>
@@ -2024,7 +2023,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title167">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1259-gupta.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title167">
 <strong>Mesa: Geo-Replicated, Near Real-Time, Scalable Data Warehousing</strong>
 </h4>
 <p>Ashish Gupta* (Google Inc.), Fan Yang (Google Inc.), Jason Govig (Google Inc.), Adam Kirsch (Google Inc.), Kelvin Chan (Google Inc.), Kevin Lai (Google Inc.), Shuo Wu (Google Inc.), Sandeep Dhoot (Google Inc.), Abhilash Kumar (Google Inc.), Ankur Agiwal (Google Inc.), Sanjay Bhansali (Google Inc.), Mingsheng Hong (Google Inc.), Jamie Cameron (Google Inc.), Masood Siddiqi (Google Inc.), David Jones (dlj@google.com), Jeff Shute (Google Inc.), Andrey Gubarev (Google), Shivakumar Venkataraman (Google Inc.), Divyakant Agrawal (Google Inc.)</p>
@@ -2097,7 +2096,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.cse.buffalo.edu/DBGROUP/bioinformatics/papers/Vish_VLDB_2014%20.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title158">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1167-londhe.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title158">
 <strong>Matching Titles with Cross Title Web-Search Enrichment and Community Detection</strong>
 </h4>
 <p>Vishrawas Gopalakrishnan* (SUNY Buffalo), Nikhil Londhe (SUNY Buffalo), Aidong  Zhang (SUNY Buffalo), HUng Ngo (SUNY Buffalo), Rohini Srihari (SUNY Buffalo)</p>
@@ -2106,7 +2105,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://arxiv.org/pdf/1403.2763v2')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title159">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1107-liu.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title159">
 <strong>Aggregate Estimation Over Dynamic Hidden Web Databases</strong>
 </h4>
 <p>Weimo Liu* (The George Washington University), Saravanan Thirumuruganathan, Nan Zhang (George Washington University), Gautam Das (UT Arlington)</p>
@@ -2339,14 +2338,14 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title226">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1083-fan.pdf')"><h4 class="paper_title" onclick="" id="title226">
 <strong>Distributed Graph Simulation: Impossibility and Possiblity</strong>
 </h4>
 <p>Wenfei Fan (University of Edinburgh), Xin Wang (University of Edinburgh), YINGHUI WU* (University of California Santa), Dong Deng (Tsinghua University)</p>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../www.cs.hku.hk/research/techreps/document/TR-2014-02.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title227">
-<strong>Efficient Management of Spatial RDF Data</strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1271-liagouris.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title227">
+<strong>An Effective Encoding Scheme for Spatial RDF Data</strong>
 </h4>
 <p>John Liagouris (HKU), Nikos Mamoulis* (University of Hong Kong), Panagiotis Bouros (Humboldt-Universitaet zu Berlin), Manolis Terrovitis (IMIS `Athena')</p>
 <div class="paper_content">
@@ -2372,7 +2371,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../https://cs.uwaterloo.ca/~kdaudjee/comparison.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title230">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1047-han.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title230">
 <strong>An Experimental Comparison of Pregel-like Graph Processing Systems</strong>
 </h4>
 <p>Minyang Han* (University of Waterloo), Khuzaima Daudjee (University of Waterloo), Khaled Ammar (University of Waterloo), Tamer Ozsu (University of Waterloo), Xingfang Wang (University of Waterloo), Tianqi Jin (University of Waterloo)</p>
@@ -2409,24 +2408,6 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1522-rao.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title115">
-<strong>Bitlist: New Full-text Index for Low Space Cost and Efficient Keyword Search</strong>
-</h4>
-<p>Weixiong Rao* (University of Helsinki), Lei Chen (Honk Kong University of Science and Technology), Pan Hui (HKUST (Telekom Innovation Laboratories (German,Berlin (Germany), Sasu Tarkoma (University of Helsinki (Finland)</p>
-<div class="paper_content">
-<p>Nowadays Web search engines are experiencing significant performance challenges caused by a huge amount of Web pages and increasingly larger number of Web users. The key issue for addressing these challenges is to design a compact structure which can index Web documents with low space and meanwhile process keyword search very fast. Unfortunately, the current solutions typically separate the space optimization from the search improvement. As a result, such solutions either save space yet with search inefficiency, or allow fast keyword search but with huge space requirement. In this paper, to address the challenges, we propose a novel structure bitlist with both low space requirement and supporting fast keyword search. Specifically, based on a simple yet very efficient encoding scheme, bitlist uses a single number to encode a set of integer document IDs for low space, and adopts fast bitwise operations for very efficient boolean-based keyword search. Based on real data sets, our extensive experimental results verify that bitlist outperforms the recent proposed solution, inverted list compression [23, 22] by spending 36.71% less space and 61.91% faster processing time, and achieves comparable running time as [8] but with significantly lower space.</p>
-</div>
-</div>
-<div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title116">
-<strong>Streaming Similarity Search over one Billion Tweets using Parallel Locality-Sensitive Hashing</strong>
-</h4>
-<p>Narayanan Sundaram* (Intel Corporation), Aizana Turmukhametova (MIT), Nadathur Satish (Intel Corporation), Todd Mostak (Harvard), Piotr Indyk (MIT), Sam Madden, Pradeep Dubey (Intel Corporation)</p>
-<div class="paper_content">
-<p>Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing, and many other areas. One popular algorithm for similarity search, especially for high dimensional data (where spatial indexes like kd-trees do not perform well) is Locality Sensitive Hashing (LSH), an approximation algorithm for finding similar objects.In this paper, we describe a new variant of LSH, called Parallel LSH (PLSH) designed to be extremely efficient, capable of scaling out on multiple nodes and multiple cores, and which supports high-throughput streaming of new data. Our approach employs several novel ideas, including: cache-conscious hash table layout, using a 2-level merge algorithm for hash table construction; an efficient algorithm for duplicate elimination during hash-table querying; an insert-optimized hash table structure and efficient data expiration algorithm for streaming data; and a performance model that accurately estimates performance of the algorithm and can be used to optimize parameter settings. We show that on a workload where we perform similarity search on a dataset of  1 Billion tweets, with hundreds of millions of new tweets per day, we can achieve query times of 1&ndash;2.5 ms. We show that this is an order of magnitude faster than existing indexing schemes, such as inverted indexes. To the best of our knowledge, this is the fastest implementation of LSH, with table construction times up to 3.7X faster and query times that are 8.3X faster than a basic implementation.</p>
-</div>
-</div>
-<div id="booklet_data" class="booklet_paper_folded">
 <img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p97-schuhknecht.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title117">
 <strong>The Uncracked Pieces in Database Cracking</strong>
 </h4>
@@ -2444,6 +2425,24 @@ In spite of the trends, currently there is limited usage of these technologies i
 <p>Partial persistent index structures support efficient access to current and past versions of objects, while updates are allowed on the current version. The Multiversion B-Tree (MVBT) represents a partially persistent index-structure with both, asymptotic worst-case performance and excellent performance in real life applications. Updates are performed tuple-by-tuple with the same asymptotic performance as for standard B$^+$trees. To the best of our knowledge, there is no efficient algorithm for bulk loading and bulk update of MVBT and other partially persistent index structures. In this paper, we propose the first loading algorithm for MVBT that meets the lower-bound of external sorting. In addition, our approach is also applicable to bulk updates. This is achieved by combining two basic technologies, weight balancing and buffer tree. Our extensive set of experiments confirm the theoretical findings: Our loading algorithm runs considerably faster than performing updates tuple-by-tuple.</p>
 </div>
 </div>
+<div id="booklet_data" class="booklet_paper_folded">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1522-rao.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title115">
+<strong>Bitlist: New Full-text Index for Low Space Cost and Efficient Keyword Search</strong>
+</h4>
+<p>Weixiong Rao* (University of Helsinki), Lei Chen (Honk Kong University of Science and Technology), Pan Hui (HKUST (Telekom Innovation Laboratories (German,Berlin (Germany), Sasu Tarkoma (University of Helsinki (Finland)</p>
+<div class="paper_content">
+<p>Nowadays Web search engines are experiencing significant performance challenges caused by a huge amount of Web pages and increasingly larger number of Web users. The key issue for addressing these challenges is to design a compact structure which can index Web documents with low space and meanwhile process keyword search very fast. Unfortunately, the current solutions typically separate the space optimization from the search improvement. As a result, such solutions either save space yet with search inefficiency, or allow fast keyword search but with huge space requirement. In this paper, to address the challenges, we propose a novel structure bitlist with both low space requirement and supporting fast keyword search. Specifically, based on a simple yet very efficient encoding scheme, bitlist uses a single number to encode a set of integer document IDs for low space, and adopts fast bitwise operations for very efficient boolean-based keyword search. Based on real data sets, our extensive experimental results verify that bitlist outperforms the recent proposed solution, inverted list compression [23, 22] by spending 36.71% less space and 61.91% faster processing time, and achieves comparable running time as [8] but with significantly lower space.</p>
+</div>
+</div>
+<div id="booklet_data" class="booklet_paper_folded">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title116">
+<strong>Streaming Similarity Search over one Billion Tweets using Parallel Locality-Sensitive Hashing</strong>
+</h4>
+<p>Narayanan Sundaram* (Intel Corporation), Aizana Turmukhametova (MIT), Nadathur Satish (Intel Corporation), Todd Mostak (Harvard), Piotr Indyk (MIT), Sam Madden, Pradeep Dubey (Intel Corporation)</p>
+<div class="paper_content">
+<p>Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing, and many other areas. One popular algorithm for similarity search, especially for high dimensional data (where spatial indexes like kd-trees do not perform well) is Locality Sensitive Hashing (LSH), an approximation algorithm for finding similar objects.In this paper, we describe a new variant of LSH, called Parallel LSH (PLSH) designed to be extremely efficient, capable of scaling out on multiple nodes and multiple cores, and which supports high-throughput streaming of new data. Our approach employs several novel ideas, including: cache-conscious hash table layout, using a 2-level merge algorithm for hash table construction; an efficient algorithm for duplicate elimination during hash-table querying; an insert-optimized hash table structure and efficient data expiration algorithm for streaming data; and a performance model that accurately estimates performance of the algorithm and can be used to optimize parameter settings. We show that on a workload where we perform similarity search on a dataset of  1 Billion tweets, with hundreds of millions of new tweets per day, we can achieve query times of 1&ndash;2.5 ms. We show that this is an order of magnitude faster than existing indexing schemes, such as inverted indexes. To the best of our knowledge, this is the fastest implementation of LSH, with table construction times up to 3.7X faster and query times that are 8.3X faster than a basic implementation.</p>
+</div>
+</div>
 <br>
 <h2 class="session" onclick="" id="D3F1015T1200R3">
 <strong>Industrial 4: Big Data 2</strong>
@@ -2455,7 +2454,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title717">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1343-su.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title717">
 <strong>Changing Engines in Midstream: A Java Stream Computational Model for Big Data Processing</strong>
 </h4>
 <p>Xueyuan Su* (Oracle Corporation)*),Garret Swart (Oracle Corporation)),Brian Goetz (Oracle Corporation)),Brian Oliver (Oracle Corporation)),Paul Sandoz (Oracle Corporation))</p>
@@ -2464,7 +2463,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title718">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1417-chen.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title718">
 <strong>Fast Foreign-Key Detection in Microsoft SQL Server PowerPivot for Excel</strong>
 </h4>
 <p>Zhimin Chen (Microsoft Research)),Vivek Narasayya* (Microsoft Research)*),Surajit Chaudhuri (Microsoft Research))</p>
@@ -2473,7 +2472,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title719">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1429-yu.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title719">
 <strong>Big Data Small Footprint: The Design of A Low-Power Classifier for Detecting Transportation Modes</strong>
 </h4>
 <p>Meng-Chieh Yu* (HTC (Studio Engineering)*),Tong Yu (National Taiwan University)),ShaoChen Wang (HTC)),Chih-Jen Lin (National Taiwan University)),Edward Y. Chang (HTC))</p>
@@ -2482,7 +2481,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title720">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1520-gankidi.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title720">
 <strong>Indexing HDFS Data in PDW: Splitting the data from the index</strong>
 </h4>
 <p>Vinitha  Gankidi (University of Wisconsin (Madison)),Nikhil Teletia* (Microsoft)*),Jignesh Patel (University of Wisconsin)),Alan Halverson (Microsoft Jim Gray Systems Lab)),David Dewitt (Microsoft Jim Gray Research Lab))</p>
@@ -2565,7 +2564,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://ise.thss.tsinghua.edu.cn/sxsong/doc/14vldb2.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title147">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1179-song.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title147">
 <strong>On Concise Set of Relative Candidate Keys</strong>
 </h4>
 <p>Shaoxu Song* (Tsinghua University), Lei Chen (Hong Kong University of Science and Technology), Hong Cheng (The Chinese University of Hong Kong)</p>
@@ -2853,23 +2852,23 @@ In spite of the trends, currently there is limited usage of these technologies i
 <h3 class="location">
 <strong>Location: Diamond 3</strong><img src="map.png" alt="map" title="Show map" class="paper_controls" onclick="TryOpen('../images/diamond.jpg')"></h3>
 <h4 class="chair">
-<strong>Chair: Local Industrial 2 Chair</strong>
+<strong>Chair: 寿黎但</strong>
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title605">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1766-nuhs.pdf')"><h4 class="paper_title" onclick="" id="title605">
 <strong>GEMINI: An Integrative Healthcare Analytics System</strong>
 </h4>
 <p>Zheng Jye Ling (National University Health System)),Quoc Trung Tran (National University of Singapore)),Ju Fan (National University of Singapore)),Gerald C.H. Koh (National University Health System)),Thi Nguyen (National University of Singapore)),Chuen Seng Tan (National University Health System)),James W. L. Yip (National University Health System)),Meihui Zhang (National University of Singapore))</p>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title606">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1760-netease.pdf')"><h4 class="paper_title" onclick="" id="title606">
 <strong>A Personalized Recommendation System for Dating Site</strong>
 </h4>
 <p>Chaoyue Dai (NetEase Inc.) , Feng Qian (NetEase Inc.), Wei Jiang (NetEase Inc.), Zhoutian Wang (NetEase Inc.), Zenghong Wu (NetEase Inc.)</p>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><h4 class="paper_title" onclick="" id="title607">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1754-huawei.pdf')"><h4 class="paper_title" onclick="" id="title607">
 <strong>Design and Implementation of a Real-Time Interactive Analytics System for Large Spatio-Temporal Data</strong>
 </h4>
 <p>Shiming Zhang (Huawei Noah's Ark Lab)),Yin Yang (University of Illinois at Urbana-Champaign)),Wei Fan (Huawei Noah's Ark Lab)),Marianne Winslett (University of Illinois at Urbana-Champaign))
@@ -3178,7 +3177,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title124">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1231-cao.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title124">
 <strong>Bounded Conjunctive Queries</strong>
 </h4>
 <p>Yang Cao* (University of Edinburgh), Wenfei Fan (University of Edinburgh), Wenyuan Yu (Facebook)</p>
@@ -3215,7 +3214,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title713">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1319-shi.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title713">
 <strong>MRTuner: A Toolkit to Enable Holistic Optimization for MapReduce Jobs</strong>
 </h4>
 <p>Juwei Shi* (IBM Research China)*),Jia  Zou (IBM Research-China)),Jiaheng Lu (RUC)),Zhao Cao (IBM Research China)),Shi Qiang Li (IBM Research China)),Chen Wang (IBM China Research Lab))</p>
@@ -3224,8 +3223,8 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title714">
-<strong>Large-Scale Graph Analytics in Aster 6:  Bringing Context to Big Data Discovery </strong>
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1405-simmen.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title714">
+<strong>Large-Scale Graph Analytics in Aster 6: Bringing Context to Big Data Discovery</strong>
 </h4>
 <p>David Simmen* (Teradata Aster）</p>
 <div class="paper_content">
@@ -3233,7 +3232,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title715">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1441-boykin.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title715">
 <strong>Summingbird: A Framework for Integrating Batch and Online MapReduce Computations</strong>
 </h4>
 <p>Oscar Boykin (Twitter)),Sam Ritchie (Twitter)),Ian O'Connell (Twitter)),Jimmy Lin* (Twitter)*)</p>
@@ -3242,7 +3241,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title716">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1496-liu.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title716">
 <strong>DGFIndex for Smart Grid: Enhancing Hive with a Cost-Effective Multidimensional Range Index</strong>
 </h4>
 <p>Liu Yue* (Chinese Academy of Sciences)*),Songlin Hu (Chinese Academy of Science)),Tilmann Rabl (University of Toronto)),Wantao Liu (Chinese Academy of Science)),Hans-Arno Jacobsen (University of Toronto)),Kaifeng Wu (State Grid Electricity Science Research Institute)),Jian Chen (Zhejiang Electric Power Corporation))</p>
@@ -3270,7 +3269,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </div>
 </div>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title257">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1035-serafini.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title257">
 <strong>Accordion: Elastic Scalability for Database Systems Supporting Distributed Transactions</strong>
 </h4>
 <p>Marco Serafini* (Qatar Computing Research Insti), Essam Mansour (Qatar Computing Research Institute), Ashraf Aboulnaga (Qatar Computing Research Institute), Kenneth Salem (Univesity of Waterloo), Taha Rafiq (Amazon.com (Canada), Umar Farooq Minhas (IBM Almaden Research Center (US)</p>
@@ -3316,7 +3315,7 @@ In spite of the trends, currently there is limited usage of these technologies i
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title204">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.vldb.org/pvldb/vol7/p1155-kellaris.pdf')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title204">
 <strong>Differentially Private Event Sequences over Infinite Streams</strong>
 </h4>
 <p>Georgios Kellaris (HKUST), Stavros Papadopoulos* (Intel Labs &amp; MIT), Xiaokui Xiao (NTU), Dimitris Papadias (HKUST)</p>
@@ -3506,7 +3505,7 @@ This workshop, the fifth its series, focuses on architecture and system support 
 </h4>
 <br>
 <div id="booklet_data" class="booklet_paper_folded">
-<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../none')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title306">
+<img src="pdf.png" alt="pdf" title="Download PDF" class="paper_controls" onclick="TryOpen('../http://www.thlab.net/pda-iot2014/')"><img src="txt.png" alt="txt" title="Show Abstract" class="paper_controls" onclick="foldContent(this)"><h4 class="paper_title" onclick="" id="title306">
 <strong>PDA@IOT</strong>
 </h4>
 <p>CHRISTOPHIDES Vassilis (ICS-FORTH Greece),Themis Palpanas (University of Trento),)</p>
