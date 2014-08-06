@@ -1,0 +1,101 @@
+Alexander Alexandrov, TU Berlin
+Amirhossein Aleyasin, University of Illinois
+Abolfazl Asudeh, The University of Texas at Arlington
+Christian Beilschmidt, University of Marburg
+Anant Bhardwaj, MIT
+Lei Cao, Worcester Polytechnic Institute
+Kai Ho Chan, The Hong Kong University of Science and Technology
+Lijun Chang, The University of New South Wales
+Muhammad Aamir Cheema, Monash University
+Qun Chen, Northiwesetern Polytechnical University
+Yang Chen, University of Florida
+Qian Chen, Hong Kong Baptist University
+Yodsawalai Chodpathumwan, University of Illinois
+Wang Chong, New Jersey Institue of Technology
+Jordi Creus, University of Campinas
+Tanh-Cong Dinh, University of Trento
+Chris Douglas, Microsoft--CISL
+Vahid Ghadakchi, Oregon State University
+Sean Goldberg, University of Florida
+Christan Grant, University of Florida
+Martin Grund, University of Fribourg
+Dongyi Guan, Microsoft
+Xi Guo, University of Science and Technology Beijing
+Himanshu Gupta, IBM Research, India
+?zzeddin Gür, Bilkent University, Turkey
+Minyang Han, University of Waterloo
+Kuno Harumi, HP Labs
+Naeemul Hassan, The University of Texas at Arlington
+Zhian He, Hong Kong Polytechnic University
+Max Heimel, TU Berlin
+Bastian Hossbach, University of Marburg
+Haibo Hu, Hong Kong Baptist University
+Silu Huang, The Chinese University of Hong Kong
+Qiao Huang, Hong Kong Baptist University
+Fabian Hüske, TU Berlin
+Nandish Jayaram, The University of Texas at Arlington
+Minhao Jiang, The Hong Kong University of Science and Technology
+Asterios Katsifodimos, TU Berlin
+Longbin Lai, The University of New South Wales
+Chuan Lei, Worcester Polytechnic Institute
+Bei Li, Google
+Kun Li, University of Florida
+Nan Li, Apple
+Xika Lin, Worcester Polytechnic Institute
+Yimin Lin, Singapore Management University
+Xin Lin, East China Normal University
+Yunzhong Liu, Arizona State University
+Cheng Long, The Hong Kong University of Science and Technology
+Yi Lu, The Chinese University of Hong Kong
+Silviu Maniu, University of Hong Kong
+Thomas Marshall, Carnegie Mellon University
+Joseph Mate, University of Waterloo
+Katsiaryna Mirylenka, University of Trento
+Luyi Mo, HKU
+Davide Mottin, University of Trento
+Sudarshan Murthy, The Else Institute, Portland, OR
+Tommy Nguyen, Renssealer Polytechnic Institute
+Adrian Nicoara, University of Waterloo
+Daniel Nicoara, University of Waterloo
+Deepak Padmanabhan, IBM Research, India
+George Papadakis, "Athena" Research and Innovation Center
+Jose Picado, Oregon State University
+Olga Poppe, Worcester Polytechnic Institute
+Bill Province, Google
+Yinian Qi, Oracle
+Lu Qin, University of Technology, Sydney
+Jianbin Qin, The University of New South Wales
+Xiao Qin, Worcester Polytechnic Institute
+Sriram Rao, Microsoft--CISL
+Padmashree Ravindra, North Carolina State University
+Medhabi Ray, Worcester Polytechnic Institute
+Thodoris Rekatsinas, U Maryland
+De Virgilio Roberto, Roma Tre University
+Yiye Ruan, Ohio State University
+Andre Santanche, University of Campinas
+Sebastian Schelter, TU Berlin
+Marc Seidemann, University of Marburg
+Yi Shan, Arizona State University
+Giovanni Simonini, University of Modena and Reggio Emilia
+Yu Su, University of California at Santa Barbara
+Yifang Sun, The University of New South Wales
+Wee Hyong Tok, Microsoft
+Mikalai Tsytsarau, University of Trento
+Xiaoyang Wang, The University of New South Wales
+Steven Whang, Google Research
+Yinghui Wu, University of California at Santa Barbara
+Huanhuan Wu, The Chinese University of Hong Kong
+Da Yan, The Hong Kong University of Science and Technology
+Yin Yang, Advanced Digital Sciences Center
+Chengxi Yang, The Hong Kong University of Science and Technology
+Shengqi Yang, University of California at Santa Barbara
+Huahai Yang, IBM Research, Almaden
+Emre Y?lmaz, Bilkent University, Turkey
+Weiren Yu, The University of New South Wales
+Jun Zhang, Nanyang Technological University
+Jilian Zhang, Singapore Management University
+Kai Zheng, The University of Queensland
+Xiaoling Zhou, The University of New South Wales
+Linhong Zhu, University of Southern California
+Bo Zong, University of California at Santa Barbara
+Kostas Zoumpatianos, University of Trento

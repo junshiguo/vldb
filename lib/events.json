@@ -19,69 +19,76 @@
 "toMin": 0,
 "location": "Crystal",
 "title": "Presentation of the paper: Datacenters as Computers: Google Engineering & Database Research Perspectives written by Shivakumar Venkataraman (Google),Divyakant Agrawal (University of California at Santa Barbara)"
+},{"day":"Thursday Sep 4th",
+"fromHour": 8,
+"fromMin": 30,
+"toHour": 10,
+"toMin": 0,
+"location": "Crystal",
+"title": "Presentation of the paper: Probabilistic Databases: the Long View written by Nilesh Dalvi, Dan Suciu"
+},{"day":"Thursday Sep 4th",
+"fromHour": 8,
+"fromMin": 30,
+"toHour": 10,
+"toMin": 0,
+"location": "Crystal",
+"title": "Presentation of the paper: Engineering High-Performance Database Engines written by Thomas Neumann, Technische Universitat at Munchen"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
 "toHour": 12,
 "toMin": 15,
 "location": "Bauhinia 1",
-"title": "Presentation of the paper: Systems for Big Graphs written by Arijit Khan, Sameh Elnikety"
+"title": "Presentation of the paper: Causality and explanation in databases written by Alexandra Meliou, Sudeepa Roy, Dan Suciu"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
 "toHour": 15,
 "toMin": 15,
 "location": "Bauhinia 1",
-"title": "Presentation of the paper: Uncertain Entity Resolution written by Avigdor Gal"
+"title": "Presentation of the paper: Systems for Big Graphs written by Arijit Khan, Sameh Elnikety"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 15,
 "fromMin": 45,
 "toHour": 17,
 "toMin": 15,
 "location": "Bauhinia 1",
-"title": "Presentation of the paper: Uncertain Entity Resolution written by Avigdor Gal"
+"title": "Presentation of the paper: Systems for Big Graphs written by Arijit Khan, Sameh Elnikety"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
 "toHour": 12,
 "toMin": 15,
 "location": "Bauhinia 1",
-"title": "Presentation of the paper: Knowledge Bases in the Age of Big Data Analytics written by Fabian Suchanek, Gerhard Weikum"
+"title": "Presentation of the paper: Knowledge Bases in the Age of Big Data Analytics written by Fabian M. Suchanek, Gerhard Weikum"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 13,
 "fromMin": 45,
 "toHour": 15,
 "toMin": 15,
 "location": "Bauhinia 1",
-"title": "Presentation of the paper: Knowledge Bases in the Age of Big Data Analytics written by Fabian Suchanek, Gerhard Weikum"
+"title": "Presentation of the paper: Knowledge Bases in the Age of Big Data Analytics written by Fabian M. Suchanek, Gerhard Weikum"
 },{"day":"Thursday Sep 4th",
 "fromHour": 10,
 "fromMin": 15,
 "toHour": 12,
 "toMin": 0,
 "location": "Bauhinia 1",
-"title": "Presentation of the paper: Enterprise search in the big data era written by Yunyao Li (IBM Research Almaden),Ziyang Liu (NEC Laboratories America),Huaiyu Zhu (IBM Research Almaden)"
+"title": "Presentation of the paper: Enterprise search in the big data era written by Yunyao Li, Ziyang Liu, Huaiyu Zhu"
 },{"day":"Thursday Sep 4th",
 "fromHour": 13,
 "fromMin": 30,
 "toHour": 14,
 "toMin": 45,
 "location": "Bauhinia 1",
-"title": "Presentation of the paper: Enterprise search in the big data era written by Yunyao Li (IBM Research Almaden),Ziyang Liu (NEC Laboratories America),Huaiyu Zhu (IBM Research Almaden)"
+"title": "Presentation of the paper: Enterprise search in the big data era written by Yunyao Li, Ziyang Liu, Huaiyu Zhu"
 },{"day":"Thursday Sep 4th",
-"fromHour": 10,
+"fromHour": 15,
 "fromMin": 15,
-"toHour": 12,
-"toMin": 0,
-"location": "Bauhinia 1",
-"title": "Presentation of the paper: Causality and Explanations in Databases written by Alexandra Meliou, Sudeepa Roy, Dan Suciu"
-},{"day":"Thursday Sep 4th",
-"fromHour": 13,
-"fromMin": 30,
-"toHour": 14,
+"toHour": 16,
 "toMin": 45,
 "location": "Bauhinia 1",
-"title": "Presentation of the paper: Causality and Explanations in Databases written by Alexandra Meliou, Sudeepa Roy, Dan Suciu"
+"title": "Presentation of the paper: Uncertain Entity Resolution written by Avigdor Gal"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
@@ -186,7 +193,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 4",
-"title": "Presentation of the paper: Scalable and Adaptive Online Joins written by Mohammed ElSeidy* (EPFL), abdallah Elguindy (EPFL), Aleksandar Vitorovic (EPFL), Christoph Koch (EPFL)"
+"title": "Presentation of the paper: Parallel Computation of Skyline and Reverse Skyline Queries Using MapReduce written by Yoonjae Park (Seoul National University), Jun-Ki Min (Korea Univ. of Tech. & Edu.), Kyuseok Shim* (Seoul National University)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
@@ -214,7 +221,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 5",
-"title": "Presentation of the paper: GeoScope: Online detection of GeoCorrelated Information Trends In Social Networks written by Ceren Budak* (Microsoft Research), Theodore Georgiou, Divyakant Agrawal, Amr El Abbadi$$$$$$$)"
+"title": "Presentation of the paper: GeoScope: Online detection of GeoCorrelated Information Trends In Social Networks written by Ceren Budak*), Microsoft Research), Theodore Georgiou), Divyakant Agrawal), Amr El Abbadi),)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
@@ -235,7 +242,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 5",
-"title": "Presentation of the paper: An efficient reconciliation algorithm for social networks written by Silvio Lattanzi* (Google), Nitish Korula$$$$$$$)"
+"title": "Presentation of the paper: An efficient reconciliation algorithm for social networks written by Silvio Lattanzi* (Google), Nitish Korula),)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
@@ -263,6 +270,20 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 1",
+"title": "Presentation of the paper: Multi-Tuple Deletion Propagation: Approximations and Complexity written by Benny Kimelfeld*, Jan Vondrak (IBM Research - Almaden), David Woodruff (IBM Research - Almaden)"
+},{"day":"Tuesday Sep 2nd",
+"fromHour": 13,
+"fromMin": 45,
+"toHour": 15,
+"toMin": 15,
+"location": "Diamond 1",
+"title": "Presentation of the paper: Similarity Search for Scientific Workflows written by Johannes Starlinger* (Humboldt-Universit?t zu Berlin), Bryan Brancotte (Universit¨¦ Paris-Sud), Sarah Cohen-Boulakia (Universit¨¦ Paris-Sud), Ulf Leser,)"
+},{"day":"Tuesday Sep 2nd",
+"fromHour": 13,
+"fromMin": 45,
+"toHour": 15,
+"toMin": 15,
+"location": "Diamond 1",
 "title": "Presentation of the paper: RCSI: Scalable similarity search in thousand(s) of genomes written by Sebastian Wandelt* (Humboldt-Universit?t zu Berlin), Johannes Starlinger, Marc Bux, Ulf Leser,)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
@@ -271,20 +292,6 @@
 "toMin": 15,
 "location": "Diamond 1",
 "title": "Presentation of the paper: $\\Upsilon$-DB: Managing scientific hypotheses as uncertain data written by Bernardo Gon?alves* (LNCC), Fabio Porto (LNCC)"
-},{"day":"Tuesday Sep 2nd",
-"fromHour": 13,
-"fromMin": 45,
-"toHour": 15,
-"toMin": 15,
-"location": "Diamond 1",
-"title": "Presentation of the paper: Multi-Tuple Deletion Propagation: Approximations and Complexity written by Benny Kimelfeld*, Jan Vondrak (IBM Research - Almaden), David Woodruff (IBM Research - Almaden)"
-},{"day":"Tuesday Sep 2nd",
-"fromHour": 13,
-"fromMin": 45,
-"toHour": 15,
-"toMin": 15,
-"location": "Diamond 1",
-"title": "Presentation of the paper: Similarity Search for Scientific Workflows written by Johannes Starlinger* (Humboldt-Universit?t zu Berlin), Bryan Brancotte (Universit¨¦ Paris-Sud), Sarah Cohen-Boulakia (Universit¨¦ Paris-Sud), Ulf Leser$$$$$$$)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 13,
 "fromMin": 45,
@@ -466,21 +473,7 @@
 "toHour": 17,
 "toMin": 15,
 "location": "Diamond 4",
-"title": "Presentation of the paper: Trekking Through Siberia: Managing Cold Data in a Memory-Optimized Database written by Ahmed Eldawy (University of Minnesota), Justin Levandoski* (Microsoft Research), Paul Larson (Microsoft)"
-},{"day":"Tuesday Sep 2nd",
-"fromHour": 15,
-"fromMin": 45,
-"toHour": 17,
-"toMin": 15,
-"location": "Diamond 4",
-"title": "Presentation of the paper: Anti-Caching: A New Approach to Database Management System Architecture written by Justin DeBrabant* (Brown University), Andrew Pavlo (Brown University), Stephen Tu (MIT), Michael Stonebraker (MIT), Stan Zdonik (Brown University)"
-},{"day":"Tuesday Sep 2nd",
-"fromHour": 15,
-"fromMin": 45,
-"toHour": 17,
-"toMin": 15,
-"location": "Diamond 4",
-"title": "Presentation of the paper: Storage Management in AsterixDB written by Sattam Alsubaiee* (UC Irvine), Alex Behm (Cloudera), Vinayak Borkar (UC Irvine), Zachary Heilbron (UC Irvine), Young-Seok Kim (UC Irvine), Michael Carey (UC Irvine), Markus Dreseler (UC Irvine), Chen Li (University of California (Irvine)"
+"title": "Presentation of the paper: Efficient In-memory Data Management: An Analysis written by Hao Zhang* (National University of Singapore), Bogdan Marius Tudor (National University of Singapo), Gang Chen (Zhejiang University), Beng Chin Ooi (National University of Singapore)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 15,
 "fromMin": 45,
@@ -494,7 +487,21 @@
 "toHour": 17,
 "toMin": 15,
 "location": "Diamond 4",
-"title": "Presentation of the paper: Efficient In-memory Data Management: An Analysis written by Hao Zhang* (National University of Singapore), Bogdan Marius Tudor (National University of Singapo), Gang Chen (Zhejiang University), Beng Chin Ooi (National University of Singapore)"
+"title": "Presentation of the paper: Trekking Through Siberia: Managing Cold Data in a Memory-Optimized Database written by Ahmed Eldawy (University of Minnesota), Justin Levandoski* (Microsoft Research), Paul Larson (Microsoft)"
+},{"day":"Tuesday Sep 2nd",
+"fromHour": 15,
+"fromMin": 45,
+"toHour": 17,
+"toMin": 15,
+"location": "Diamond 4",
+"title": "Presentation of the paper: Storage Management in AsterixDB written by Sattam Alsubaiee* (UC Irvine), Alex Behm (Cloudera), Vinayak Borkar (UC Irvine), Zachary Heilbron (UC Irvine), Young-Seok Kim (UC Irvine), Michael Carey (UC Irvine), Markus Dreseler (UC Irvine), Chen Li (University of California (Irvine)"
+},{"day":"Tuesday Sep 2nd",
+"fromHour": 15,
+"fromMin": 45,
+"toHour": 17,
+"toMin": 15,
+"location": "Diamond 4",
+"title": "Presentation of the paper: Anti-Caching: A New Approach to Database Management System Architecture written by Justin DeBrabant* (Brown University), Andrew Pavlo (Brown University), Stephen Tu (MIT), Michael Stonebraker (MIT), Stan Zdonik (Brown University)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 15,
 "fromMin": 45,
@@ -564,7 +571,7 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Probabilistic Nearest Neighbor Queries on Uncertain Moving Object Trajectories written by Johannes Niedermayer* (LMU Munich), Andreas Z¨¹fle, Tobias Emrich (University of Munich), Matthias Renz (Ludwig-Maximilians University Munich), Nikos Mamoulis (University of Hong Kong), Lei Chen (Hong Kong University of Science and Technology), Hans-Peter Kriegel$$$$$$$)"
+"title": "Presentation of the paper: Probabilistic Nearest Neighbor Queries on Uncertain Moving Object Trajectories written by Johannes Niedermayer* (LMU Munich), Andreas Z¨¹fle, Tobias Emrich (University of Munich), Matthias Renz (Ludwig-Maximilians University Munich), Nikos Mamoulis (University of Hong Kong), Lei Chen (Hong Kong University of Science and Technology), Hans-Peter Kriegel,)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 10,
 "fromMin": 30,
@@ -788,7 +795,7 @@
 "toHour": 15,
 "toMin": 15,
 "location": "Diamond 4",
-"title": "Presentation of the paper: Parallel Computation of Skyline and Reverse Skyline Queries Using MapReduce written by Yoonjae Park (Seoul National University), Jun-Ki Min (Korea Univ. of Tech. & Edu.), Kyuseok Shim* (Seoul National University)"
+"title": "Presentation of the paper: Scalable and Adaptive Online Joins written by Mohammed ElSeidy* (EPFL), abdallah Elguindy (EPFL), Aleksandar Vitorovic (EPFL), Christoph Koch (EPFL)"
 },{"day":"Wednesday Sep 3rd",
 "fromHour": 13,
 "fromMin": 45,
@@ -1117,7 +1124,14 @@
 "toHour": 16,
 "toMin": 45,
 "location": "Diamond 1",
-"title": "Presentation of the paper: Top-K Structural Diversity Search in Large Networks written by Xin Huang, Hong Cheng* (The Chinese University of Hong Kong), Rong-Hua Li (The Chinese University of Hong Kong), Lu Qin, Jeffrey Yu (Chinese University of Hong Kong)"
+"title": "Presentation of the paper: A Partition-Based Approach to Structure Similarity Search written by Xiang Zhao* (UNSW), Chuan Xiao (Nagoya University), Xuemin Lin (University of New South Wales), Qing Liu (CSIRO), Wenjie Zhang),)"
+},{"day":"Thursday Sep 4th",
+"fromHour": 15,
+"fromMin": 15,
+"toHour": 16,
+"toMin": 45,
+"location": "Diamond 1",
+"title": "Presentation of the paper: Schemaless and Structureless Graph Querying written by Shengqi Yang* (UCSB), Yinghui Wu (UCSB), Huan Sun (UCSB), Xifeng Yan (University of Santa Barbara)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 15,
 "fromMin": 15,
@@ -1131,14 +1145,7 @@
 "toHour": 16,
 "toMin": 45,
 "location": "Diamond 1",
-"title": "Presentation of the paper: A Partition-Based Approach to Structure Similarity Search written by Xiang Zhao* (UNSW), Chuan Xiao (Nagoya University), Xuemin Lin (University of New South Wales), Qing Liu (CSIRO), Wenjie Zhang$$$$$$$)"
-},{"day":"Thursday Sep 4th",
-"fromHour": 15,
-"fromMin": 15,
-"toHour": 16,
-"toMin": 45,
-"location": "Diamond 1",
-"title": "Presentation of the paper: Schemaless and Structureless Graph Querying written by Shengqi Yang* (UCSB), Yinghui Wu (UCSB), Huan Sun (UCSB), Xifeng Yan (University of Santa Barbara)"
+"title": "Presentation of the paper: Top-K Structural Diversity Search in Large Networks written by Xin Huang, Hong Cheng* (The Chinese University of Hong Kong), Rong-Hua Li (The Chinese University of Hong Kong), Lu Qin, Jeffrey Yu (Chinese University of Hong Kong)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 15,
 "fromMin": 15,
@@ -1201,7 +1208,7 @@
 "toHour": 16,
 "toMin": 45,
 "location": "Diamond 4",
-"title": "Presentation of the paper: MaaT: Effective and scalable coordination of distributed transactions in the cloud written by Hatem Mahmoud (UC Santa Barbara), Vaibhav Arora* (UCSB), Faisal Nawab (UCSB), Divyakant Agrawal, Amr El Abbadi$$$$$$$)"
+"title": "Presentation of the paper: MaaT: Effective and scalable coordination of distributed transactions in the cloud written by Hatem Mahmoud (UC Santa Barbara), Vaibhav Arora* (UCSB), Faisal Nawab (UCSB), Divyakant Agrawal), Amr El Abbadi),)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 15,
 "fromMin": 15,
@@ -1502,14 +1509,14 @@
 "toHour": 12,
 "toMin": 15,
 "location": "Pearl",
-"title": "Presentation of the paper: R3: A Real-time Route Recommendation System written by Wang Henan* (Tsinghua University),Guoliang Li (Tsinghua University),Hu Huiqi (Tsinghua University),Chen Shuo (Tsinghua University),Shen Bingwen (Tsinghua University),Wu Hao (SAP Labs (Shanghai (China),Wen-syan Li (SAP)"
+"title": "Presentation of the paper: R3: A Real-time Route Recommendation System written by Henan Wang* (Tsinghua University),Guoliang Li (Tsinghua University),Hu Huiqi (Tsinghua University),Chen Shuo (Tsinghua University),Shen Bingwen (Tsinghua University),Wu Hao (SAP Labs (Shanghai (China),Wen-syan Li (SAP)"
 },{"day":"Thursday Sep 4th",
 "fromHour": 13,
 "fromMin": 30,
 "toHour": 14,
 "toMin": 45,
 "location": "Pearl",
-"title": "Presentation of the paper: R3: A Real-time Route Recommendation System written by Wang Henan* (Tsinghua University),Guoliang Li (Tsinghua University),Hu Huiqi (Tsinghua University),Chen Shuo (Tsinghua University),Shen Bingwen (Tsinghua University),Wu Hao (SAP Labs (Shanghai (China),Wen-syan Li (SAP)"
+"title": "Presentation of the paper: R3: A Real-time Route Recommendation System written by Henan Wang* (Tsinghua University),Guoliang Li (Tsinghua University),Hu Huiqi (Tsinghua University),Chen Shuo (Tsinghua University),Shen Bingwen (Tsinghua University),Wu Hao (SAP Labs (Shanghai (China),Wen-syan Li (SAP)"
 },{"day":"Tuesday Sep 2nd",
 "fromHour": 10,
 "fromMin": 30,
@@ -2048,7 +2055,7 @@
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 1",
-"title": "Presentation of the paper: BIRTE written by Castellanos Malu G (Hewlett Packard),Dayal Umeshwar (Hewlett Packard)"
+"title": "Presentation of the paper: Business Intelligence for the Real-Time Enterprise written by Castellanos Malu G (Hewlett Packard),Dayal Umeshwar (Hewlett Packard)"
 },{"day":"Monday Sep 1st",
 "fromHour": 9,
 "fromMin": 0,
@@ -2062,14 +2069,14 @@
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 3",
-"title": "Presentation of the paper: IMDM written by Justin Levandoski (Microsoft Research),Andy Pavlo (Carnegie Mellon University),Thomas Neumann (Technische Universit?t M¨¹nchen), Arun Jagatheesan (University of California (San Diego)"
+"title": "Presentation of the paper: In-Memory Data Management and Analytics written by Justin Levandoski (Microsoft Research),Andy Pavlo (Carnegie Mellon University),Thomas Neumann (Technische Universit?t M¨¹nchen), Arun Jagatheesan (University of California (San Diego)"
 },{"day":"Monday Sep 1st",
 "fromHour": 9,
 "fromMin": 0,
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 4",
-"title": "Presentation of the paper: ADMS written by Rajesh Bordawekar, IBM"
+"title": "Presentation of the paper: Accelerating Data Management Systems  written by Rajesh Bordawekar, IBM"
 },{"day":"Monday Sep 1st",
 "fromHour": 9,
 "fromMin": 0,
@@ -2083,33 +2090,33 @@
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 1",
-"title": "Presentation of the paper: BPOE written by Jianfeng Zhan, Chinese Academy of Sciences"
+"title": "Presentation of the paper: Big data benchmarks, Performance Optimization, and Emerging hardware written by Jianfeng Zhan, Chinese Academy of Sciences"
 },{"day":"Friday Sep 5th",
 "fromHour": 9,
 "fromMin": 0,
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 2",
-"title": "Presentation of the paper: PDA@IOT written by CHRISTOPHIDES Vassilis (ICS-FORTH Greece),Themis Palpanas (University of Trento),)"
+"title": "Presentation of the paper: Workshop on Personal Data Analytics in the Internet of Things written by CHRISTOPHIDES Vassilis (ICS-FORTH Greece),Themis Palpanas (University of Trento),)"
 },{"day":"Friday Sep 5th",
 "fromHour": 9,
 "fromMin": 0,
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 3",
-"title": "Presentation of the paper: BeRSys written by Irini Fundulaki (ICS-FORTH Greece),Ioan Toma (University of Innsbruck),Ioana Manolescu (Inria Saclay France)"
+"title": "Presentation of the paper: Benchmarking RDF Systems written by Irini Fundulaki (ICS-FORTH Greece),Ioan Toma (University of Innsbruck),Ioana Manolescu (Inria Saclay France)"
 },{"day":"Friday Sep 5th",
 "fromHour": 9,
 "fromMin": 0,
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 4",
-"title": "Presentation of the paper: SSW written by Roberto De Virgilio, Yahoo"
+"title": "Presentation of the paper: Semantic Search Over The Web written by Roberto De Virgilio, Yahoo"
 },{"day":"Friday Sep 5th",
 "fromHour": 9,
 "fromMin": 0,
 "toHour": 18,
 "toMin": 0,
 "location": "Diamond 5",
-"title": "Presentation of the paper: TPCTC written by Raghunath Nambiar, CISCO"
+"title": "Presentation of the paper: TPC Technology Conference on Performance Evaluation & Benchmarking written by Raghunath Nambiar, CISCO"
 }]}
