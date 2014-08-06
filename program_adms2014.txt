@@ -1,0 +1,156 @@
+                                 ** Advanced Program **
+
+Fifth International Workshop on Accelerating Data Management Systems Using
+           Modern Processor and Storage Architectures (ADMS'14)
+
+               to be held in conjunction with VLDB 2014, Hangzhou, China
+                                     September 1, 2014 
+
+                                http://www.adms-conf.org/
+                      
+***************************** Morning  Keynote *****************************
+
+Title: Accelerating Data Management and Processing on Modern Clusters
+with RDMA-Enabled Interconnects
+
+Speaker: Prof. Dhabaleswar K. (DK) Panda, The Ohio State University
+
+Bio: Dhabaleswar K. (DK) Panda is a Professor of Computer Science and
+Engineering at the Ohio State University. He has published over 300
+papers in major journals and international conferences. Dr. Panda and
+his research group members have been doing extensive research on
+modern networking technologies including InfiniBand, High-Speed
+Ethernet and RDMA over Converged Enhanced Ethernet (RoCE). The
+MVAPICH2 (High Performance MPI over InfiniBand, iWARP and RoCE) and
+MVAPICH2-X software libraries, developed by his research group
+(http://mvapich.cse.ohio-state.edu ), are currently being used by more
+than 2,150 organizations worldwide (in 72 countries). This software
+has enabled several InfiniBand clusters to get into the latest TOP500
+ranking during the last decade. More than 210,000 downloads of this
+software have taken place from the project's website alone. This
+software package is also available with the software stacks of many
+network and server vendors, and Linux distributors. The new
+RDMA-enabled Apache Hadoop package, consisting of acceleration for
+HDFS, MapReduce and RPC, is publicly available from
+http://hadoop-rdma.cse.ohio-state.edu . Dr. Panda's research has been
+supported by funding from US National Science Foundation, US
+Department of Energy, and several industry including Intel, Cisco,
+Cray, SUN, Mellanox, QLogic, NVIDIA and NetApp. He is an IEEE Fellow
+and a member of ACM. More details about Prof. Panda are available at
+http://www.cse.ohio-state.edu/~panda
+
+Abstract: Managing and processing large volumes of data is a significant
+challenge being faced by the Big Data community. This has substantial
+impact on designing and utilizing modern data management and
+processing systems in multiple tiers, from the front-end data
+accessing and serving to the back-end data analytics. This scenario
+has led to many emerging Big Data middleware systems to emerge, such
+as Memcached, HBase, Hadoop, and Spark. The design and deployment of
+modern clusters during the last decade has largely been fueled by the
+following three factors: 1) advances in multi-core/many-core
+technologies and accelerators, 2) Remote Direct Memory Access
+(RDMA)-enabled networking (InfiniBand and RoCE), and 3) Solid State
+Drives (SSDs). However, current Big Data middleware and the
+associated applications are not able to fully take advantage of these
+advanced features on modern clusters. This talk will examine
+opportunities and challenges in accelerating performance of Big Data
+middleware (including Memcached, HBase, Hadoop, and Spark) in
+different data management and processing tiers with the latest
+technologies available on modern clusters. An overview of the
+High-Performance Big Data project (http://hibd.cse.ohio-state.edu )
+will be presented. High-performance designs using RDMA to accelerate
+Memcached, HBase, Hadoop, and Spark frameworks on InfiniBand and RoCE
+clusters will be demonstrated. The presentation will also include
+initial results on optimizing performance of Memcached with SSD
+support. An overview of a set of benchmarks (OSU HiBD Benchmarks,
+OHB) to evaluate performance of different components in an isolated
+manner will be presented.
+
+ *********************** Session 1: Compute Optimizations **************************
+
+ * "Multipredicate Join Algorithms for Accelerating Relational Graph Processing on GPUs", 
+  Haicheng Wu (Georgia Institute of Technology), Daniel Zinn, Molham Aref, (LogicBox Inc.) 
+  and Sudhakar Yalamanchili (Georgia Institute of Technology).
+
+ * "Data Parallel Quadtree Indexing and Spatial Query Processing of Complex Polygon Data on GPUs",
+  Jianting Zhang, Simin You, (City University of New York) and Le Gruenwald (The University
+  of Oklahoma)
+
+ * "HASHI: An Application Specific Instruction Set Extension for Hashing",
+  Oliver Arnold, Sebastian Haas, Gerhard Fettweis and Benjamin Schlegel, Thomas Kissinger, Tomas Karnagel,
+  and Wolfgang Lehner (Technische Universitat Dresden)  
+
+ * "QTM: Modelling Query Execution with Tasks",Steffen Zeuch and Johann-Christoph Freytag
+  (Humboldt Universitat zu Berlin)  
+					
+
+ *********************** Session 2: Memory/Storage Optimizations ***********************
+
+ * "Flash-Conscious Cache Population for Enterprise Database Workloads,
+  Hyojun Kim (IBM Research, Almaden), Ioannis Koltsidas,
+  Nikolas Ioannou (IBM Research, Zurich), Sangeetha Seshadri, Paul Muech, Clement
+  Dickey, and Lawrence Chiu  (IBM Research, Almaden) 
+
+ * "A Prolegomenon on OLTP Database Systems for Non-Volatile Memory",
+  Justin Debrabant (Brown University), Joy Arulraj, Andrew Pavlo, (Carnegie Mellon University), 
+  Michael Stonebraker (MIT CSAIL), Stan Zdonik (Brown University) and
+  Subramanya Dulloor (Intel Labs)  
+
+ * "An Approach for Hybrid-Memory Scaling Columnar In-Memory Databases,
+  Bernhard Hoeppner (SAP AG), Ahmadshah Waizy (Fujitsu Technology Solutions GmbH) 
+  Aand Hannes Rauhe (SAP AG)  
+
+ * "ERIS: A NUMA-Aware In-Memory Storage Engine for Analytical Workload",
+  Thomas Kissinger, Tim Kiefer, Benjamin Schlegel, Dirk Habich, Daniel Molka, 
+  and Wolfgang Lehner (Technische Universitat Dresden)   
+
+
+ **************************************  Afternoon Keynote *****************************
+
+Title: Oracle's In-Memory Data Management Strategy: In-Memory in all
+Tiers, and for all Workloads
+
+Speaker: Tirthankar Lahiri, Oracle
+
+Bio: Tirthankar Lahiri is the Vice President of Development at Oracle, and is
+ responsible for the Data Technologies area for the Oracle Database
+ (this area coves Data, Space, and Transaction management) as well as
+ the Oracle TimesTen In-Memory Database. Tirthankar has 18 years of
+ experience in the Database industry. He has worked extensively in a
+ variety of Database Systems areas, for which he holds multiple
+ patents: Manageability, Performance, Scalability, High Availability,
+ Caching, Distributed Concurrency Control, In-Memory Data Management,
+ etc. Tirthankar has a B.Tech in Computer Science from IIT, Kharagpur,
+ and an MS in Electrical Engineering from Stanford University. He was
+ in the PhD program at Stanford and his research areas included
+ Multiprocessor Operating Systems and Semi-Structured Data.  
+ 
+
+Abstract: We describe Oracle's pragmatic two-pronged approach for
+delivering In-Memory Technology to both OLTP as well as Analytics
+usecases. On the one hand, Oracle TimesTen is a specialized,
+memory-resident relational database, designed for ultra-low response
+time. TimesTen typically runs within the application-tier as an
+embeddable database and is deployed by thousands of customers
+requiring low-latency database access. On the other-hand, the new
+Oracle 12c Database In-Memory option delivers general-purpose
+in-memory capabilities for the vast range of enterprise applications
+and massive database sizes supported by Oracle Database. Since the
+In-Memory option is built seamlessly into the Oracle Database engine,
+it is fully compatible with all of the functionality and high
+availability mechanisms of the Oracle Database, and can be used by
+applications without any changes whatsoever. The In-Memory option
+provides a unique dual-format row/column in-memory representation thus
+avoiding the tradeoffs inherent in single-format in-memory
+databases. Unlike traditional in-memory databases, the new In-Memory
+option does not limit the size of the database to the size of
+available DRAM:   numerous optimizations spanning DRAM, Flash, Disk,
+as well as machines in a RAC cluster, allow databases of virtually
+unlimited size. We describe the new In-Memory option in the context of
+the full spectrum of Oracle's numerous storage optimizations, showing
+that in-memory data management is an important and natural
+evolutionary enhancement to the existing deep technology stack of the
+Oracle Database. 
+
+
+
